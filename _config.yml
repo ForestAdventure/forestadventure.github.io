@@ -1,86 +1,55 @@
-#
-# This file contains configuration flags to customize your site
-#
-
-# Name of your site (displayed in the header)
-name: Forest Adventure
-
-# Short bio or description (displayed in the header)
-#description:
-
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/forestadventure/forestadventure.github.io/master/images/logo.jpg
-
-#
-# Flags below are optional
-#
-
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email: semyon@forestadventure.ru
-  facebook:
-  vk: forestadventureru
-  flickr:
-  instagram:
-  linkedin:
-  pinterest:
-  rss: _ # just type anything here for a working RSS icon
-  twitter:
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
-
-
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
-
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url:
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
+# SITE CONFIGURATION
 baseurl: ""
+url: "https://forestadventure.ru"
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
+# THEME-SPECIFIC CONFIGURATION
+title: Forest Adventure                                 # site's title
+description: "Рогейны и ориентирование"                 # used by search engines
+avatar: images/avatar.png                               # Empty for no avatar in navbar
+favicon: images/control.ico                             # Icon displayed in the tab
 
-permalink: /:title/
+# Header and footer text
+header_text: Forest Adventure
+header_feature_image: images/header-feature-image.png
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
-# The release of Jekyll Now that you're using
-version: v1.2.0
+# Blog
+excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
+post_navigation: true
+color_image:                                            # A bit transparent for color posts.
 
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
+# Features
+katex: false                                            # Enable if using math markup
+google_analytics:                                       # Tracking ID, e.g. "UA-000000-01"
+cookie_consent: false                                   # To respect the usage of cookies
+cookie_consent_disclaimer: We would like to use third party cookies and scripts to improve the functionality of this website.
+disqus_shortname:                                       # Your discus shortname for comments
+layout_variables:                                       # Open the "_sass > base" folder, and open "_variables.scss"
+footer_icons:                                           # In _data/social.yml
+share_buttons:                                          # In _data/social.yml
+authors:                                                # In _data/authors.yml
+language: ru                                            # In _data/language.yml
 
-# Set the Sass partials directory, as we're using @imports
+# PAGINATION
+paginate: 5
+paginate_path: "/blog/page:num"
+
+# PORTFOLIO
+collections:
+  portfolio:
+    output: false
+    permalink: /:collection/:name
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
 sass:
-  style: :expanded # You might prefer to minify using :compressed
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
+exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", ".idea", "vendor/*", ".travis.yml",
+          "LICENSE", "README.md", "screenshot.png", "assets/package.json", "assets/node_modules", "assets/gulpfile.js"]
 
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+# theme: type-on-strap                                  # if using the theme as a jekyll theme gem
+remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
