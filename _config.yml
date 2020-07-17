@@ -6,7 +6,7 @@ url: "https://forestadventure.ru"
 title: Forest Adventure                                 # site's title
 description: "Рогейны и ориентирование"                 # used by search engines
 avatar: images/avatar.png                               # Empty for no avatar in navbar
-favicon: images/control.ico                             # Icon displayed in the tab
+favicon: images/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
 header_text: Forest Adventure
