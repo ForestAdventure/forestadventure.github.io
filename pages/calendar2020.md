@@ -13,6 +13,7 @@ tags: [Календарь, "2020"]
 
 # QRогейн Ёлкино
 
+<br><br>
 <i class="fa fa-lg fa-calendar-o" aria-hidden="true"></i> С 24 июня по 19 июля.
 
 <i class="fa fa-lg fa-map-marker" aria-hidden="true"></i> Деревня Ёлкино, Воскресенский ГО.
@@ -27,12 +28,15 @@ tags: [Календарь, "2020"]
 
 <!-- {% include button.html button_name="Регистрация" button_class="primary" url="https://iorient.ru/Register.aspx?CompetitionId=123" %} -->
 
+<br><br>
 
 <div style="float:left;" markdown="1">
 ![logo]({{ "/images/2020/logo-fa-100.jpg" | relative_url }})
 </div>
 
 # Рогейн Forest Adventure
+
+<br><br>
 
 <i class="fa fa-lg fa-calendar-o" aria-hidden="true"></i> 29 августа
 
@@ -46,11 +50,15 @@ tags: [Календарь, "2020"]
 [Положение]({{ "/2020/07/16/fa-regulations.html" | relative_url}}){: .btn .btn-primary}
 [Регистрация](https://orgeo.ru/event/fa2020){: .btn .btn-primary}
 
+<br><br>
+
 <div style="float:left;" markdown="1">
 ![logo]({{ "/images/2020/logo-bno-black-100.jpg" | relative_url }})
 </div>
 
 # Большое ночное ориентирование
+
+<br><br>
 
 <i class="fa fa-lg fa-calendar-o" aria-hidden="true"></i> 14 ноября. 
 
