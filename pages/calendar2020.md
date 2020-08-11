@@ -11,7 +11,6 @@ tags: [Календарь, "2020"]
 ![logo]({{ "/images/2020/logo-yolkino-100.png" | relative_url }})
 </div>
 
-<br>
 # QRогейн Ёлкино
 <br>
 
@@ -35,7 +34,6 @@ tags: [Календарь, "2020"]
 ![logo]({{ "/images/2020/logo-fa-100.jpg" | relative_url }})
 </div>
 
-<br>
 # Рогейн Forest Adventure
 <br>
 
@@ -57,7 +55,6 @@ tags: [Календарь, "2020"]
 ![logo]({{ "/images/2020/logo-bno-black-100.jpg" | relative_url }})
 </div>
 
-<br>
 # Большое ночное ориентирование
 <br>
 
