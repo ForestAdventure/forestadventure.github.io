@@ -55,7 +55,7 @@ tags: [Календарь, "2020"]
 ![logo]({{ "/images/2020/logo-bno-black-100.jpg" | relative_url }})
 </div>
 
-# Большое ночное ориентирование
+# Большое ночное ориентирование Андрея Зайцева
 <br>
 
 <i class="fa fa-lg fa-calendar-o" aria-hidden="true"></i> 14 ноября. 
