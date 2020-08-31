@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <title>7 Black Dog | Рогейн Forest Adventure 2020 Заполицы</title>
+    <style>
+body {font-family: monospace; font-size:10pt;}
+table {font-size:10pt; text-align:center;}
+table.team {font-size:12pt; text-align:left;}
+table.result {border:1px AA0055; background:#ddd;}
+table td{ margin:O; padding:0 2px; background:#fff;}
+h1 {font-size:16pt; font-weight:bold; text-align:left;}
+h2 {font-size:14pt; font-weight:bold; text-align:left;}
+div {max-width: 800px;}
+div.blue_rectangle {background: blue; height: 10px; width: 0px;}
+div.green_rectangle {background: green; height: 10px; width: 0px;}
+    </style>
+</head>
+<body>
+    <h1>7 Black Dog</h1>
+    <h2>Виктория Мяльдзина, Aнатолий Мяльдзин</h2>
+    <table class="team">
+        <tr><td>Место</td><td>3</td></tr>
+        <tr><td>Очки</td><td>80</td></tr>
+        <tr><td>Штраф</td><td>4</td></tr>
+        <tr><td>Время</td><td>3:03:32</td></tr>
+        <tr><td>Результат</td><td><b>76</b></td></tr>
+    </table>
+    <canvas id="map"></canvas>
+    <table class="result">
+        <tr>
+		    <th>КП</th><th>Время</th><th>Сплит</th><th>Очки</th><th>Расстояние, км</th><th>Темп, мин/км</th><th>Мин/очко</th>
+        </tr>
+        
+        <tr>
+            <td>S</td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        
+        <tr>
+            <td>30</td><td>0:02:42</td><td>0:02:42</td><td>3 / 3</td><td>0.52 / 0.52</td><td>5.17</td><td>0.90</td>
+        </tr>
+        
+        <tr>
+            <td>35</td><td>0:07:31</td><td>0:04:49</td><td>3 / 6</td><td>0.77 / 1.29</td><td>6.27</td><td>1.61</td>
+        </tr>
+        
+        <tr>
+            <td>64</td><td>0:16:21</td><td>0:08:50</td><td>6 / 12</td><td>1.47 / 2.76</td><td>5.99</td><td>1.47</td>
+        </tr>
+        
+        <tr>
+            <td>47</td><td>0:24:13</td><td>0:07:52</td><td>4 / 16</td><td>1.10 / 3.86</td><td>7.16</td><td>1.97</td>
+        </tr>
+        
+        <tr>
+            <td>48</td><td>0:31:36</td><td>0:07:23</td><td>4 / 20</td><td>0.80 / 4.67</td><td>9.19</td><td>1.85</td>
+        </tr>
+        
+        <tr>
+            <td>52</td><td>0:31:36</td><td></td><td>5 / 25</td><td>1.03 / 5.70</td><td></td><td></td>
+        </tr>
+        
+        <tr>
+            <td>51</td><td>0:47:07</td><td>0:15:31</td><td>5 / 30</td><td>0.84 / 6.54</td><td>18.40</td><td>3.10</td>
+        </tr>
+        
+        <tr>
+            <td>69</td><td>0:56:40</td><td>0:09:33</td><td>6 / 36</td><td>0.71 / 7.25</td><td>13.49</td><td>1.59</td>
+        </tr>
+        
+        <tr>
+            <td>54</td><td>1:09:09</td><td>0:12:29</td><td>5 / 41</td><td>1.62 / 8.87</td><td>7.69</td><td>2.50</td>
+        </tr>
+        
+        <tr>
+            <td>59</td><td>1:25:10</td><td>0:16:01</td><td>5 / 46</td><td>1.05 / 9.93</td><td>15.23</td><td>3.20</td>
+        </tr>
+        
+        <tr>
+            <td>73</td><td>1:36:35</td><td>0:11:25</td><td>7 / 53</td><td>1.27 / 11.19</td><td>9.00</td><td>1.63</td>
+        </tr>
+        
+        <tr>
+            <td>63</td><td>1:54:14</td><td>0:17:39</td><td>6 / 59</td><td>1.50 / 12.69</td><td>11.76</td><td>2.94</td>
+        </tr>
+        
+        <tr>
+            <td>62</td><td>2:02:16</td><td>0:08:02</td><td>6 / 65</td><td>0.89 / 13.59</td><td>9.02</td><td>1.34</td>
+        </tr>
+        
+        <tr>
+            <td>58</td><td>2:18:45</td><td>0:16:29</td><td>5 / 70</td><td>1.56 / 15.15</td><td>10.57</td><td>3.30</td>
+        </tr>
+        
+        <tr>
+            <td>56</td><td>2:28:20</td><td>0:09:35</td><td>5 / 75</td><td>1.61 / 16.76</td><td>5.94</td><td>1.92</td>
+        </tr>
+        
+        <tr>
+            <td>57</td><td>2:40:17</td><td>0:11:57</td><td>5 / 80</td><td>1.39 / 18.15</td><td>8.57</td><td>2.39</td>
+        </tr>
+        
+        <tr>
+            <td>F</td><td>3:03:32</td><td>0:23:15</td><td></td><td>3.79 / 21.94</td><td>6.14</td><td></td>
+        </tr>
+        
+        <tr>
+		    <th></th><th></th><th></th><th>80</th><th>21.94</th><th>8.36</th><th>2.29</th>
+        </tr>
+    </table>
+    <script>
+       var cp_list = [
+          [653.0,508.0],[634.2682596007016,555.7715595476355],[575.3202813817836,601.6315188138841],[528.1102871480476,739.0077046848371],[428.0434006173771,699.4145459316143],[452.49555611539034,624.9357429639176],[354.590295646808,650.2450292552978],[355.0711965379095,568.4601361861439],[317.45035766442874,509.8540572996018],[157.6270784368091,512.2034012357516],[98.27330467059076,427.4500559347631],[72.03098808790008,305.2316415268932],[163.4992925314112,189.35433882170764],[181.40664439894732,102.95221645719488],[301.2325576343287,198.71103076327768],[430.10362327808167,105.74733656041417],[396.4026234439042,239.31470761403926],[653.0,508.0],
+       ]
+       var canvas = document.getElementById("map");
+       var context = canvas.getContext("2d");
+       var map = new Image();
+       map.src = "map.jpg";
+       map.onload = function() {
+          canvas.width = this.naturalWidth;
+          canvas.height = this.naturalHeight;
+          context.scale(1, 1);
+          context.drawImage(map, 0, 0);
+          context.strokeStyle = "rgba(255,0,0,0.8)";
+          context.fillStyle = "rgba(255,0,0,0.8)";
+          for (i=0; i<cp_list.length; i++) {
+             context.beginPath();
+             context.arc(cp_list[i][0], cp_list[i][1], 3, 0, Math.PI * 2, false);
+             context.closePath();
+             context.stroke();
+             context.fill();
+          }
+          context.lineWidth = 4;
+          var old_x = cp_list[0][0], old_y = cp_list[0][1];
+          for (i=1; i<cp_list.length; i++) {
+             context.beginPath();
+             context.moveTo(old_x, old_y);
+             context.lineTo(cp_list[i][0], cp_list[i][1]);
+             context.stroke();
+             old_x = cp_list[i][0];
+             old_y = cp_list[i][1];
+          }
+          /*
+          context.beginPath();
+          context.moveTo(s[0] + arrow[0][0], s[1] + arrow[0][1]);
+          for (i=1; i<arrow.length; i++) {
+             context.lineTo(s[0] + arrow[i][0], s[1] + arrow[i][1]);
+          }
+          context.stroke();
+          context.fill();
+          */
+       };
+    </script>
+</body>
+</html>

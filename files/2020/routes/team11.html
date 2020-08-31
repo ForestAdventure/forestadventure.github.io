@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <title>11 Олень | Рогейн Forest Adventure 2020 Заполицы</title>
+    <style>
+body {font-family: monospace; font-size:10pt;}
+table {font-size:10pt; text-align:center;}
+table.team {font-size:12pt; text-align:left;}
+table.result {border:1px AA0055; background:#ddd;}
+table td{ margin:O; padding:0 2px; background:#fff;}
+h1 {font-size:16pt; font-weight:bold; text-align:left;}
+h2 {font-size:14pt; font-weight:bold; text-align:left;}
+div {max-width: 800px;}
+div.blue_rectangle {background: blue; height: 10px; width: 0px;}
+div.green_rectangle {background: green; height: 10px; width: 0px;}
+    </style>
+</head>
+<body>
+    <h1>11 Олень</h1>
+    <h2>Софья Семкина, Михаил Семкин</h2>
+    <table class="team">
+        <tr><td>Место</td><td>6</td></tr>
+        <tr><td>Очки</td><td>48</td></tr>
+        <tr><td>Штраф</td><td>1</td></tr>
+        <tr><td>Время</td><td>3:00:23</td></tr>
+        <tr><td>Результат</td><td><b>47</b></td></tr>
+    </table>
+    <canvas id="map"></canvas>
+    <table class="result">
+        <tr>
+		    <th>КП</th><th>Время</th><th>Сплит</th><th>Очки</th><th>Расстояние, км</th><th>Темп, мин/км</th><th>Мин/очко</th>
+        </tr>
+        
+        <tr>
+            <td>S</td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        
+        <tr>
+            <td>54</td><td>0:19:43</td><td>0:19:43</td><td>5 / 5</td><td>5.04 / 5.04</td><td>3.91</td><td>3.94</td>
+        </tr>
+        
+        <tr>
+            <td>44</td><td>0:34:32</td><td>0:14:49</td><td>4 / 9</td><td>0.99 / 6.03</td><td>14.99</td><td>3.70</td>
+        </tr>
+        
+        <tr>
+            <td>59</td><td>0:46:00</td><td>0:11:28</td><td>5 / 14</td><td>1.16 / 7.19</td><td>9.90</td><td>2.29</td>
+        </tr>
+        
+        <tr>
+            <td>73</td><td>1:14:14</td><td>0:28:14</td><td>7 / 21</td><td>1.27 / 8.46</td><td>22.27</td><td>4.03</td>
+        </tr>
+        
+        <tr>
+            <td>63</td><td>1:37:25</td><td>0:23:11</td><td>6 / 27</td><td>1.50 / 9.96</td><td>15.44</td><td>3.86</td>
+        </tr>
+        
+        <tr>
+            <td>62</td><td>1:51:55</td><td>0:14:30</td><td>6 / 33</td><td>0.89 / 10.85</td><td>16.27</td><td>2.42</td>
+        </tr>
+        
+        <tr>
+            <td>58</td><td>2:14:41</td><td>0:22:46</td><td>5 / 38</td><td>1.56 / 12.41</td><td>14.60</td><td>4.55</td>
+        </tr>
+        
+        <tr>
+            <td>46</td><td>2:28:06</td><td>0:13:25</td><td>4 / 42</td><td>1.28 / 13.69</td><td>10.48</td><td>3.35</td>
+        </tr>
+        
+        <tr>
+            <td>37</td><td>2:48:40</td><td>0:20:34</td><td>3 / 45</td><td>3.05 / 16.74</td><td>6.74</td><td>6.86</td>
+        </tr>
+        
+        <tr>
+            <td>30</td><td>2:56:15</td><td>0:07:35</td><td>3 / 48</td><td>0.75 / 17.50</td><td>10.05</td><td>2.53</td>
+        </tr>
+        
+        <tr>
+            <td>F</td><td>3:00:23</td><td>0:04:08</td><td></td><td>0.52 / 18.02</td><td>7.91</td><td></td>
+        </tr>
+        
+        <tr>
+		    <th></th><th></th><th></th><th>48</th><th>18.02</th><th>10.01</th><th>3.76</th>
+        </tr>
+    </table>
+    <script>
+       var cp_list = [
+          [653.0,508.0],[157.6270784368091,512.2034012357516],[212.43952240561208,431.45938606331396],[98.27330467059076,427.4500559347631],[72.03098808790008,305.2316415268932],[163.4992925314112,189.35433882170764],[181.40664439894732,102.95221645719488],[301.2325576343287,198.71103076327768],[346.860053481892,315.9080086367733],[574.3864569363308,512.9910767351971],[634.2682596007016,555.7715595476355],[653.0,508.0],
+       ]
+       var canvas = document.getElementById("map");
+       var context = canvas.getContext("2d");
+       var map = new Image();
+       map.src = "map.jpg";
+       map.onload = function() {
+          canvas.width = this.naturalWidth;
+          canvas.height = this.naturalHeight;
+          context.scale(1, 1);
+          context.drawImage(map, 0, 0);
+          context.strokeStyle = "rgba(255,0,0,0.8)";
+          context.fillStyle = "rgba(255,0,0,0.8)";
+          for (i=0; i<cp_list.length; i++) {
+             context.beginPath();
+             context.arc(cp_list[i][0], cp_list[i][1], 3, 0, Math.PI * 2, false);
+             context.closePath();
+             context.stroke();
+             context.fill();
+          }
+          context.lineWidth = 4;
+          var old_x = cp_list[0][0], old_y = cp_list[0][1];
+          for (i=1; i<cp_list.length; i++) {
+             context.beginPath();
+             context.moveTo(old_x, old_y);
+             context.lineTo(cp_list[i][0], cp_list[i][1]);
+             context.stroke();
+             old_x = cp_list[i][0];
+             old_y = cp_list[i][1];
+          }
+          /*
+          context.beginPath();
+          context.moveTo(s[0] + arrow[0][0], s[1] + arrow[0][1]);
+          for (i=1; i<arrow.length; i++) {
+             context.lineTo(s[0] + arrow[i][0], s[1] + arrow[i][1]);
+          }
+          context.stroke();
+          context.fill();
+          */
+       };
+    </script>
+</body>
+</html>
