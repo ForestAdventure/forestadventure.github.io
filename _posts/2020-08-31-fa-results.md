@@ -8,11 +8,11 @@ tags: [Рогейн, "2020"]
 
 [Результаты]({{ "/files/2020/results.html" | relative_url }})
 
-[Сплиты](https://forestadventure.ru/files/2020/results.html?all_splits=1)
+[Сплиты]({{ "/files/2020/results.html?all_splits=1" | relative_url }})
 
-Пути участников (будут скоро)
+[Пути участников]({{ "/files/2020/fa/routes.html" | relative_url }})
 
-[Карта](https://forestadventure.ru/files/2020/map-zapolitsi2020.png)
+[Карта]({{ "/files/2020/map-zapolitsi2020.png" | relative_url }})
 
 [GPS трансляция](http://viewer.o-gps-center.ru/viewer/event/8054/)
 (можно добавлять треки)
