@@ -23,8 +23,8 @@ tags: [Календарь, "2020"]
 Одна из самых интересных местностей Подмосковья. Свободный старт.
 
 [Положение]({{ "/2020/06/22/yolkino-info.html" | relative_url}}){: .btn .btn-primary}
-[Регистрация](https://iorient.ru/Register.aspx?CompetitionId=123){: .btn .btn-primary}
 [Результаты](https://iorient.ru/Competition.aspx?CompetitionId=123){: .btn .btn-primary}
+[Карта]({{ "/files/2020/map-yolkino2020.png" | relative_url }}){: .btn .btn-primary}
 
 <!-- {% include button.html button_name="Регистрация" button_class="primary" url="https://iorient.ru/Register.aspx?CompetitionId=123" %} -->
 
@@ -47,7 +47,8 @@ tags: [Календарь, "2020"]
 Заявка откроется 3 августа.
 
 [Положение]({{ "/2020/07/16/fa-regulations.html" | relative_url}}){: .btn .btn-primary}
-[Регистрация](https://orgeo.ru/event/fa2020){: .btn .btn-primary}
+[Результаты]({{ "/2020/08/31/fa-results.html" | relative_url}}){: .btn .btn-primary}
+[Карта]({{ "/files/2020/map-zapolitsi2020.png" | relative_url }}){: .btn .btn-primary}
 
 <br>
 
