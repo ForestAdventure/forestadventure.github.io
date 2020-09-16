@@ -53,7 +53,7 @@ tags: [Календарь, "2020"]
 <br>
 
 <div style="float:left;" markdown="1">
-![logo]({{ "/images/2020/logo-bno-black-100.jpg" | relative_url }})
+![logo]({{ "/images/2020/logo-bno-solid-black-100.jpg" | relative_url }})
 </div>
 
 # Большое ночное ориентирование Андрея Зайцева
