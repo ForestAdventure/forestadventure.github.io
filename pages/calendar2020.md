@@ -64,8 +64,6 @@ tags: [Календарь, "2020"]
 
 Наш любимый традиционный старт по ориентированию в ночных условиях.
 
-Положение и заявка скоро.
-
 [Положение]({{ "/2020/11/02/bno2020-maininfo.html" | relative_url}}){: .btn .btn-primary}
 [Заявка](http://orgeo.ru/event/bno2020){: .btn .btn-primary}
 [История](http://tkmgtu.ru/library/Большое_Ночное_Ориентирование){: .btn .btn-primary}
