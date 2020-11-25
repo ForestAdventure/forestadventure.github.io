@@ -70,6 +70,7 @@ tags: [История]
 Три дистанции: выбор В1 (40 КП, ~20 км), выбор В2 (20 КП, ~9,5 км), заданное направление ЗН (23 КП, 16,6 км).
 
 [Результаты и карты]({{ "/2020/11/15/bno-results.html" | relative_url}}){: .btn .btn-primary}
+[Фото](https://vk.com/album-190261264_274434115){: .btn .btn-primary}
 [История](http://tkmgtu.ru/library/Большое_Ночное_Ориентирование){: .btn .btn-primary}
 [Положение]({{ "/2020/11/02/bno2020-maininfo.html" | relative_url}}){: .btn .btn-primary}
 
