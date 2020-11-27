@@ -10,6 +10,18 @@ tags: [Положение, "2020"]
 
 ![]({{"/images/2020/logo-olyoshkino300.png" | relative_url}})
 
+Результаты:
+* [Минирогейн]({{"/files/2020/olyoshkino-res-rogaining.html" | relative_url}}), [карта]({{"/files/2020/map-olyoshkino-rogaining.png" | relative_url}})
+* [Кросс-классика]({{"/files/2020/olyoshkino-res-classic.html" | relative_url}}), [карта]({{"/files/2020/map-olyoshkino-classic.png" | relative_url}})
+
+Для показа временных интервалов (сплитов) на странице протокола результатов в правом верхнем углу необходимо нажать на кнопку "Свернуть/Развернуть" и выбрать нужную опцию.
+
+[O-GPS-Center](http://viewer.o-gps-center.ru/viewer/event/8577/)
+
+Всем спасибо за встречу! До новых стартов!
+
+
+
 [Техинформация]({{"/olyoshkino2020-tech" | relative_url}})
 
 Идея
