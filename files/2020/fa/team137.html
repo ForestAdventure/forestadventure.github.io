@@ -3,149 +3,104 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
     <title>137 parus | Рогейн Forest Adventure 2020 Заполицы</title>
-    <style>
-body {font-family: monospace; font-size:10pt;}
-table {font-size:10pt; text-align:center;}
-table.team {font-size:12pt; text-align:left;}
-table.result {border:1px AA0055; background:#ddd;}
-table td{ margin:O; padding:0 2px; background:#fff;}
-h1 {font-size:16pt; font-weight:bold; text-align:left;}
-h2 {font-size:14pt; font-weight:bold; text-align:left;}
-div {max-width: 800px;}
-div.blue_rectangle {background: blue; height: 10px; width: 0px;}
-div.green_rectangle {background: green; height: 10px; width: 0px;}
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>137 parus</h1>
     <h2>Елена Русанова, Павел Русанов</h2>
     <table class="team">
-        <tr><td>Место</td><td>9</td></tr>
-        <tr><td>Очки</td><td>68</td></tr>
-        <tr><td>Штраф</td><td>0</td></tr>
-        <tr><td>Время</td><td>6:25:18</td></tr>
+        <tr><td>Место</td><td>9 (8Б-СО)</td><td>Дистанция</td><td>16.80 км</td></tr>
+        <tr><td>Очки</td><td>68</td><td>Средний темп</td><td>22:56 мин/км</td></tr>
+        <tr><td>Штраф</td><td>0</td><td>Эффективность планирования</td><td>4.05 очк/км</td></tr>
+        <tr><td>Время</td><td>6:25:18</td><td>Эффективность</td><td>5:39 мин/очк</td></tr>
         <tr><td>Результат</td><td><b>68</b></td></tr>
     </table>
-    <canvas id="map"></canvas>
-    <table class="result">
+    <svg width="1169px" height="827px">
+        <defs>
+            <linearGradient id="grad">
+                <stop offset="0%" stop-color="rgb(255,0,0)"/>
+                <stop offset="50%" stop-color="rgb(255,255,0)"/>
+                <stop offset="100%" stop-color="rgb(0,255,0)"/>
+            </linearGradient>
+            <style type="text/css"><![CDATA[
+                .course { stroke-opacity: 0.8; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+                .shadow {
+                    -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .8));
+                    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .8));
+                }
+                .small { font: bold 13px sans-serif; }
+            ]]></style>
+        </defs>
+        <image xlink:href="map.jpg" />
+        <rect rx="5" width=1169 height="15" fill="url(#grad)"/>
+        <text class="small" x="2%" y="12" text-anchor="start">Медлено</text>
+        <text class="small" x="50%" y="12" text-anchor="middle">Средне</text>
+        <text class="small" x="98%" y="12" text-anchor="end">Быстро</text>
+        <polyline class="shadow" stroke="black" stroke-opacity="0.6" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" fill="none" points="647 522, 634 556, 575 602, 528 739, 428 699, 452 625, 354 650, 231 592, 117 608, 158 512, 98 427, 213 431, 317 510, 355 568, 454 503, 574 513, 653 508, " />
+        <line class="course" x1="647" y1="522" x2="634" y2="556" stroke="rgb(255,16,0)"/>
+        <line class="course" x1="634" y1="556" x2="575" y2="602" stroke="rgb(255,208,0)"/>
+        <line class="course" x1="575" y1="602" x2="528" y2="739" stroke="rgb(0,255,0)"/>
+        <line class="course" x1="528" y1="739" x2="428" y2="699" stroke="rgb(108,255,0)"/>
+        <line class="course" x1="428" y1="699" x2="452" y2="625" stroke="rgb(94,255,0)"/>
+        <line class="course" x1="452" y1="625" x2="354" y2="650" stroke="rgb(255,223,0)"/>
+        <line class="course" x1="354" y1="650" x2="231" y2="592" stroke="rgb(149,255,0)"/>
+        <line class="course" x1="231" y1="592" x2="117" y2="608" stroke="rgb(52,255,0)"/>
+        <line class="course" x1="117" y1="608" x2="158" y2="512" stroke="rgb(255,0,0)"/>
+        <line class="course" x1="158" y1="512" x2="98" y2="427" stroke="rgb(198,255,0)"/>
+        <line class="course" x1="98" y1="427" x2="213" y2="431" stroke="rgb(255,253,0)"/>
+        <line class="course" x1="213" y1="431" x2="317" y2="510" stroke="rgb(202,255,0)"/>
+        <line class="course" x1="317" y1="510" x2="355" y2="568" stroke="rgb(255,85,0)"/>
+        <line class="course" x1="355" y1="568" x2="454" y2="503" stroke="rgb(199,255,0)"/>
+        <line class="course" x1="454" y1="503" x2="574" y2="513" stroke="rgb(201,255,0)"/>
+        <line class="course" x1="574" y1="513" x2="653" y2="508" stroke="rgb(255,138,0)"/>
+        <polyline stroke="black" stroke-opacity="0.8" stroke-width="1" fill-opacity="0.8" fill="rgb(255,16,0)" points="632 555, 637 530, 650 535, 636 557, " />
+        <polyline class="shadow" stroke="magenta" stroke-opacity="0.8" stroke-width="3" fill="none" points="647 522, 644 496, 668 506, 647 522, " />
+    </svg>
+    <table class="blueTable">
+        <thead>
         <tr>
-		    <th>КП</th><th>Время</th><th>Сплит</th><th>Очки</th><th>Расстояние, км</th><th>Темп, мин/км</th><th>Мин/очко</th>
-        </tr>
-        
+<th>КП</th><th>Время</th><th>Сплит</th><th>Очки</th><th>Расстояние, км</th><th>Темп, мин/км</th><th>Мин/очко</th>        </tr>
+        </thead>
+        <tfoot>
         <tr>
-            <td>S</td><td></td><td></td><td></td><td></td><td></td><td></td>
-        </tr>
-        
+<th></th><th></th><th></th><th>68</th><th>16.80</th><th>22:56</th><th>5:39</th>        </tr>
+        </tfoot>
+        <tbody>
         <tr>
-            <td>30</td><td>0:17:22</td><td>0:17:22</td><td>3 / 3</td><td>0.52 / 0.52</td><td>33.25</td><td>5.79</td>
-        </tr>
-        
+<td>S</td><td></td><td></td><td></td><td></td><td></td><td></td>        </tr>
         <tr>
-            <td>35</td><td>0:37:25</td><td>0:20:03</td><td>3 / 6</td><td>0.77 / 1.29</td><td>26.08</td><td>6.68</td>
-        </tr>
-        
+<td>30</td><td>0:17:22</td><td>0:17:22</td><td>3 / 3</td><td>0.52 / 0.52</td><td>33:15</td><td>5:47</td>        </tr>
         <tr>
-            <td>64</td><td>0:59:16</td><td>0:21:51</td><td>6 / 12</td><td>1.47 / 2.76</td><td>14.83</td><td>3.64</td>
-        </tr>
-        
+<td>35</td><td>0:37:25</td><td>0:20:03</td><td>3 / 6</td><td>0.77 / 1.29</td><td>26:04</td><td>6:41</td>        </tr>
         <tr>
-            <td>47</td><td>1:20:02</td><td>0:20:46</td><td>4 / 16</td><td>1.10 / 3.86</td><td>18.89</td><td>5.19</td>
-        </tr>
-        
+<td>64</td><td>0:59:16</td><td>0:21:51</td><td>6 / 12</td><td>1.47 / 2.76</td><td>14:49</td><td>3:38</td>        </tr>
         <tr>
-            <td>48</td><td>1:34:46</td><td>0:14:44</td><td>4 / 20</td><td>0.80 / 4.67</td><td>18.35</td><td>3.68</td>
-        </tr>
-        
+<td>47</td><td>1:20:02</td><td>0:20:46</td><td>4 / 16</td><td>1.10 / 3.86</td><td>18:53</td><td>5:11</td>        </tr>
         <tr>
-            <td>52</td><td>2:01:07</td><td>0:26:21</td><td>5 / 25</td><td>1.03 / 5.70</td><td>25.53</td><td>5.27</td>
-        </tr>
-        
+<td>48</td><td>1:34:46</td><td>0:14:44</td><td>4 / 20</td><td>0.80 / 4.67</td><td>18:20</td><td>3:41</td>        </tr>
         <tr>
-            <td>53</td><td>2:29:21</td><td>0:28:14</td><td>5 / 30</td><td>1.38 / 7.08</td><td>20.41</td><td>5.65</td>
-        </tr>
-        
+<td>52</td><td>2:01:07</td><td>0:26:21</td><td>5 / 25</td><td>1.03 / 5.70</td><td>25:31</td><td>5:16</td>        </tr>
         <tr>
-            <td>68</td><td>2:49:01</td><td>0:19:40</td><td>6 / 36</td><td>1.17 / 8.26</td><td>16.78</td><td>3.28</td>
-        </tr>
-        
+<td>53</td><td>2:29:21</td><td>0:28:14</td><td>5 / 30</td><td>1.38 / 7.08</td><td>20:24</td><td>5:38</td>        </tr>
         <tr>
-            <td>54</td><td>3:24:51</td><td>0:35:50</td><td>5 / 41</td><td>1.06 / 9.31</td><td>33.86</td><td>7.17</td>
-        </tr>
-        
+<td>68</td><td>2:49:01</td><td>0:19:40</td><td>6 / 36</td><td>1.17 / 8.26</td><td>16:46</td><td>3:16</td>        </tr>
         <tr>
-            <td>59</td><td>3:48:14</td><td>0:23:23</td><td>5 / 46</td><td>1.05 / 10.37</td><td>22.23</td><td>4.68</td>
-        </tr>
-        
+<td>54</td><td>3:24:51</td><td>0:35:50</td><td>5 / 41</td><td>1.06 / 9.31</td><td>33:51</td><td>7:10</td>        </tr>
         <tr>
-            <td>44</td><td>4:16:30</td><td>0:28:16</td><td>4 / 50</td><td>1.16 / 11.52</td><td>24.41</td><td>7.07</td>
-        </tr>
-        
+<td>59</td><td>3:48:14</td><td>0:23:23</td><td>5 / 46</td><td>1.05 / 10.37</td><td>22:13</td><td>4:40</td>        </tr>
         <tr>
-            <td>69</td><td>4:46:15</td><td>0:29:45</td><td>6 / 56</td><td>1.33 / 12.85</td><td>22.39</td><td>4.96</td>
-        </tr>
-        
+<td>44</td><td>4:16:30</td><td>0:28:16</td><td>4 / 50</td><td>1.16 / 11.52</td><td>24:24</td><td>7:04</td>        </tr>
         <tr>
-            <td>51</td><td>5:07:58</td><td>0:21:43</td><td>5 / 61</td><td>0.71 / 13.56</td><td>30.68</td><td>4.34</td>
-        </tr>
-        
+<td>69</td><td>4:46:15</td><td>0:29:45</td><td>6 / 56</td><td>1.33 / 12.85</td><td>22:23</td><td>4:57</td>        </tr>
         <tr>
-            <td>49</td><td>5:34:47</td><td>0:26:49</td><td>4 / 65</td><td>1.20 / 14.76</td><td>22.29</td><td>6.70</td>
-        </tr>
-        
+<td>51</td><td>5:07:58</td><td>0:21:43</td><td>5 / 61</td><td>0.71 / 13.56</td><td>30:40</td><td>4:20</td>        </tr>
         <tr>
-            <td>37</td><td>6:02:06</td><td>0:27:19</td><td>3 / 68</td><td>1.22 / 15.99</td><td>22.34</td><td>9.11</td>
-        </tr>
-        
+<td>49</td><td>5:34:47</td><td>0:26:49</td><td>4 / 65</td><td>1.20 / 14.76</td><td>22:17</td><td>6:42</td>        </tr>
         <tr>
-            <td>F</td><td>6:25:18</td><td>0:23:12</td><td></td><td>0.81 / 16.80</td><td>28.67</td><td></td>
-        </tr>
-        
+<td>37</td><td>6:02:06</td><td>0:27:19</td><td>3 / 68</td><td>1.22 / 15.99</td><td>22:20</td><td>9:06</td>        </tr>
         <tr>
-		    <th></th><th></th><th></th><th>68</th><th>16.80</th><th>22.94</th><th>5.67</th>
-        </tr>
+<td>F</td><td>6:25:18</td><td>0:23:12</td><td></td><td>0.81 / 16.80</td><td>28:40</td><td></td>        </tr>
+        </tbody>
     </table>
-    <script>
-       var cp_list = [
-          [653.0,508.0],[634.2682596007016,555.7715595476355],[575.3202813817836,601.6315188138841],[528.1102871480476,739.0077046848371],[428.0434006173771,699.4145459316143],[452.49555611539034,624.9357429639176],[354.590295646808,650.2450292552978],[231.2671071272972,591.9664639556853],[117.22550520555524,608.3528311895461],[157.6270784368091,512.2034012357516],[98.27330467059076,427.4500559347631],[212.43952240561208,431.45938606331396],[317.45035766442874,509.8540572996018],[355.0711965379095,568.4601361861439],[453.90869314365995,503.136715694652],[574.3864569363308,512.9910767351971],[653.0,508.0],
-       ]
-       var canvas = document.getElementById("map");
-       var context = canvas.getContext("2d");
-       var map = new Image();
-       map.src = "map.jpg";
-       map.onload = function() {
-          canvas.width = this.naturalWidth;
-          canvas.height = this.naturalHeight;
-          context.scale(1, 1);
-          context.drawImage(map, 0, 0);
-          context.strokeStyle = "rgba(255,0,0,0.8)";
-          context.fillStyle = "rgba(255,0,0,0.8)";
-          for (i=0; i<cp_list.length; i++) {
-             context.beginPath();
-             context.arc(cp_list[i][0], cp_list[i][1], 3, 0, Math.PI * 2, false);
-             context.closePath();
-             context.stroke();
-             context.fill();
-          }
-          context.lineWidth = 4;
-          var old_x = cp_list[0][0], old_y = cp_list[0][1];
-          for (i=1; i<cp_list.length; i++) {
-             context.beginPath();
-             context.moveTo(old_x, old_y);
-             context.lineTo(cp_list[i][0], cp_list[i][1]);
-             context.stroke();
-             old_x = cp_list[i][0];
-             old_y = cp_list[i][1];
-          }
-          /*
-          context.beginPath();
-          context.moveTo(s[0] + arrow[0][0], s[1] + arrow[0][1]);
-          for (i=1; i<arrow.length; i++) {
-             context.lineTo(s[0] + arrow[i][0], s[1] + arrow[i][1]);
-          }
-          context.stroke();
-          context.fill();
-          */
-       };
-    </script>
 </body>
 </html>

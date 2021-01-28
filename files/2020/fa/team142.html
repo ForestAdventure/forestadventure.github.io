@@ -3,173 +3,122 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
     <title>142 Альтима | Рогейн Forest Adventure 2020 Заполицы</title>
-    <style>
-body {font-family: monospace; font-size:10pt;}
-table {font-size:10pt; text-align:center;}
-table.team {font-size:12pt; text-align:left;}
-table.result {border:1px AA0055; background:#ddd;}
-table td{ margin:O; padding:0 2px; background:#fff;}
-h1 {font-size:16pt; font-weight:bold; text-align:left;}
-h2 {font-size:14pt; font-weight:bold; text-align:left;}
-div {max-width: 800px;}
-div.blue_rectangle {background: blue; height: 10px; width: 0px;}
-div.green_rectangle {background: green; height: 10px; width: 0px;}
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>142 Альтима</h1>
     <h2>Дмитрий Иванов, Михаил Каныгин</h2>
     <table class="team">
-        <tr><td>Место</td><td>19</td></tr>
-        <tr><td>Очки</td><td>115</td></tr>
-        <tr><td>Штраф</td><td>0</td></tr>
-        <tr><td>Время</td><td>5:55:06</td></tr>
+        <tr><td>Место</td><td>19 (6В-МО)</td><td>Дистанция</td><td>28.53 км</td></tr>
+        <tr><td>Очки</td><td>115</td><td>Средний темп</td><td>12:26 мин/км</td></tr>
+        <tr><td>Штраф</td><td>0</td><td>Эффективность планирования</td><td>4.03 очк/км</td></tr>
+        <tr><td>Время</td><td>5:55:06</td><td>Эффективность</td><td>3:05 мин/очк</td></tr>
         <tr><td>Результат</td><td><b>115</b></td></tr>
     </table>
-    <canvas id="map"></canvas>
-    <table class="result">
+    <svg width="1169px" height="827px">
+        <defs>
+            <linearGradient id="grad">
+                <stop offset="0%" stop-color="rgb(255,0,0)"/>
+                <stop offset="50%" stop-color="rgb(255,255,0)"/>
+                <stop offset="100%" stop-color="rgb(0,255,0)"/>
+            </linearGradient>
+            <style type="text/css"><![CDATA[
+                .course { stroke-opacity: 0.8; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+                .shadow {
+                    -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .8));
+                    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .8));
+                }
+                .small { font: bold 13px sans-serif; }
+            ]]></style>
+        </defs>
+        <image xlink:href="map.jpg" />
+        <rect rx="5" width=1169 height="15" fill="url(#grad)"/>
+        <text class="small" x="2%" y="12" text-anchor="start">Медлено</text>
+        <text class="small" x="50%" y="12" text-anchor="middle">Средне</text>
+        <text class="small" x="98%" y="12" text-anchor="end">Быстро</text>
+        <polyline class="shadow" stroke="black" stroke-opacity="0.6" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" fill="none" points="666 515, 705 537, 825 560, 940 669, 1070 497, 999 400, 1003 132, 834 90, 697 138, 648 206, 539 63, 431 106, 330 68, 182 102, 164 189, 210 302, 213 431, 317 510, 355 568, 454 503, 574 513, 634 556, 653 508, " />
+        <line class="course" x1="666" y1="515" x2="705" y2="537" stroke="rgb(212,255,0)"/>
+        <line class="course" x1="705" y1="537" x2="825" y2="560" stroke="rgb(157,255,0)"/>
+        <line class="course" x1="825" y1="560" x2="940" y2="669" stroke="rgb(110,255,0)"/>
+        <line class="course" x1="940" y1="669" x2="1070" y2="497" stroke="rgb(19,255,0)"/>
+        <line class="course" x1="1070" y1="497" x2="999" y2="400" stroke="rgb(143,255,0)"/>
+        <line class="course" x1="999" y1="400" x2="1003" y2="132" stroke="rgb(254,49,0)"/>
+        <line class="course" x1="1003" y1="132" x2="834" y2="90" stroke="rgb(232,255,0)"/>
+        <line class="course" x1="834" y1="90" x2="697" y2="138" stroke="rgb(107,255,0)"/>
+        <line class="course" x1="697" y1="138" x2="648" y2="206" stroke="rgb(255,86,0)"/>
+        <line class="course" x1="648" y1="206" x2="539" y2="63" stroke="rgb(53,255,0)"/>
+        <line class="course" x1="539" y1="63" x2="431" y2="106" stroke="rgb(107,255,0)"/>
+        <line class="course" x1="431" y1="106" x2="330" y2="68" stroke="rgb(255,0,0)"/>
+        <line class="course" x1="330" y1="68" x2="182" y2="102" stroke="rgb(40,255,0)"/>
+        <line class="course" x1="182" y1="102" x2="164" y2="189" stroke="rgb(86,255,0)"/>
+        <line class="course" x1="164" y1="189" x2="210" y2="302" stroke="rgb(97,255,0)"/>
+        <line class="course" x1="210" y1="302" x2="213" y2="431" stroke="rgb(38,255,0)"/>
+        <line class="course" x1="213" y1="431" x2="317" y2="510" stroke="rgb(77,255,0)"/>
+        <line class="course" x1="317" y1="510" x2="355" y2="568" stroke="rgb(255,197,0)"/>
+        <line class="course" x1="355" y1="568" x2="454" y2="503" stroke="rgb(74,255,0)"/>
+        <line class="course" x1="454" y1="503" x2="574" y2="513" stroke="rgb(66,255,0)"/>
+        <line class="course" x1="574" y1="513" x2="634" y2="556" stroke="rgb(29,255,0)"/>
+        <line class="course" x1="634" y1="556" x2="653" y2="508" stroke="rgb(0,255,0)"/>
+        <polyline stroke="black" stroke-opacity="0.8" stroke-width="1" fill-opacity="0.8" fill="rgb(212,255,0)" points="704 539, 675 528, 682 516, 706 535, " />
+        <polyline class="shadow" stroke="magenta" stroke-opacity="0.8" stroke-width="3" fill="none" points="666 515, 640 516, 653 493, 666 515, " />
+    </svg>
+    <table class="blueTable">
+        <thead>
         <tr>
-		    <th>КП</th><th>Время</th><th>Сплит</th><th>Очки</th><th>Расстояние, км</th><th>Темп, мин/км</th><th>Мин/очко</th>
-        </tr>
-        
+<th>КП</th><th>Время</th><th>Сплит</th><th>Очки</th><th>Расстояние, км</th><th>Темп, мин/км</th><th>Мин/очко</th>        </tr>
+        </thead>
+        <tfoot>
         <tr>
-            <td>S</td><td></td><td></td><td></td><td></td><td></td><td></td>
-        </tr>
-        
+<th></th><th></th><th></th><th>115</th><th>28.53</th><th>12:26</th><th>3:05</th>        </tr>
+        </tfoot>
+        <tbody>
         <tr>
-            <td>31</td><td>0:09:09</td><td>0:09:09</td><td>3 / 3</td><td>0.61 / 0.61</td><td>14.96</td><td>3.05</td>
-        </tr>
-        
+<td>S</td><td></td><td></td><td></td><td></td><td></td><td></td>        </tr>
         <tr>
-            <td>50</td><td>0:24:37</td><td>0:15:28</td><td>5 / 8</td><td>1.25 / 1.86</td><td>12.40</td><td>3.09</td>
-        </tr>
-        
+<td>31</td><td>0:09:09</td><td>0:09:09</td><td>3 / 3</td><td>0.61 / 0.61</td><td>14:57</td><td>3:03</td>        </tr>
         <tr>
-            <td>76</td><td>0:41:02</td><td>0:16:25</td><td>7 / 15</td><td>1.61 / 3.46</td><td>10.23</td><td>2.35</td>
-        </tr>
-        
+<td>50</td><td>0:24:37</td><td>0:15:28</td><td>5 / 8</td><td>1.25 / 1.86</td><td>12:24</td><td>3:05</td>        </tr>
         <tr>
-            <td>70</td><td>0:54:17</td><td>0:13:15</td><td>7 / 22</td><td>2.19 / 5.66</td><td>6.05</td><td>1.89</td>
-        </tr>
-        
+<td>76</td><td>0:41:02</td><td>0:16:25</td><td>7 / 15</td><td>1.61 / 3.46</td><td>10:13</td><td>2:20</td>        </tr>
         <tr>
-            <td>65</td><td>1:08:45</td><td>0:14:28</td><td>6 / 28</td><td>1.23 / 6.88</td><td>11.78</td><td>2.41</td>
-        </tr>
-        
+<td>70</td><td>0:54:17</td><td>0:13:15</td><td>7 / 22</td><td>2.19 / 5.66</td><td>6:02</td><td>1:53</td>        </tr>
         <tr>
-            <td>80</td><td>2:20:33</td><td>1:11:48</td><td>8 / 36</td><td>2.72 / 9.60</td><td>26.40</td><td>8.97</td>
-        </tr>
-        
+<td>65</td><td>1:08:45</td><td>0:14:28</td><td>6 / 28</td><td>1.23 / 6.88</td><td>11:47</td><td>2:24</td>        </tr>
         <tr>
-            <td>60</td><td>2:48:39</td><td>0:28:06</td><td>6 / 42</td><td>1.77 / 11.37</td><td>15.88</td><td>4.68</td>
-        </tr>
-        
+<td>80</td><td>2:20:33</td><td>1:11:48</td><td>8 / 36</td><td>2.72 / 9.60</td><td>26:24</td><td>8:58</td>        </tr>
         <tr>
-            <td>71</td><td>3:03:25</td><td>0:14:46</td><td>7 / 49</td><td>1.46 / 12.84</td><td>10.09</td><td>2.11</td>
-        </tr>
-        
+<td>60</td><td>2:48:39</td><td>0:28:06</td><td>6 / 42</td><td>1.77 / 11.37</td><td>15:53</td><td>4:41</td>        </tr>
         <tr>
-            <td>61</td><td>3:24:28</td><td>0:21:03</td><td>6 / 55</td><td>0.85 / 13.69</td><td>24.73</td><td>3.51</td>
-        </tr>
-        
+<td>71</td><td>3:03:25</td><td>0:14:46</td><td>7 / 49</td><td>1.46 / 12.84</td><td>10:05</td><td>2:06</td>        </tr>
         <tr>
-            <td>74</td><td>3:38:26</td><td>0:13:58</td><td>7 / 62</td><td>1.83 / 15.52</td><td>7.63</td><td>2.00</td>
-        </tr>
-        
+<td>61</td><td>3:24:28</td><td>0:21:03</td><td>6 / 55</td><td>0.85 / 13.69</td><td>24:43</td><td>3:30</td>        </tr>
         <tr>
-            <td>56</td><td>3:50:28</td><td>0:12:02</td><td>5 / 67</td><td>1.19 / 16.71</td><td>10.11</td><td>2.41</td>
-        </tr>
-        
+<td>74</td><td>3:38:26</td><td>0:13:58</td><td>7 / 62</td><td>1.83 / 15.52</td><td>7:37</td><td>1:59</td>        </tr>
         <tr>
-            <td>72</td><td>4:21:34</td><td>0:31:06</td><td>7 / 74</td><td>1.08 / 17.79</td><td>28.71</td><td>4.44</td>
-        </tr>
-        
+<td>56</td><td>3:50:28</td><td>0:12:02</td><td>5 / 67</td><td>1.19 / 16.71</td><td>10:06</td><td>2:24</td>        </tr>
         <tr>
-            <td>62</td><td>4:32:28</td><td>0:10:54</td><td>6 / 80</td><td>1.55 / 19.34</td><td>7.03</td><td>1.82</td>
-        </tr>
-        
+<td>72</td><td>4:21:34</td><td>0:31:06</td><td>7 / 74</td><td>1.08 / 17.79</td><td>28:42</td><td>4:26</td>        </tr>
         <tr>
-            <td>63</td><td>4:40:36</td><td>0:08:08</td><td>6 / 86</td><td>0.89 / 20.23</td><td>9.13</td><td>1.36</td>
-        </tr>
-        
+<td>62</td><td>4:32:28</td><td>0:10:54</td><td>6 / 80</td><td>1.55 / 19.34</td><td>7:01</td><td>1:49</td>        </tr>
         <tr>
-            <td>45</td><td>4:52:39</td><td>0:12:03</td><td>4 / 90</td><td>1.25 / 21.48</td><td>9.65</td><td>3.01</td>
-        </tr>
-        
+<td>63</td><td>4:40:36</td><td>0:08:08</td><td>6 / 86</td><td>0.89 / 20.23</td><td>9:07</td><td>1:21</td>        </tr>
         <tr>
-            <td>44</td><td>5:01:44</td><td>0:09:05</td><td>4 / 94</td><td>1.31 / 22.79</td><td>6.93</td><td>2.27</td>
-        </tr>
-        
+<td>45</td><td>4:52:39</td><td>0:12:03</td><td>4 / 90</td><td>1.25 / 21.48</td><td>9:39</td><td>3:00</td>        </tr>
         <tr>
-            <td>69</td><td>5:13:20</td><td>0:11:36</td><td>6 / 100</td><td>1.33 / 24.12</td><td>8.73</td><td>1.93</td>
-        </tr>
-        
+<td>44</td><td>5:01:44</td><td>0:09:05</td><td>4 / 94</td><td>1.31 / 22.79</td><td>6:55</td><td>2:16</td>        </tr>
         <tr>
-            <td>51</td><td>5:27:11</td><td>0:13:51</td><td>5 / 105</td><td>0.71 / 24.83</td><td>19.56</td><td>2.77</td>
-        </tr>
-        
+<td>69</td><td>5:13:20</td><td>0:11:36</td><td>6 / 100</td><td>1.33 / 24.12</td><td>8:43</td><td>1:56</td>        </tr>
         <tr>
-            <td>49</td><td>5:37:29</td><td>0:10:18</td><td>4 / 109</td><td>1.20 / 26.03</td><td>8.56</td><td>2.58</td>
-        </tr>
-        
+<td>51</td><td>5:27:11</td><td>0:13:51</td><td>5 / 105</td><td>0.71 / 24.83</td><td>19:33</td><td>2:46</td>        </tr>
         <tr>
-            <td>37</td><td>5:47:30</td><td>0:10:01</td><td>3 / 112</td><td>1.22 / 27.26</td><td>8.19</td><td>3.34</td>
-        </tr>
-        
+<td>49</td><td>5:37:29</td><td>0:10:18</td><td>4 / 109</td><td>1.20 / 26.03</td><td>8:33</td><td>2:34</td>        </tr>
         <tr>
-            <td>30</td><td>5:52:25</td><td>0:04:55</td><td>3 / 115</td><td>0.75 / 28.01</td><td>6.52</td><td>1.64</td>
-        </tr>
-        
+<td>37</td><td>5:47:30</td><td>0:10:01</td><td>3 / 112</td><td>1.22 / 27.26</td><td>8:11</td><td>3:20</td>        </tr>
         <tr>
-            <td>F</td><td>5:55:06</td><td>0:02:41</td><td></td><td>0.52 / 28.53</td><td>5.14</td><td></td>
-        </tr>
-        
+<td>30</td><td>5:52:25</td><td>0:04:55</td><td>3 / 115</td><td>0.75 / 28.01</td><td>6:31</td><td>1:38</td>        </tr>
         <tr>
-		    <th></th><th></th><th></th><th>115</th><th>28.53</th><th>12.45</th><th>3.09</th>
-        </tr>
+<td>F</td><td>5:55:06</td><td>0:02:41</td><td></td><td>0.52 / 28.53</td><td>5:08</td><td></td>        </tr>
+        </tbody>
     </table>
-    <script>
-       var cp_list = [
-          [653.0,508.0],[704.9534276506591,537.1005387466921],[825.1204460642739,560.2929445206078],[940.3139501047077,668.2394897496542],[1070.2722274980856,496.42899491029397],[999.2747257607872,399.78348416580917],[1002.147333670235,131.67017206848237],[833.2293915647654,89.94812951477604],[697.020287712093,137.456865844549],[647.8196170824566,205.81104647451514],[538.6884274731137,62.918137432639924],[430.10362327808167,105.74733656041417],[329.4615798422076,68.31500971513731],[181.40664439894732,102.95221645719488],[163.4992925314112,189.35433882170764],[210.27710218938142,302.2296528793115],[212.43952240561208,431.45938606331396],[317.45035766442874,509.8540572996018],[355.0711965379095,568.4601361861439],[453.90869314365995,503.136715694652],[574.3864569363308,512.9910767351971],[634.2682596007016,555.7715595476355],[653.0,508.0],
-       ]
-       var canvas = document.getElementById("map");
-       var context = canvas.getContext("2d");
-       var map = new Image();
-       map.src = "map.jpg";
-       map.onload = function() {
-          canvas.width = this.naturalWidth;
-          canvas.height = this.naturalHeight;
-          context.scale(1, 1);
-          context.drawImage(map, 0, 0);
-          context.strokeStyle = "rgba(255,0,0,0.8)";
-          context.fillStyle = "rgba(255,0,0,0.8)";
-          for (i=0; i<cp_list.length; i++) {
-             context.beginPath();
-             context.arc(cp_list[i][0], cp_list[i][1], 3, 0, Math.PI * 2, false);
-             context.closePath();
-             context.stroke();
-             context.fill();
-          }
-          context.lineWidth = 4;
-          var old_x = cp_list[0][0], old_y = cp_list[0][1];
-          for (i=1; i<cp_list.length; i++) {
-             context.beginPath();
-             context.moveTo(old_x, old_y);
-             context.lineTo(cp_list[i][0], cp_list[i][1]);
-             context.stroke();
-             old_x = cp_list[i][0];
-             old_y = cp_list[i][1];
-          }
-          /*
-          context.beginPath();
-          context.moveTo(s[0] + arrow[0][0], s[1] + arrow[0][1]);
-          for (i=1; i<arrow.length; i++) {
-             context.lineTo(s[0] + arrow[i][0], s[1] + arrow[i][1]);
-          }
-          context.stroke();
-          context.fill();
-          */
-       };
-    </script>
 </body>
 </html>
