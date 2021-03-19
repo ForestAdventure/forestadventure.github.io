@@ -1,7 +1,7 @@
 # Site settings
 title: Forest Adventure
 description: > # this means to ignore newlines until "baseurl:"
-baseurl: "/newsite" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://forestadventure.ru" # the base hostname & protocol for your site
 author: Copyright &copy; 2021 - Forest Adventure
 lang: ru_RU
