@@ -1,35 +1,50 @@
 ---
-layout: default
+layout: base
 ---
 
-<article {% if page.feature-img %}class="feature-image"{% endif %}>
-
-  <header id="main" style="background-image: url('{{ page.feature-img | relative_url }}')">
-    <div class="title-padder">
-      {% if page.hide_title %}
-        <div class="feature-image-padding"></div>
-      {% else %}
-        <h1 id="{{ page.title | default: "" | cgi_escape }}" class="title"> {{ page.title }}</h1>
-        {% if page.subtitle %}
-        <h2 class="subtitle">{{ page.subtitle }}</h2>
-        {% endif %}
-      {% endif %}
+<!-- Header -->
+<header class="masthead pagehead" {% if page.background_image %} style="background-image: {{ page.background_image }}"{% endif %} >
+  <div class="container h-100">
+    <div class="row h-100 align-items-center justify-content-center text-center">
+      <div class="col-lg-10 ">
+        <h1 class="text-uppercase text-white font-weight-bold">{{ page.title }}</h1>
+        <hr class="divider my-4">
+      </div>
     </div>
-  </header>
-
-  <section class="post-content">
-  {% if page.bootstrap %}
-  <div class="bootstrap-iso">
-  {% endif %}
-	{{ content }}
-  {% if page.bootstrap %}
   </div>
+</header>
+
+<!-- Any Ready-to-Use sections -->
+{% for section in page.sections %}
+    {% include {{ section.type }} section=section site=site page=page %}
+{% endfor %}
+
+<!-- include content as section -->
+{% if content != "" %}
+<section class="page-section {{ page.background_style }}">
+  <div class="container">
+    {{ content }}
+  </div>
+</section>
+{% endif %}
+
+<style>
+  {% if page.regulations %}
+  body { counter-reset: h1 }
+  h1 { counter-reset: h2 }
+  h2 { counter-reset: h3 }
+  h3 { counter-reset: h4 }
+  h2:before {
+    counter-increment: h2;
+    content: counter(h2) ". "
+  }
+  h3:before {
+    counter-increment: h3;
+    content: counter(h2) "." counter(h3) ". "
+  }
+  h4:before {
+    counter-increment: h4;
+    content: counter(h2) "." counter(h3) "." counter(h4) ". "
+  }
   {% endif %}
-  </section>
-
-
-  <!-- Tag list for portfolio -->
-  {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
-  {% include tags_list.html tags=tag_list %}
-
-</article>
+</style>

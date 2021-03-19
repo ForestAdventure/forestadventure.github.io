@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Система электронной отметки Sportiduino
+title: Sportiduino
 permalink: /sportiduino/
-hide: true
 ---
 
-{% include aligner.html images="images/2020/sportiduino_punching_1.jpg,images/2020/sportiduino_punching_2.jpg" column=2 %}
+Система электронной отметки
+===========================
+
+{% include aligner.html images="assets/img/2020/sportiduino_punching_1.jpg,assets/img/2020/sportiduino_punching_2.jpg" %}
 *Способ закрепления чипа и отметка на контрольном пункте.*
 
 Участникам выдаются чипы электронной отметки перед стартом.

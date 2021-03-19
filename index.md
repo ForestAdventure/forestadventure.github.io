@@ -1,0 +1,161 @@
+---
+layout: home
+header:
+  title: Forest Adventure
+  text: >
+    Рогейны и спортивное ориентирование для всех!
+  action: # action button is optional
+    label: Календарь
+    url: '#events'
+
+
+sections:
+#  - type: services.html
+#    section_id: services
+#    #background_style: bg-info
+#    title: At Your Service
+#    services:
+#      - title: Sturdy Templates
+#        text: Our templates are updated regularly so they don't break.
+#        icon: fa-gem text-info
+#        url: https://startbootstrap.com/
+#      - title: Ready to Ship
+#        text: You can use this theme as is, or you can make changes!
+#        icon: fa-paper-plane
+#      - title: Up to Date
+#        text: We update dependencies to keep things fresh.
+#        icon: fa-laptop-code
+#      - title: Made with Love
+#        text: You have to make your websites with love these days!
+#        icon: fa-heart
+#      - title: Other 1
+#        text: Some not-so long text here.
+#        icon: fa-heart
+#      - title: Other 2
+#        text: Some not-so long text here.
+#        icon: fa-heart
+
+  - type: events.html
+    section_id: events
+    #background_style: bg-dark
+    title: Наши события
+    events:
+      - title: Рогейн Ёлкино
+        img: assets/img/2021/yolkino1.jpg
+        date: 10 июля 2021 г.
+        place: Воскресенский ГО
+        format: 5 и 3 часа бегом или на велосипеде
+        text: >-
+          Одна из самых интересных местностей Подмосковья — сосновые посадки на месте знаменитого бывшего Лопатинского рудника.
+          Десятки маленьких искусственных озёр с водой причудливого цвета.
+          Скоростные дороги. Значительно улучшенная (наша) карта.
+
+      - title: Рогейн Forest Adventure
+        img: assets/img/2021/nerskaya.jpg
+        date: 28 августа 2021 г.
+        place: Орехово-Зуевский ГО, берег реки Нерской
+        format: 8/4 часа бегом, 6/3 часа на велосипеде
+        text: >-
+          Берег Нерской — один из самых живописных уголков Подмосковья, в котором еще не проводились рогейны.
+
+      - title: Большое ночное ориентирование Андрея Зайцева
+        img: assets/img/2021/bno1.jpg
+        date: 13-14 ноября 2021 г.
+        text: >-
+          В 2021 году БНО пройдёт уже в 16-й раз!
+        actions:
+          - title: Как это было
+            url: 'http://tkmgtu.ru/library/Большое_Ночное_Ориентирование'
+            small: true
+
+  - type: call-to-action.html
+    section_id: historylink
+    background_style: bg-primary
+    #background_style: bg-info text-white
+    title: История
+    text: Результаты, карты, фотографии прошедших событий
+    actions:
+      - title: Подробнее
+        url: 'history'
+        class: btn-light
+
+#  - type: aside.html
+#    section_id: aside
+#    title: Free Download at Start Bootstrap!
+#    actions:
+#      - title: Download Now!
+#        url: https://startbootstrap.com/themes/creative/
+#        class: btn-light
+#
+#  - type: members.html
+#    section_id: members
+#    title: Our Crew!
+#    background_style: bg-info text-white
+#    members:
+#      - title: Christina M. Aponte
+#        text: Singer and Songwriter
+#        image: assets/img/members/person1.jpg
+#        url: '#'
+#      - title: Gary D. Stevens
+#        text: Bass guitar.
+#        image: assets/img/members/person2.jpg
+#        url: '#'
+#      - title: Devon J. Fletcher
+#        text: Lead guitar.
+#        image: assets/img/members/person3.jpg
+#        url: '#'
+#      - title: Todd E. Anderson
+#        text: Drums, percussion.
+#        image: assets/img/members/person5.jpg
+#        url: '#'
+#      - title: Daniel T. Riley
+#        text: Musician, songwriter, producer.
+#        image: assets/img/members/person6.jpg
+#        url: '#'
+#      - title: Ella P. Walter
+#        text: PR.
+#        image: assets/img/members/person7.jpg
+#        url: '#'
+
+#  - type: timeline.html
+#    section_id: timeline
+#    title: История
+#    background_style: bg-dark text-primary
+#    last_image: assets/img/timeline-end.png
+#    actions:
+#      - image: assets/img/portfolio/thumbnails/1.jpg
+#        title: >+
+#          2015-2019
+#          Владимирский рогейн
+#      - image: assets/img/portfolio/thumbnails/2.jpg
+#        title: >+
+#          2016-...
+#          БНО
+#        text:
+
+  - type: contact.html
+    section_id: contacts
+    title: Оставайтесь на связи!
+    text: >-
+      Новости, фотографии, полезную информацию мы публикуем на наших страницах в социальных сетях.
+      Там же вы можете задать любые вопросы, поделиться впечатлениями.
+      Или пишите нам на электнонную почту, с радостью ответим!
+    actions:
+    - title: 'info@forestadventure.ru'
+      icon: fa-envelope
+      url: mailto:info@forestadventure.ru
+    - title: '@forestadventure'
+      icon: fa-telegram
+      icon_type: fab
+      url: 'https://t.me/forestadventure'
+    - title: forestadventureru
+      icon: fa-vk
+      icon_type: fab
+      url: 'https://vk.com/forestadventureru'
+    - title: '@forest_adventure_ru'
+      icon: fa-instagram
+      icon_type: fab
+      url: 'http://instagram.com/forest_adventure_ru'
+
+
+---

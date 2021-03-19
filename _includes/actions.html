@@ -1,0 +1,17 @@
+{% if include.actions %}
+<div class="row justify-content-center">
+  <div class="col md-auto text-center">
+    {% for action in include.actions %}
+      {% assign url = action.url %}
+      {% if action.relative %}
+        {% assign url = action.url | relative_url %}
+      {% endif %}
+      {% assign class = "btn btn-xl js-scroll-trigger" %}
+      {% if action.small %}
+        {% assign class = "btn rounded-pill js-scroll-trigger" %}
+      {% endif %}
+      <a href="{{ url }}" class="{{ class }} {{ action.class | default: "btn-primary" }}">{{ action.title }}</a>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

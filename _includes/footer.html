@@ -1,12 +1,14 @@
-<footer class="site-footer">
-    <p class="text">
-        {{ site.footer_text | default: "Powered by <a href='https://jekyllrb.com/'>Jekyll</a> with <a href='https://github.com/sylhare/Type-on-Strap'>Type on Strap</a>" }}</p>
-            <div class="footer-icons">
-                <ul>
-                <!-- Social icons from Font Awesome, if enabled -->
-                {% include icons.html %}
-                </ul>
-            </div>
+<!-- no footer at all! -->
+<footer class="bg-light py-5">
+  <div class="container">
+    <div class="small text-center text-muted">
+      {{ site.data.footer.copyright }}
+      &nbsp;
+      {% for link in site.data.footer.links %}
+          <a href="{{ link.url }}" {% assign new_window_is_not_empty = link.new_window | is_not_empty %}
+          {% if new_window_is_not_empty %}target="_blank" rel="noopener"
+          {% endif %}>{{ link.text }}</a>
+      {% endfor %} 
+    </div>
+  </div>
 </footer>
-
-

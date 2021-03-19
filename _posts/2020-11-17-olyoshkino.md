@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Ночное О-лёшкино 2020
 regulations: true
 tags: [Положение, "2020"]
@@ -8,7 +8,7 @@ tags: [Положение, "2020"]
 Информация о тренировочной встрече
 ==================================
 
-![]({{"/images/2020/logo-olyoshkino300.png" | relative_url}})
+![]({{"assets/img/2020/logo-olyoshkino300.png" | relative_url}})
 
 Результаты:
 * [Минирогейн]({{"/files/2020/olyoshkino-res-rogaining.html" | relative_url}}), [карта]({{"/files/2020/map-olyoshkino-rogaining.png" | relative_url}})
