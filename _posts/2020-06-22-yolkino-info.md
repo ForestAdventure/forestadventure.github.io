@@ -12,7 +12,7 @@ tags: [Положение, Рогейн, QR Ёлкино, "2020"]
 Положение
 =========
 
-![logo]({{ "/images/2020/logo-yolkino-200.png" | relative_url }})
+![logo]({{ "assets/img/2020/logo-yolkino-200.png" | relative_url }})
 
 Дата и место проведения
 -----------------------
