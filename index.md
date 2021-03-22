@@ -10,31 +10,6 @@ header:
 
 
 sections:
-#  - type: services.html
-#    section_id: services
-#    #background_style: bg-info
-#    title: At Your Service
-#    services:
-#      - title: Sturdy Templates
-#        text: Our templates are updated regularly so they don't break.
-#        icon: fa-gem text-info
-#        url: https://startbootstrap.com/
-#      - title: Ready to Ship
-#        text: You can use this theme as is, or you can make changes!
-#        icon: fa-paper-plane
-#      - title: Up to Date
-#        text: We update dependencies to keep things fresh.
-#        icon: fa-laptop-code
-#      - title: Made with Love
-#        text: You have to make your websites with love these days!
-#        icon: fa-heart
-#      - title: Other 1
-#        text: Some not-so long text here.
-#        icon: fa-heart
-#      - title: Other 2
-#        text: Some not-so long text here.
-#        icon: fa-heart
-
   - type: events.html
     section_id: events
     #background_style: bg-dark
@@ -132,6 +107,35 @@ sections:
 #          2016-...
 #          БНО
 #        text:
+
+  - type: gallery.html
+    section_id: gallery
+    background_style: bg-dark
+    images:
+      - img: gallery/0.jpg
+        thumb: gallery/thumb0.jpg
+      - img: gallery/1.jpg
+        thumb: gallery/thumb1.jpg
+      - img: gallery/2.jpg
+        thumb: gallery/thumb2.jpg
+      - img: gallery/3.jpg
+        thumb: gallery/thumb3.jpg
+      - img: gallery/4.jpg
+        thumb: gallery/thumb4.jpg
+      - img: gallery/5.jpg
+        thumb: gallery/thumb5.jpg
+      - img: gallery/6.jpg
+        thumb: gallery/thumb6.jpg
+      - img: gallery/7.jpg
+        thumb: gallery/thumb7.jpg
+      - img: gallery/8.jpg
+        thumb: gallery/thumb8.jpg
+      - img: gallery/9.jpg
+        thumb: gallery/thumb9.jpg
+      - img: gallery/10.jpg
+        thumb: gallery/thumb10.jpg
+      - img: gallery/11.jpg
+        thumb: gallery/thumb11.jpg
 
   - type: contact.html
     section_id: contacts
