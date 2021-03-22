@@ -11,8 +11,8 @@ sections:
   title: Система электронной отметки
 #  background_style: bg-info
 #  text_style: text-left text-white
-#{% include aligner.html images="assets/img/2020/sportiduino_punching_1.jpg,assets/img/2020/sportiduino_punching_2.jpg" %}
   text: >+
+    {% include aligner.html images="assets/img/2020/sportiduino_punching_1.jpg,assets/img/2020/sportiduino_punching_2.jpg" %}
     *Способ закрепления чипа и отметка на контрольном пункте.*
     
     Участникам выдаются чипы электронной отметки перед стартом.
@@ -33,8 +33,7 @@ sections:
     
     В случае утраты чипа, участник должен компенсировать его стоимость 100 рублей.
     
-    Правила отметки на КП
-    ---------------------
+    ### Правила отметки на КП
     
     * Поднести чип примерно к центру оранжевого круга на лицевой стороне станции.
     * В случае успешной отметки станция издаст звуковой сигнал и мигнет один раз светодиодом.
