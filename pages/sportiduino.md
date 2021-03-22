@@ -2,11 +2,16 @@
 layout: page
 title: Sportiduino
 permalink: /sportiduino/
----
+#background_style: bg-info
+#background_image: url('assets/img/backgrounds/image-from-rawpixel-id-1199650-jpeg.jpg')
 
-Система электронной отметки
-===========================
-
+sections:
+- type: paragraph.html
+  section_id: sportiduino
+  title: Система электронной отметки
+#  background_style: bg-info
+#  text_style: text-left text-white
+  text: >+
 {% include aligner.html images="assets/img/2020/sportiduino_punching_1.jpg,assets/img/2020/sportiduino_punching_2.jpg" %}
 *Способ закрепления чипа и отметка на контрольном пункте.*
 
@@ -47,3 +52,4 @@ permalink: /sportiduino/
 
 [Страница проекта на Github](https://github.com/sportiduino/sportiduino).
 
+---
