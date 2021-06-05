@@ -5,7 +5,7 @@ permalink: /yolkino2021-info/
 regulations: true
 ---
 
-![logo]({{ "assets/img/2021/logo-yolkino-grad.png" | relative_url }})
+![logo]({{ "assets/img/2021/logo-yolkino-grad-200.png" | relative_url }})
 
 Информационный бюллетень №1
 =========
