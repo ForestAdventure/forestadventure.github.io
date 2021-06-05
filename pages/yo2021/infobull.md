@@ -69,7 +69,7 @@ regulations: true
 
 Образцы карты
 
-{% include aligner.html images="assets/img/2020/map-example1.png,assets/img/2020/map-example2.png,assets/img/2020/map-example3.png" column=3 %}
+{% include aligner.html images="assets/img/2021/yo-map-example1.png,assets/img/2020/map-example2.png,assets/img/2020/map-example3.png" column=3 %}
 
 Программа
 ------------------------------------
