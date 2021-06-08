@@ -32,9 +32,6 @@ sections:
             url: 'https://orgeo.ru/event/yolkino2021'
             small: true
 
-
-
-
       - title: Рогейн Forest Adventure
         img: assets/img/2021/nerskaya.jpg
         date: 28 августа 2021 г.
