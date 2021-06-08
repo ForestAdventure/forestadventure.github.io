@@ -1,13 +1,17 @@
+{% assign images = include.images | split: ',' %}
+{% assign urls = include.urls | split: ',' %}
 <div class="row">
   {% for image in images %}
+  {% assign index = {{forloop.index}} %}
+  {% assign url = urls[index] %}
   <div class="col-lg-3 col-md-4 col-xs-6">
-    {% if image.url %}
-    <a href="{{ image.url }}">
+    {% if url %}
+    <a href="{{ url }}">
     {% endif %}
       <img class="rounded img-fluid"
-           src="{{ image.img | prepend: '/' | relative_url }}"
-           alt="{{ image.img | prepend: '/' | split: '/' | last }}">
-    {% if image.url %}
+           src="{{ image | prepend: '/' | relative_url }}"
+           alt="{{ image | prepend: '/' | split: '/' | last }}">
+    {% if url %}
     </a>
     {% endif %}
   </div>
