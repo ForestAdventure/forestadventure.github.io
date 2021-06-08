@@ -333,6 +333,8 @@ regulations: true
 
 Канал в Telegram <https://t.me/forestadventure>
 
+Страница в Instagram <https://www.instagram.com/forest_adventure_ru/>
+
 Спонсоры и партнёры
 -------------------
 
