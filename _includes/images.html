@@ -1,0 +1,15 @@
+<div class="row">
+  {% for image in images %}
+  <div class="col-lg-3 col-md-4 col-xs-6">
+    {% if image.url %}
+    <a href="{{ image.url }}">
+    {% endif %}
+      <img class="rounded img-fluid"
+           src="{{ image.img | prepend: '/' | relative_url }}"
+           alt="{{ image.img | prepend: '/' | split: '/' | last }}">
+    {% if image.url %}
+    </a>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
