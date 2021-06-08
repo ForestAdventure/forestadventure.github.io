@@ -70,8 +70,7 @@ tags: [Положение, Рогейн, "2020"]
 
 Образцы карты
 
-{% include images.html images="assets/img/2020/map-example1.png,assets/img/2020/map-example2.png,assets/img/2020/map-example3.png"
-    urls="assets/img/2020/map-example1.png,assets/img/2020/map-example2.png,assets/img/2020/map-example3.png" %}
+{% include images.html images="assets/img/2020/map-example1.png,assets/img/2020/map-example2.png,assets/img/2020/map-example3.png" %}
 
 Программа
 ------------------------------------
