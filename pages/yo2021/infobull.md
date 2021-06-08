@@ -95,7 +95,7 @@ regulations: true
 
 Образцы карты
 
-{% include aligner.html images="assets/img/2021/map-yo-example1.png,assets/img/2021/map-yo-example2.png,assets/img/2021/map-yo-example3.png" %}
+{% include images.html images="assets/img/2021/map-yo-example1.png,assets/img/2021/map-yo-example2.png,assets/img/2021/map-yo-example3.png" %}
 
 Программа
 ------------------------------------
