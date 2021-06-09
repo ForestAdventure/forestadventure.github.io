@@ -338,6 +338,6 @@ regulations: true
 Спонсоры и партнёры
 -------------------
 
-{% include images.html images="assets/img/2020/veloforma-logo-200.png,assets/img/2021/sport-marafon.png,assets/img/2021/arena.png,assets/img/2021/ravesk.jpg"
+{% include images.html images="assets/img/2020/veloforma-logo-200.png,assets/img/2021/sportmarafon.png,assets/img/2021/arena.png,assets/img/2021/ravesk.jpg"
     urls="https://veloforma.net,https://sport-marafon.ru,https://arenasportfood.ru/,http://www.ravesk.ru/" %}
 
