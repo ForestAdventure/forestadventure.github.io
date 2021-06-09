@@ -1,21 +1,25 @@
-<section id="{{ section.section_id }}" class="{{ section.background_style }}">
-  <div class="row">
-    {% for item in section.items %}
-    <div class="col-lg-3 col-md-4 col-xs-6 my-2">
-      {% if item.url %}
-      <a href="{{ item.url }}">
-      {% endif %}
-        <img class="rounded img-fluid"
-          src="{{ item.img | prepend: '/' | relative_url }}"
-          {% if item.name %}
-            alt="{{ item.name }}">
-          {% else %}
-            alt="{{ item.img | prepend: '/' | split: '/' | last }}">
-          {% endif %}
-      {% if item.url %}
-      </a>
-      {% endif %}
+<section class="page-section {{ section.background_style }}" id="{{ section.section_id }}">
+  <div class="container">
+    <h2 class="text-center mt-0">{{ section.title }}</h2>
+    <hr class="divider my-4">
+    <div class="row justify-content-center">
+      {% for item in section.items %}
+      <div class="col-lg-3 col-md-4 col-xs-6 my-2">
+        {% if item.url %}
+        <a href="{{ item.url }}">
+        {% endif %}
+          <img class="rounded img-fluid"
+            src="{{ item.img | prepend: '/' | relative_url }}"
+            {% if item.name %}
+              alt="{{ item.name }}">
+            {% else %}
+              alt="{{ item.img | prepend: '/' | split: '/' | last }}">
+            {% endif %}
+        {% if item.url %}
+        </a>
+        {% endif %}
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 </section>
