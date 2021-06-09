@@ -12,8 +12,7 @@ header:
 sections:
   - type: call-to-action.html
     section_id: nearestevent
-    #background_style: bg-primary
-    #background_style: bg-info text-white
+    background_style: bg-info text-white
     title: Рогейн Ёлкино
     text: 10 июля, Воскресенский ГО
     actions:
