@@ -10,6 +10,17 @@ header:
 
 
 sections:
+  - type: call-to-action.html
+    section_id: nearestevent
+    #background_style: bg-primary
+    #background_style: bg-info text-white
+    title: Рогейн Ёлкино
+    text: 10 июля, Воскресенский ГО
+    actions:
+      - title: Заявиться!
+        url: 'https://orgeo.ru/event/yolkino2021'
+        class: btn-light
+
   - type: events.html
     section_id: events
     #background_style: bg-dark
