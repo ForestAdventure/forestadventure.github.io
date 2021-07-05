@@ -19,7 +19,9 @@ regulations: true
 
 Координаты точки старта — N 55.31449° E 38.81744° ([Nakarte](https://nakarte.me/#m=15/55.31449/38.81744&l=O&nktl=EbI_NrKxLjpkji1JQHDmnA), [Яндекс](https://yandex.ru/maps/-/CCUaVPSRDD))
 
-![Путь на старт]({{ "assets/img/2021/start.png" | relative_url }})
+{% include images.html images="assets/img/2021/start-thumb.png"
+    urls="assets/img/2021/start.png"
+    alts="Путь на старт" %}
 
 **Проезд на общественном транспорте.**
 
