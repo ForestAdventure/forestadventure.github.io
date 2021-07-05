@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Рогейн Ёлкино 2021
+title: Рогейн Ёлкино 2021. Бюллетень №2
 permalink: /yolkino2021-info2/
 #background_image: url('assets/img/2021/yo-banner.png')
 regulations: true
@@ -41,6 +41,10 @@ regulations: true
 [Расписание автобусов до Хорлово](https://rasp.yandex.ru/search/bus/?fromId=s9744205&toId=c26568&when=10+%D0%B8%D1%8E%D0%BB%D1%8F)
 
 [Расписание автобусов до Ёлкино](https://rasp.yandex.ru/search/bus/?fromId=s9744205&toId=s9743431&when=10+%D0%B8%D1%8E%D0%BB%D1%8F)
+
+<span style="background-color: #FFFF00">
+**Проезд на автомобиле** до деревни Ёлкино. Парковка на поле вдоль дороги (см. схему).
+</span>
 
 Организаторы
 ------------
@@ -294,7 +298,7 @@ regulations: true
 Участники должны бережно обращаться с чипами.
 В случае утраты чипа, участник должен компенсировать его стоимость 100 рублей.
 
-<span style="background-color: #FFFF00">[Подробнее про работу с системой отметки]({{ "sportiduino/" | relative_url}})</span>
+<span style="background-color: #FFFF00">[Подробнее про работу с системой отметки.]({{ "sportiduino/" | relative_url}})</span>
 
 Заявка
 ----------------------------------
