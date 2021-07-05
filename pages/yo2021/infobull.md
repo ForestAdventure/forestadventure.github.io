@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Рогейн Ёлкино 2021
-permalink: /yolkino2021-info/
+permalink: /yolkino2021-info1/
 #background_image: url('assets/img/2021/yo-banner.png')
 regulations: true
 ---
