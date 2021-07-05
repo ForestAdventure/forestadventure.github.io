@@ -8,7 +8,11 @@
   {% assign alt = alts[index] %}
   <div class="col-lg-3 col-md-4 col-xs-6 my-2">
     {% if url %}
-    <a href="{{ url }}">
+      {% if url[:4] == 'http' %}
+        <a href="{{ url | relative_url}}">
+      {% else %}
+        <a href="{{ url }}">
+      {% endif %}
     {% endif %}
       <img class="rounded img-fluid"
         src="{{ image | prepend: '/' | relative_url }}"
