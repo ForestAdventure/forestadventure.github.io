@@ -16,8 +16,8 @@ sections:
     title: Рогейн Ёлкино
     text: 10 июля, Воскресенский ГО
     actions:
-      - title: Заявиться!
-        url: 'https://orgeo.ru/event/yolkino2021'
+      - title: Результаты
+        url: 'files/2021/yo/results.html'
         class: btn-light
 
   - type: events.html
@@ -38,8 +38,8 @@ sections:
           - title: Инфобюллетень №2
             url: 'yolkino2021-info'
             small: true
-          - title: Заявка
-            url: 'https://orgeo.ru/event/yolkino2021'
+          - title: Результаты
+            url: 'files/2021/yo/results.html'
             small: true
 
       - title: Рогейн Forest Adventure
