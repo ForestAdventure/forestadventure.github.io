@@ -14,8 +14,12 @@ sections:
     section_id: nearestevent
     background_style: bg-info text-white
     title: Рогейн Ёлкино
-    text: 10 июля, Воскресенский ГО
+    text: >-
+      10 июля, Воскресенский ГО
     actions:
+      - title: Стартовый протокол
+        url: 'files/2021/yo/start_list.html'
+        class: btn-light
       - title: Результаты
         url: 'files/2021/yo/results.html'
         class: btn-light
