@@ -23,6 +23,9 @@ sections:
       - title: Результаты
         url: 'files/2021/yo/results.html'
         class: btn-light
+      - title: Карта 
+        url: 'files/2021/yo/map150dpi.png'
+        class: btn-light
 
   - type: events.html
     section_id: events
