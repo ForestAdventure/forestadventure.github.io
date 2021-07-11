@@ -17,9 +17,6 @@ sections:
     text: >-
       10 июля, Воскресенский ГО
     actions:
-      - title: Стартовый протокол
-        url: 'files/2021/yo/start_list.html'
-        class: btn-light
       - title: Результаты
         url: 'files/2021/yo/results.html'
         class: btn-light
