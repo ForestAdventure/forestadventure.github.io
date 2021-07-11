@@ -45,6 +45,11 @@ sections:
           - title: Результаты
             url: 'files/2021/yo/results.html'
             small: true
+          - title: Карта 
+            url: 'files/2021/yo/map150dpi.png'
+            small: true
+
+
 
       - title: Рогейн Forest Adventure
         img: assets/img/2021/nerskaya.jpg
