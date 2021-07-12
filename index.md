@@ -23,6 +23,11 @@ sections:
       - title: Карта 
         url: 'files/2021/yo/map150dpi.png'
         class: btn-light
+      - title: GPS трансляция
+        url: 'https://viewer.o-gps-center.ru/viewer/event/10463/'
+        class: btn-light
+
+
 
   - type: events.html
     section_id: events
