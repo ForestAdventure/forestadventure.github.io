@@ -48,7 +48,7 @@ sections:
           - title: Карта 
             url: 'files/2021/yo/map150dpi.png'
             small: true
-          - title: GPS трансляция
+          - title: GPS
             url: 'https://viewer.o-gps-center.ru/viewer/event/10463/'
             small: true
 
