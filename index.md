@@ -13,21 +13,16 @@ sections:
   - type: call-to-action.html
     section_id: nearestevent
     background_style: bg-info text-white
-    title: Рогейн Ёлкино
+    title: Рогейн Forest Adventure
     text: >-
-      10 июля, Воскресенский ГО
+      28 августа, берег Нерской
     actions:
-      - title: Результаты
-        url: 'files/2021/yo/results.html'
+      - title: Заявка
+        url: 'https://orgeo.ru/event/fa2021'
         class: btn-light
-      - title: Карта 
-        url: 'files/2021/yo/map150dpi.png'
+      - title: Инфобюллетень
+        url: 'fa2021-info'
         class: btn-light
-      - title: GPS трансляция
-        url: 'https://viewer.o-gps-center.ru/viewer/event/10463/'
-        class: btn-light
-
-
 
   - type: events.html
     section_id: events
@@ -53,8 +48,9 @@ sections:
           - title: Карта 
             url: 'files/2021/yo/map150dpi.png'
             small: true
-
-
+          - title: GPS трансляция
+            url: 'https://viewer.o-gps-center.ru/viewer/event/10463/'
+            small: true
 
       - title: Рогейн Forest Adventure
         img: assets/img/2021/nerskaya.jpg
@@ -62,7 +58,15 @@ sections:
         place: Орехово-Зуевский ГО, берег реки Нерской
         format: 8/4 часа бегом, 6/3 часа на велосипеде
         text: >-
-          Берег Нерской — один из самых живописных уголков Подмосковья, в котором еще не проводились рогейны.
+          Берег Нерской — один из самых живописных уголков Подмосковья! Почему его так долго рогейны обходили стороной?
+        actions:
+          - title: Инфобюллетень
+            url: 'fa2021-info'
+            small: true
+          - title: Заявка
+            url: 'https://orgeo.ru/event/fa2021'
+            small: true
+ 
 
       - title: Большое ночное ориентирование Андрея Зайцева
         img: assets/img/2021/bno1.jpg
