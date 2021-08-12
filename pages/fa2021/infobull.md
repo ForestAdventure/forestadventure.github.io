@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Рогейн Forest Adventure 2021
-permalink: /fa2021-info/
+permalink: /fa2021-info1/
 regulations: true
 ---
 
