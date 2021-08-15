@@ -315,7 +315,7 @@ regulations: true
 Спонсоры и партнёры
 -------------------
 
-{% include images.html images="assets/img/2021/arena.png,assets/img/2021/ravesk.jpg"
-    urls="https://arenasportfood.ru/,http://www.ravesk.ru/"
-    alts="Arena,Ravesk" %}
+{% include images.html images="assets/img/2020/veloforma-logo-200.png,assets/img/2021/arena.png,assets/img/2021/ravesk.jpg"
+    urls="https://veloforma.net,https://arenasportfood.ru/,http://www.ravesk.ru/"
+    alts="Veloforma.Net,Arena,Ravesk" %}
 
