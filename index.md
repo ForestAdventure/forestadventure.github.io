@@ -222,12 +222,12 @@ sections:
       - name: Veloforma.Net
         url: https://veloforma.net
         img: assets/img/2020/veloforma-logo-200.png
-      - name: «Спорт-Марафон»
-        url: https://sport-marafon.ru
-        img: assets/img/2021/sportmarafon.png
       - name: Arena
         url: https://arenasportfood.ru
         img: assets/img/2021/arena.png
+      - name: Территория странствий
+        url: https://tur-eda.ru
+        img: assets/img/2021/terr.jpg
       - name: Ravesk
         url: https://o-ravesk.com
         img: assets/img/2021/ravesk.jpg
