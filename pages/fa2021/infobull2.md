@@ -316,6 +316,6 @@ regulations: true
 -------------------
 
 {% include images.html images="assets/img/2020/veloforma-logo-200.png,assets/img/2021/arena.png,assets/img/2021/ravesk.jpg"
-    urls="https://veloforma.net,https://arenasportfood.ru/,http://www.ravesk.ru/"
+    urls="https://veloforma.net,https://arenasportfood.ru/,https://o-ravesk.com/"
     alts="Veloforma.Net,Arena,Ravesk" %}
 

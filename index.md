@@ -229,7 +229,7 @@ sections:
         url: https://arenasportfood.ru
         img: assets/img/2021/arena.png
       - name: Ravesk
-        url: http://www.ravesk.ru
+        url: https://o-ravesk.com
         img: assets/img/2021/ravesk.jpg
 
 ---

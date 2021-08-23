@@ -365,6 +365,6 @@ _Дополнения относительно Бюллетеня №1 выде�
 -------------------
 
 {% include images.html images="assets/img/2020/veloforma-logo-200.png,assets/img/2021/arena.png,assets/img/2021/ravesk.jpg,assets/img/2021/terr.jpg"
-    urls="https://veloforma.net,https://arenasportfood.ru/,http://www.ravesk.ru/,https://tur-eda.ru/"
+    urls="https://veloforma.net,https://arenasportfood.ru/,https://o-ravesk.com/,https://tur-eda.ru/"
     alts="Veloforma.Net,Arena,Ravesk,Территория странствий" %}
 
