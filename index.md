@@ -17,8 +17,8 @@ sections:
     text: >-
       28 августа, берег Нерской
     actions:
-      - title: Участники
-        url: 'files/2021/fa/startlist.html'
+      - title: Результаты
+        url: 'files/2021/fa/results.html'
         class: btn-light
       - title: Инфобюллетень
         url: 'fa2021-info'
@@ -63,8 +63,8 @@ sections:
           - title: Инфобюллетень
             url: 'fa2021-info'
             small: true
-          - title: Заявка
-            url: 'https://orgeo.ru/event/fa2021'
+          - title: Результаты
+            url: 'files/2021/yo/results.html'
             small: true
  
 
