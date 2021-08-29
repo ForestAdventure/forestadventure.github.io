@@ -39,17 +39,17 @@ sections:
           Десятки маленьких искусственных озёр с водой причудливого цвета.
           Скоростные дороги. Значительно улучшенная (наша) карта.
         actions:
-          - title: Инфобюллетень №2
-            url: 'yolkino2021-info'
-            small: true
           - title: Результаты
             url: 'files/2021/yo/results.html'
             small: true
           - title: Карта 
-            url: 'files/2021/fa/map150dpi.png'
+            url: 'files/2021/yo/map150dpi.png'
             small: true
           - title: GPS
             url: 'https://viewer.o-gps-center.ru/viewer/event/10463/'
+            small: true
+          - title: Инфобюллетень №2
+            url: 'yolkino2021-info'
             small: true
 
       - title: Рогейн Forest Adventure
@@ -60,13 +60,18 @@ sections:
         text: >-
           Берег Нерской — один из самых живописных уголков Подмосковья! Почему его так долго рогейны обходили стороной?
         actions:
+          - title: Результаты
+            url: 'files/2021/fa/results.html'
+            small: true
+          - title: Карта 
+            url: 'files/2021/fa/map150dpi.png'
+            small: true
+          - title: GPS
+            url: 'https://viewer.o-gps-center.ru/viewer/event/10843/'
+            small: true
           - title: Инфобюллетень
             url: 'fa2021-info'
             small: true
-          - title: Результаты
-            url: 'files/2021/yo/results.html'
-            small: true
- 
 
       - title: Большое ночное ориентирование Андрея Зайцева
         img: assets/img/2021/bno1.jpg
