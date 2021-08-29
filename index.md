@@ -20,9 +20,6 @@ sections:
       - title: Результаты
         url: 'files/2021/fa/results.html'
         class: btn-light
-      - title: Инфобюллетень
-        url: 'fa2021-info'
-        class: btn-light
 
   - type: events.html
     section_id: events
