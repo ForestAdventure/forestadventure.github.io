@@ -61,7 +61,7 @@ sections:
             url: 'files/2021/fa/results.html'
             small: true
           - title: Карта 
-            url: 'files/2021/fa/map150dpi.png'
+            url: 'files/2021/fa/map300dpi.png'
             small: true
           - title: GPS
             url: 'https://viewer.o-gps-center.ru/viewer/event/10843/'
