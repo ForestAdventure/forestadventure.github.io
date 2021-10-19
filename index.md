@@ -13,12 +13,15 @@ sections:
   - type: call-to-action.html
     section_id: nearestevent
     background_style: bg-info text-white
-    title: Рогейн Forest Adventure
+    title: Большое ночное ориентирование
     text: >-
-      28 августа, берег Нерской
+      13 ноября, Подушкинский лес
     actions:
-      - title: Результаты
-        url: 'files/2021/fa/results.html'
+      - title: Положение
+        url: 'bno2021-maininfo'
+        class: btn-light
+      - title: Заявка
+        url: 'https://orgeo.ru/event/bno2021'
         class: btn-light
 
   - type: events.html
@@ -76,6 +79,13 @@ sections:
         text: >-
           В 2021 году БНО пройдёт уже в 16-й раз!
         actions:
+          - title: Положение
+            url: 'bno2021-maininfo'
+            small: true
+          - title: Заявка
+            url: 'https://orgeo.ru/event/bno2021'
+            small: true
+
           - title: Как это было
             url: 'http://tkmgtu.ru/library/Большое_Ночное_Ориентирование'
             small: true
