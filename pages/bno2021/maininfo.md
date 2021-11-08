@@ -47,7 +47,7 @@ _Обновлено 8.11.2021. Изменения выделены цветом.
     urls="assets/img/2021/bno-start.png"
     alts="Путь на старт" %}
 
-<iframe width="100%" height="400px" src="https://nakarte.me/#m=15/55.70030/37.24395&l=O&nktl=HneJgsycrMaPU18k6X53wA"></iframe>
+<iframe width="100%" height="400px" src="https://nakarte.me/#m=15/55.70584/37.23430&l=O&nktl=HneJgsycrMaPU18k6X53wA"></iframe>
 
 Дистанции
 ---------------------------------------------------
