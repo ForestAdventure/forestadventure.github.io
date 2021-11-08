@@ -49,7 +49,7 @@ sections:
             url: 'https://viewer.o-gps-center.ru/viewer/event/10463/'
             small: true
           - title: Инфобюллетень №2
-            url: 'yolkino2021-info'
+            url: 'yolkino2021-info2'
             small: true
 
       - title: Рогейн Forest Adventure
