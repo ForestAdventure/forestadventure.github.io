@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Большое ночное ориентирование Андрея Зайцева 2021
-permalink: /bno2021-maininfo1/
+permalink: /bno2021-maininfo/
 regulations: true
 ---
 
