@@ -20,8 +20,8 @@ sections:
       - title: Положение
         url: 'bno2021-maininfo'
         class: btn-light
-      - title: Заявка
-        url: 'https://orgeo.ru/event/bno2021'
+      - title: Протокол старта
+        url: 'files/2021/bno/startlist.html'
         class: btn-light
 
   - type: events.html
