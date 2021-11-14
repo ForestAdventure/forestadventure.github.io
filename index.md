@@ -17,11 +17,11 @@ sections:
     text: >-
       13 ноября, Подушкинский лес
     actions:
+      - title: Результаты
+        url: 'files/2021/bno/results.html'
+        class: btn-light
       - title: Положение
         url: 'bno2021-maininfo'
-        class: btn-light
-      - title: Протокол старта
-        url: 'files/2021/bno/startlist.html'
         class: btn-light
 
   - type: events.html
@@ -82,8 +82,8 @@ sections:
           - title: Положение
             url: 'bno2021-maininfo'
             small: true
-          - title: Заявка
-            url: 'https://orgeo.ru/event/bno2021'
+          - title: Результаты
+            url: 'files/2021/bno/results.html'
             small: true
 
           - title: Как это было
