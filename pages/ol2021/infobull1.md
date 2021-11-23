@@ -67,7 +67,9 @@ regulations: true
 
 Масштаб — 1:7500. Сечение рельефа — 2,5 метра.
 
-[Условные знаки карты и символьные легенды КП](http://fso.msk.ru/files/26-08-2011znaki.pdf)
+[Условные знаки карты]({{ "/files/moscow_symbols.png" | relative_url }})
+
+[Символьные легенды КП](http://moscompass.ru/mosmeridian/leg.gif)
 
 Для защиты карт от влаги будут выдаваться зип-пакеты.
 
