@@ -70,12 +70,8 @@ _Обновлено 24.11.2021. Изменения выделены цветом
 <span style="background-color: #FFFF00">
 Масштаб и формат:
 </span>
-<span style="background-color: #FFFF00">
-* Минирогейн — 1:7500, лист А3;
-</span>
-<span style="background-color: #FFFF00">
-* Заданное направление — 1:8000, лист А4.
-</span>
+* <span style="background-color: #FFFF00">Минирогейн — 1:7500, лист А3;</span>
+* <span style="background-color: #FFFF00">Заданное направление — 1:8000, лист А4.</span>
 
 Сечение рельефа — 2,5 метра.
 
