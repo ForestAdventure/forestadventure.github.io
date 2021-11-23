@@ -84,17 +84,11 @@ _Обновлено 24.11.2021. Изменения выделены цветом
 <span style="background-color: #FFFF00">Параметры дистанций</span>
 -------------------
 
-<span style="background-color: #FFFF00">
-* Минирогейн (МР) — 38 КП, ~10 км, цена КП от 3 до 7;
-</span>
-<span style="background-color: #FFFF00">
-* Заданное направление (ЗН) — 21 КП, 5,5 км по прямым.
-</span>
+* <span style="background-color: #FFFF00">Минирогейн (МР) — 38 КП, ~10 км, цена КП от 3 до 7;</span>
+* <span style="background-color: #FFFF00">Заданное направление (ЗН) — 21 КП, 5,5 км по прямым.</span>
 
-<span style="background-color: #FFFF00">
-Местность
+<span style="background-color: #FFFF00">Местность</span>
 ---------
-</span>
 
 <span style="background-color: #FFFF00">
 Закрытая на 70%.
