@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ночное О-лёшкино 2021
-permalink: /ol2021-info2/
+permalink: /ol2021-info/
 regulations: true
 ---
 
