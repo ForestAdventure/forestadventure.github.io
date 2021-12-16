@@ -59,14 +59,20 @@ sections:
             small: true
 
       - title: Большое ночное ориентирование Андрея Зайцева
-        img: assets/img/2021/bno1.jpg
+        img: assets/img/2021/bno2.jpg
         date: 13-14 ноября 2021 г.
         text: >-
-          В 2021 году БНО пройшло уже в 16-й раз!
+          В 2021 году БНО прошло уже в 16-й раз!
         actions:
           - title: Результаты
             url: 'files/2021/bno/results.html'
             relative: true
+            small: true
+          - title: Фото1
+            url: 'https://drive.google.com/drive/folders/1zPG_rd4P-m33RYBRLzUXFqwGtti-ODxM?usp=sharing'
+            small: true
+          - title: Фото2
+            url: 'https://disk.yandex.ru/d/fwcfhM3iJZvIDg'
             small: true
           - title: Положение
             url: 'bno2021-maininfo'
@@ -96,8 +102,6 @@ sections:
           - title: Фото
             url: 'https://disk.yandex.ru/d/11srwN6ZmD9AJQ'
             small: true
-
-
 
   - type: events.html
     section_id: 2020
