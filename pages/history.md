@@ -73,7 +73,7 @@ sections:
             relative: true
             small: true
       - title: Ночное О-лёшкино
-        img: assets/img/2021/logo-ol-300.jpg
+        img: assets/img/2021/olyoshkino.jpg
         date: 25 ноября 2021 г.
         text:
         actions:
@@ -93,6 +93,11 @@ sections:
             url: 'files/2021/ol/карта-зн-150dpi.png'
             relative: true
             small: true
+          - title: Фото
+            url: 'https://disk.yandex.ru/d/11srwN6ZmD9AJQ'
+            small: true
+
+
 
   - type: events.html
     section_id: 2020
