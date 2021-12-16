@@ -68,6 +68,9 @@ sections:
             url: 'files/2021/bno/results.html'
             relative: true
             small: true
+          - title: GPS
+            url: 'https://viewer.o-gps-center.ru/viewer/event/11519/'
+            small: true
           - title: Фото1
             url: 'https://drive.google.com/drive/folders/1zPG_rd4P-m33RYBRLzUXFqwGtti-ODxM?usp=sharing'
             small: true
@@ -98,6 +101,9 @@ sections:
           - title: Карта ЗН
             url: 'files/2021/ol/карта-зн-150dpi.png'
             relative: true
+            small: true
+          - title: GPS
+            url: 'https://viewer.o-gps-center.ru/viewer/event/11601/'
             small: true
           - title: Фото
             url: 'https://disk.yandex.ru/d/11srwN6ZmD9AJQ'
