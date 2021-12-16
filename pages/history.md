@@ -5,6 +5,84 @@ permalink: /history/
 
 sections:
   - type: events.html
+    section_id: 2021
+    title: 2021 год
+    events:
+      - title: Рогейн Ёлкино
+        img: assets/img/2021/yolkino1.jpg
+        date: 10 июля 2021 г.
+        place: Воскресенский ГО
+        format: 5/4 и 2 часа бегом или на велосипеде
+        text: >-
+          Одна из самых интересных местностей Подмосковья — сосновые посадки на месте знаменитого бывшего Лопатинского рудника.
+          Десятки маленьких искусственных озёр с водой причудливого цвета.
+          Скоростные дороги. Подробная карта.
+        actions:
+          - title: Результаты
+            url: 'files/2021/yo/results.html'
+            small: true
+          - title: Карта 
+            url: 'files/2021/yo/map150dpi.png'
+            small: true
+          - title: GPS
+            url: 'https://viewer.o-gps-center.ru/viewer/event/10463/'
+            small: true
+          - title: Инфобюллетень №2
+            url: 'yolkino2021-info2'
+            small: true
+
+      - title: Рогейн Forest Adventure
+        img: assets/img/2021/nerskaya.jpg
+        date: 28 августа 2021 г.
+        place: Орехово-Зуевский ГО, берег реки Нерской
+        format: 7/3 часа бегом, 6/3 часа на велосипеде
+        text: >-
+          Берег Нерской — один из самых живописных уголков Подмосковья! Почему его так долго рогейны обходили стороной?
+        actions:
+          - title: Результаты
+            url: 'files/2021/fa/results.html'
+            small: true
+          - title: Карта 
+            url: 'files/2021/fa/map300dpi.png'
+            small: true
+          - title: GPS
+            url: 'https://viewer.o-gps-center.ru/viewer/event/10843/'
+            small: true
+          - title: Инфобюллетень
+            url: 'fa2021-info'
+            small: true
+
+      - title: Большое ночное ориентирование Андрея Зайцева
+        img: assets/img/2021/bno1.jpg
+        date: 13-14 ноября 2021 г.
+        text: >-
+          В 2021 году БНО пройшло уже в 16-й раз!
+        actions:
+          - title: Результаты
+            url: 'files/2021/bno/results.html'
+            small: true
+          - title: Положение
+            url: 'bno2021-maininfo'
+            small: true
+      - title: Ночное О-лёшкино
+        img: assets/img/2021/logo-ol-300.jpg
+        date: 25 ноября 2021 г.
+        text:
+        actions:
+          - title: Результаты МР
+            url: 'files/2021/ol/results-mr.html'
+            small: true
+          - title: Результаты ЗН
+            url: 'files/2021/ol/results-zn.html'
+            small: true
+          - title: Карта МР
+            url: 'files/2021/ol/карта-мр-150dpi.png'
+            small: true
+          - title: Карта ЗН
+            url: 'files/2021/ol/карта-зн-150dpi.png'
+            small: true
+
+  - type: events.html
     section_id: 2020
     #background_style: bg-dark
     title: 2020 год
@@ -91,9 +169,6 @@ sections:
       - title: Страница истории БНО
         url: 'https://tkmgtu.ru/library/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B5_%D0%9D%D0%BE%D1%87%D0%BD%D0%BE%D0%B5_%D0%9E%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5'
         class: btn-light
-
-
-
 
 ---
 
