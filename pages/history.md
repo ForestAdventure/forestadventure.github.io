@@ -20,15 +20,18 @@ sections:
         actions:
           - title: Результаты
             url: 'files/2021/yo/results.html'
+            relative: true
             small: true
           - title: Карта 
             url: 'files/2021/yo/map150dpi.png'
+            relative: true
             small: true
           - title: GPS
             url: 'https://viewer.o-gps-center.ru/viewer/event/10463/'
             small: true
           - title: Инфобюллетень №2
             url: 'yolkino2021-info2'
+            relative: true
             small: true
 
       - title: Рогейн Forest Adventure
@@ -41,15 +44,18 @@ sections:
         actions:
           - title: Результаты
             url: 'files/2021/fa/results.html'
+            relative: true
             small: true
           - title: Карта 
             url: 'files/2021/fa/map300dpi.png'
+            relative: true
             small: true
           - title: GPS
             url: 'https://viewer.o-gps-center.ru/viewer/event/10843/'
             small: true
           - title: Инфобюллетень
             url: 'fa2021-info'
+            relative: true
             small: true
 
       - title: Большое ночное ориентирование Андрея Зайцева
@@ -60,9 +66,11 @@ sections:
         actions:
           - title: Результаты
             url: 'files/2021/bno/results.html'
+            relative: true
             small: true
           - title: Положение
             url: 'bno2021-maininfo'
+            relative: true
             small: true
       - title: Ночное О-лёшкино
         img: assets/img/2021/logo-ol-300.jpg
@@ -71,15 +79,19 @@ sections:
         actions:
           - title: Результаты МР
             url: 'files/2021/ol/results-mr.html'
+            relative: true
             small: true
           - title: Результаты ЗН
             url: 'files/2021/ol/results-zn.html'
+            relative: true
             small: true
           - title: Карта МР
             url: 'files/2021/ol/карта-мр-150dpi.png'
+            relative: true
             small: true
           - title: Карта ЗН
             url: 'files/2021/ol/карта-зн-150dpi.png'
+            relative: true
             small: true
 
   - type: events.html
