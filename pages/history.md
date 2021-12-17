@@ -9,7 +9,7 @@ sections:
     title: 2021 год
     events:
       - title: Рогейн Ёлкино
-        img: assets/img/2021/yolkino1.jpg
+        img: assets/img/2021/yolkino.jpg
         date: 10 июля 2021 г.
         place: Воскресенский ГО
         format: 5/4 и 2 часа бегом или на велосипеде
