@@ -10,82 +10,53 @@ header:
 
 
 sections:
-  - type: call-to-action.html
-    section_id: nearestevent
-    background_style: bg-info text-white
-    title: Большое ночное ориентирование
-    text: >-
-      13 ноября, Подушкинский лес
-    actions:
-      - title: Результаты
-        url: 'files/2021/bno/results.html'
-        class: btn-light
-      - title: Положение
-        url: 'bno2021-maininfo'
-        class: btn-light
+  #- type: call-to-action.html
+  #  section_id: nearestevent
+  #  background_style: bg-info text-white
+  #  title: Большое ночное ориентирование
+  #  text: >-
+  #    13 ноября, Подушкинский лес
+  #  actions:
+  #    - title: Положение
+  #      url: 'bno2021-maininfo'
+  #      class: btn-light
 
   - type: events.html
     section_id: events
     #background_style: bg-dark
     title: Наши события
     events:
-      - title: Рогейн Ёлкино
+      - title: Рогейн Forest Adventure Рудниковый
         img: assets/img/2021/yolkino1.jpg
-        date: 10 июля 2021 г.
-        place: Воскресенский ГО
-        format: 5/4 и 2 часа бегом или на велосипеде
+        date: 9 июля 2022 г. (сб)
+        place: Воскресенский ГО, на север от Хорлово
+        format: 6/2 часа бегом, 5/2 часа на велосипеде
         text: >-
-          Одна из самых интересных местностей Подмосковья — сосновые посадки на месте знаменитого бывшего Лопатинского рудника.
-          Десятки маленьких искусственных озёр с водой причудливого цвета.
-          Скоростные дороги. Значительно улучшенная (наша) карта.
-        actions:
-          - title: Результаты
-            url: 'files/2021/yo/results.html'
-            small: true
-          - title: Карта 
-            url: 'files/2021/yo/map150dpi.png'
-            small: true
-          - title: GPS
-            url: 'https://viewer.o-gps-center.ru/viewer/event/10463/'
-            small: true
-          - title: Инфобюллетень №2
-            url: 'yolkino2021-info2'
-            small: true
+          Продолжаем исследовать уникальный ландшафт бывшего Лопатинского рудника.
+          Замысловатый рельеф, прозрачный сосновый лес, быстрые дороги.
+        #actions:
+        #  - title: Инфобюллетень №1
+        #    url: 'fa2021-1-info'
+        #    small: true
 
       - title: Рогейн Forest Adventure
         img: assets/img/2021/nerskaya.jpg
-        date: 28 августа 2021 г.
-        place: Орехово-Зуевский ГО, берег реки Нерской
-        format: 7/3 часа бегом, 6/3 часа на велосипеде
+        date: 20 августа 2022 г. (сб)
+        place: Владимирская область, Киржачский район
+        format: 8/3 часа бегом, 6/3 часа на велосипеде
         text: >-
-          Берег Нерской — один из самых живописных уголков Подмосковья! Почему его так долго рогейны обходили стороной?
-        actions:
-          - title: Результаты
-            url: 'files/2021/fa/results.html'
-            small: true
-          - title: Карта 
-            url: 'files/2021/fa/map300dpi.png'
-            small: true
-          - title: GPS
-            url: 'https://viewer.o-gps-center.ru/viewer/event/10843/'
-            small: true
-          - title: Инфобюллетень
-            url: 'fa2021-info'
-            small: true
+          Сосновый лес, быстрые дороги, самый длинный деревянный пешеходный мост России.
+        #actions:
+        #  - title: Инфобюллетень
+        #    url: 'fa2021-2-info'
+        #    small: true
 
       - title: Большое ночное ориентирование Андрея Зайцева
         img: assets/img/2021/bno1.jpg
-        date: 13-14 ноября 2021 г.
+        date: 12-13 ноября 2022 г.
         text: >-
-          В 2021 году БНО пройдёт уже в 16-й раз!
+          17-е традиционные соревнования.
         actions:
-          - title: Положение
-            url: 'bno2021-maininfo'
-            small: true
-          - title: Результаты
-            url: 'files/2021/bno/results.html'
-            small: true
-
           - title: Как это было
             url: 'http://tkmgtu.ru/library/Большое_Ночное_Ориентирование'
             small: true
