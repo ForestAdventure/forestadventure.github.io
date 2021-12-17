@@ -27,7 +27,7 @@ sections:
     title: Наши события
     events:
       - title: Рогейн Forest Adventure Рудниковый
-        img: assets/img/2021/yolkino1.jpg
+        img: assets/img/2022/fa-1.jpg
         date: 9 июля 2022 г. (сб)
         place: Воскресенский ГО, на север от Хорлово
         format: 6/2 часа бегом, 5/2 часа на велосипеде
@@ -39,13 +39,13 @@ sections:
         #    url: 'fa2021-1-info'
         #    small: true
 
-      - title: Рогейн Forest Adventure
-        img: assets/img/2021/nerskaya.jpg
+      - title: Рогейн Forest Adventure Киржач
+        img: assets/img/2022/fa-2.jpg
         date: 20 августа 2022 г. (сб)
         place: Владимирская область, Киржачский район
         format: 8/3 часа бегом, 6/3 часа на велосипеде
         text: >-
-          Сосновый лес, быстрые дороги, самый длинный деревянный пешеходный мост России.
+          Сосновый лес, хорошие дороги в любую погоду, самый длинный деревянный пешеходный мост России.
         #actions:
         #  - title: Инфобюллетень
         #    url: 'fa2021-2-info'
