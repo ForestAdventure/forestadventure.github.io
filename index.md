@@ -52,7 +52,7 @@ sections:
         #    small: true
 
       - title: Большое ночное ориентирование Андрея Зайцева
-        img: assets/img/2021/bno1.jpg
+        img: assets/img/2022/bno-finish.jpg
         date: 12-13 ноября 2022 г.
         text: >-
           17-е традиционные соревнования.
