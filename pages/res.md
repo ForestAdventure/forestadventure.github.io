@@ -1,4 +1,4 @@
 ---
-redirect: {{"files/2021/bno/results.html" | relative_url}}
-layout: redirect
+layout: base
+redirect: https://forestadventure.ru/files/2021/bno/results.html
 ---
