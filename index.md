@@ -28,7 +28,7 @@ sections:
     events:
       - title: Рогейн Forest Adventure Рудниковый
         img: assets/img/2022/fa-1.jpg
-        date: *27 августа 2022 г. (сб)*
+        date: 27 августа 2022 г. (сб)
         place: Воскресенский ГО, на север от Хорлово
         format: 6/2 часа бегом, 5/2 часа на велосипеде
         text: >-
