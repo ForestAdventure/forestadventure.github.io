@@ -10,16 +10,19 @@ header:
 
 
 sections:
-  #- type: call-to-action.html
-  #  section_id: nearestevent
-  #  background_style: bg-info text-white
-  #  title: Большое ночное ориентирование
-  #  text: >-
-  #    13 ноября, Подушкинский лес
-  #  actions:
-  #    - title: Положение
-  #      url: 'bno2021-maininfo'
-  #      class: btn-light
+  - type: call-to-action.html
+    section_id: nearestevent
+    background_style: bg-info text-white
+    title: Рогейн Forest Adventure Рудниковый
+    text: >-
+      27 августа, п. Фосфоритный
+    actions:
+      - title: Инфобюллетень
+        url: 'fa2022-info'
+        class: btn-light
+      - title: Заявка
+        url: 'https://orgeo.ru/event/registration/fa2022_1'
+        class: btn-light
 
   - type: events.html
     section_id: events
