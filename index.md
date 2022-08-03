@@ -209,6 +209,6 @@ sections:
         img: assets/img/2022/pillow.jpg
       - name: Территория странствий
         url: https://tur-eda.ru
-        img: assets/img/2021/terr.jpg
+        img: assets/img/2022/terr.png
 
 ---
