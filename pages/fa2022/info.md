@@ -332,7 +332,7 @@ _Дополнения относительно Бюллетеня №1 выде�
 Спонсоры и партнёры
 
 {% include images.html
-    images="assets/img/2020/veloforma-logo-200.png,assets/img/2021/arena.png,assets/img/2022/pillow.png,assets/img/2022/terr.png"
+    images="assets/img/2020/veloforma-logo-200.png,assets/img/2021/arena.png,assets/img/2022/pillow.jpg,assets/img/2022/terr.png"
     urls="https://veloforma.net,https://arenasportfood.ru/,https://www.ozon.ru/brand/proekt-pravilnaya-podushka-100111938/,https://tur-eda.ru/"
-    alts="Veloforma.Net,Arena,Правильная подушка,Территория странствий" %}-->
+    alts="Veloforma.Net,Arena,Правильная подушка,Территория странствий" %}
 

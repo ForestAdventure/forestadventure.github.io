@@ -30,14 +30,18 @@ sections:
         img: assets/img/2022/fa-1.jpg
         date: 27 августа 2022 г. (сб)
         place: Воскресенский ГО, на север от Хорлово
-        format: 6/2 часа бегом, 5/2 часа на велосипеде
+        format: 7/3 часа бегом, 5/3 часа на велосипеде
         text: >-
           Продолжаем исследовать уникальный ландшафт бывшего Лопатинского рудника.
           Замысловатый рельеф, прозрачный сосновый лес, быстрые дороги.
-        #actions:
-        #  - title: Инфобюллетень №1
-        #    url: 'fa2021-1-info'
-        #    small: true
+        actions:
+          - title: Инфобюллетень №1
+            url: 'fa2022-info'
+            small: true
+          - title: Заявка
+            url: 'https://orgeo.ru/event/registration/fa2022_1'
+            small: true
+
 
       #- title: Рогейн Forest Adventure Киржач
       #  img: assets/img/2022/fa-2.jpg
