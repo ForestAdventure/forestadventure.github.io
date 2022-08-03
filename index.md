@@ -204,11 +204,11 @@ sections:
       - name: Arena
         url: https://arenasportfood.ru
         img: assets/img/2021/arena.png
+      - name: Правильная подушка
+        url: https://www.ozon.ru/brand/proekt-pravilnaya-podushka-100111938/
+        img: assets/img/2022/pillow.jpg
       - name: Территория странствий
         url: https://tur-eda.ru
         img: assets/img/2021/terr.jpg
-      - name: Ravesk
-        url: https://o-ravesk.com
-        img: assets/img/2021/ravesk.jpg
 
 ---
