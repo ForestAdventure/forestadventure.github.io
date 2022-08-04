@@ -47,4 +47,12 @@ layout: base
     content: counter(h2) "." counter(h3) "." counter(h4) ". "
   }
   {% endif %}
+  {% if page.table_border %}
+  table {
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  {% endif %}
 </style>
