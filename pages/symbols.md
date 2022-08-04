@@ -8,10 +8,10 @@ permalink: /uz/
 ------
 
 |---|---|
-|![]({{ "assets/img/uz/r1.png" | relative_url }})| - горизонталь,<br/>- утолщённая горизонталь,<br/>- вспомогательная горизонталь |
+|![]({{ "assets/img/uz/r1.png" | relative_url }})| а - горизонталь,<br/>б - утолщённая горизонталь,<br/>в - вспомогательная горизонталь,<br/>г - бергштрих |
 |![]({{ "assets/img/uz/r2.png" | relative_url }})| - грунтовый обрыв |
-|![]({{ "assets/img/uz/r3.png" | relative_url }})| - земляной вал (высота > 2 м),<br/>- невысокий земляной вал (1...2 м) |
-|![]({{ "assets/img/uz/r4.png" | relative_url }})| - |
+|![]({{ "assets/img/uz/r3.png" | relative_url }})| а - земляной вал (высота > 2 м),<br/>б - невысокий земляной вал (1...2 м) |
+|![]({{ "assets/img/uz/r4.png" | relative_url }})| а - промоина на склоне,<br/>б - ров, неглубокая промоина |
 |![]({{ "assets/img/uz/r5.png" | relative_url }})| - |
 |![]({{ "assets/img/uz/r6.png" | relative_url }})| - |
 
