@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Условные знаки карт для наших рогейнов
+background_image: ../assets/img/2022/map-photo.jpg
 permalink: /uz/
 table_border: true
 ---
