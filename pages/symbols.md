@@ -49,27 +49,27 @@ permalink: /uz/
 
 |---|---|
 |![]({{ "assets/img/uz/m1.png" | relative_url }})| - асфальтированные дороги,<br/>- территория с твёрдым покрытием |
-|![]({{ "assets/img/uz/m2.png" | relative_url }})| - |
-|![]({{ "assets/img/uz/m3.png" | relative_url }})| - |
-|![]({{ "assets/img/uz/m4.png" | relative_url }})| - |
-|![]({{ "assets/img/uz/m5.png" | relative_url }})| - |
-|![]({{ "assets/img/uz/m6.png" | relative_url }})| - |
-|![]({{ "assets/img/uz/m7.png" | relative_url }})| - |
-|![]({{ "assets/img/uz/m8.png" | relative_url }})| - |
-|![]({{ "assets/img/uz/m9.png" | relative_url }})| - |
-|![]({{ "assets/img/uz/m10.png" | relative_url }})| - |
-|![]({{ "assets/img/uz/m11.png" | relative_url }})| - |
+|![]({{ "assets/img/uz/m2.png" | relative_url }})| - дорога с твёрдым покрытием (гравийная и др.)<br/>- грунтовая дорога<br/>- дорожка, широкая тропа<br/>- медленная дорога |
+|![]({{ "assets/img/uz/m3.png" | relative_url }})| - тропинка<br/>- нечёткая дорожка или тропинка<br/>- узкая просека без тропы, старая противопожарная пропашка<br/>- просека или пропашка, удобная для передвижения |
+|![]({{ "assets/img/uz/m4.png" | relative_url }})| - железная дорога<br/>- высоковольтная линия электропередач (поперечные штрихи в месте опор)<br/>- местная линия электропередач<br/>- непреодолимый наземный трубопровод<br/>- преодолимый наземный трубопровод |
+|![]({{ "assets/img/uz/m5.png" | relative_url }})| - непреодолимая ограда (а или б) с проходом<br/>- невысокая ограда (в)<br/>- полуразрушенная ограда (г) |
+|![]({{ "assets/img/uz/m6.png" | relative_url }})| - непреодолимая стена<br/>- преодолимая стена<br/>- полуразрушенная стена |
+|![]({{ "assets/img/uz/m7.png" | relative_url }})| - застроенная территория, частные владения (запрещено для пересечения) |
+|![]({{ "assets/img/uz/m8.png" | relative_url }})| - здание (а или б)<br/>- навес (в)<br/>- развалины, фундамент (г)|
+|![]({{ "assets/img/uz/m9.png" | relative_url }})| - вышка связи, башня<br/>- невысокая вышка (напр., охотничья)<br/>- столб<br/>- кормушка |
+|![]({{ "assets/img/uz/m10.png" | relative_url }})| - костровище<br/>- искусственный объект (напр., стол для пикника)<br/>- могила, обелиск, памятник<br/>- кладбище |
+|![]({{ "assets/img/uz/m11.png" | relative_url }})| - тоннель<br/>- мостик без тропы |
 
 Специальные обозначения
 -----------------------
 
 |---|---|
-|![]({{ "assets/img/uz/c1.png" | relative_url }})| - |
-|![]({{ "assets/img/uz/c2.png" | relative_url }})| - |
-|![]({{ "assets/img/uz/c3.png" | relative_url }})| - |
-|![]({{ "assets/img/uz/c4.png" | relative_url }})| - |
-|![]({{ "assets/img/uz/c5.png" | relative_url }})| - |
-|![]({{ "assets/img/uz/c6.png" | relative_url }})| - |
+|![]({{ "assets/img/uz/c1.png" | relative_url }})| - старт<br/>- финиш (если не совпадает со стартом) |
+|![]({{ "assets/img/uz/c2.png" | relative_url }})| - контрольный пункт (КП) и его номер |
+|![]({{ "assets/img/uz/c3.png" | relative_url }})| - запрещённая (опасная) для передвижения территория |
+|![]({{ "assets/img/uz/c4.png" | relative_url }})| - запрещённая для передвижения дорога, пересечение разрешено |
+|![]({{ "assets/img/uz/c5.png" | relative_url }})| - закрытые ворота, проход невозможен<br/>- магазин |
+|![]({{ "assets/img/uz/c6.png" | relative_url }})| - линии магнитного меридиана (указывают направление на север) |
 
 Примеры карт
 ------------
