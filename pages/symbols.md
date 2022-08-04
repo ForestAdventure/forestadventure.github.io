@@ -19,17 +19,17 @@ permalink: /uz/
 -------------
 
 |---|---|
-|![]({{ "assets/img/uz/s1.png" | relative_url }})| - |
-|![]({{ "assets/img/uz/s2.png" | relative_url }})| - |
+|![]({{ "assets/img/uz/s1.png" | relative_url }})| - отдельный камень (бетонный блок),<br/>- группа камней (бетонных блоков),<br/>- россыпь камней,<br/>- каменистый грунт |
+|![]({{ "assets/img/uz/s2.png" | relative_url }})| - песчаный грунт,<br/>- скальная поверхность (бетон) |
 
 Водные объекты
 --------------
 
 |---|---|
-|![]({{ "assets/img/uz/w1.png" | relative_url }})| - |
-|![]({{ "assets/img/uz/w2.png" | relative_url }})| - |
-|![]({{ "assets/img/uz/w3.png" | relative_url }})| - |
-|![]({{ "assets/img/uz/w4.png" | relative_url }})| - |
+|![]({{ "assets/img/uz/w1.png" | relative_url }})| - водоём,<br/>- непреодолимое болото |
+|![]({{ "assets/img/uz/w2.png" | relative_url }})| - широкий ручей или канава,<br/>- узкий ручей или канава,<br/>- пересыхающий ручей или канава,<br/>- узкое болото |
+|![]({{ "assets/img/uz/w3.png" | relative_url }})| - болото,<br/>- нечёткое, пересыхающее болото |
+|![]({{ "assets/img/uz/w4.png" | relative_url }})| - яма с водой,<br/>- колодец,<br/>- родник с водой, пригодной для питья,<br/>- особый объект гидрографии (уточнение на полях карты) |
 
 Растительность
 --------------
