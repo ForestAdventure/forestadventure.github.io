@@ -74,4 +74,8 @@ permalink: /uz/
 Примеры карт
 ------------
 
+{% include images.html
+    images="files/2020/map-zapolitsi2020-500p.png"
+    urls="files/2020/map-zapolitsi2020.png"
+    alts="Рогейн FA Заполицы 2020" %}
 
