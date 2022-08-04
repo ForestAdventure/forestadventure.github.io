@@ -2,6 +2,7 @@
 layout: page
 title: Sportiduino
 permalink: /sportiduino/
+background_image: ../assets/img/2022/punch1.jpg
 ---
 
 Система электронной отметки
