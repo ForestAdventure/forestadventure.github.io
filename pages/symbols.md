@@ -75,7 +75,7 @@ permalink: /uz/
 ------------
 
 {% include images.html
-    images="files/2020/map-zapolitsi2020-500p.png"
-    urls="files/2020/map-zapolitsi2020.png"
-    alts="Рогейн FA Заполицы 2020" %}
+    images="files/2020/map-zapolitsi2020-500p.png,files/2021/yo/map-500p.png,files/2021/fa/map-500p.png"
+    urls="files/2020/map-zapolitsi2020.png,files/2021/yo/map150dpi.png,files/2021/fa/map150dpi.png"
+    alts="Рогейн FA Заполицы 2020,Рогейн FA Ёлкино 2021,Рогейн FA Нерская 2021" %}
 
