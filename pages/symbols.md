@@ -71,3 +71,7 @@ permalink: /uz/
 |![]({{ "assets/img/uz/c5.png" | relative_url }})| - |
 |![]({{ "assets/img/uz/c6.png" | relative_url }})| - |
 
+Примеры карт
+------------
+
+
