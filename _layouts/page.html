@@ -22,7 +22,7 @@ layout: base
 <!-- include content as section -->
 {% if content != "" %}
 <section class="page-section {{ page.background_style }}">
-  <div class="container {% if page.table_border %}table-bordered{%endif%}">
+  <div class="container">
     {{ content }}
   </div>
 </section>
@@ -48,11 +48,11 @@ layout: base
   }
   {% endif %}
   {% if page.table_border %}
-  /*table {
+  table {
     border-collapse: collapse;
   }
   table, th, td {
-    border: 1px solid black;
-  }*/
+    border: 1px solid #dee2e6;
+  }
   {% endif %}
 </style>
