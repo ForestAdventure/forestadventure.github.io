@@ -17,6 +17,7 @@
       <img class="rounded img-fluid"
         src="{{ image | prepend: '/' | relative_url }}"
         {% if alt %}
+        title="{{ alt }}"
         alt="{{ alt }}">
         {% else %}
         alt="{{ image | prepend: '/' | split: '/' | last }}">
