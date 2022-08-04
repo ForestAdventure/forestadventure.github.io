@@ -47,6 +47,27 @@ permalink: /uz/
 Искусственные объекты
 ---------------------
 
+|---|---|
 |![]({{ "assets/img/uz/m1.png" | relative_url }})| - асфальтированные дороги,<br/>- территория с твёрдым покрытием |
+|![]({{ "assets/img/uz/m2.png" | relative_url }})| - |
+|![]({{ "assets/img/uz/m3.png" | relative_url }})| - |
+|![]({{ "assets/img/uz/m4.png" | relative_url }})| - |
+|![]({{ "assets/img/uz/m5.png" | relative_url }})| - |
+|![]({{ "assets/img/uz/m6.png" | relative_url }})| - |
+|![]({{ "assets/img/uz/m7.png" | relative_url }})| - |
+|![]({{ "assets/img/uz/m8.png" | relative_url }})| - |
+|![]({{ "assets/img/uz/m9.png" | relative_url }})| - |
+|![]({{ "assets/img/uz/m10.png" | relative_url }})| - |
+|![]({{ "assets/img/uz/m11.png" | relative_url }})| - |
 
+Специальные обозначения
+-----------------------
+
+|---|---|
+|![]({{ "assets/img/uz/c1.png" | relative_url }})| - |
+|![]({{ "assets/img/uz/c2.png" | relative_url }})| - |
+|![]({{ "assets/img/uz/c3.png" | relative_url }})| - |
+|![]({{ "assets/img/uz/c4.png" | relative_url }})| - |
+|![]({{ "assets/img/uz/c5.png" | relative_url }})| - |
+|![]({{ "assets/img/uz/c6.png" | relative_url }})| - |
 
