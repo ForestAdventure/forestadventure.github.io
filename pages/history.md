@@ -29,6 +29,15 @@ sections:
           - title: GPS
             url: 'https://viewer.o-gps-center.ru/viewer/event/10463/'
             small: true
+          - title: Фото1
+            url: 'https://disk.yandex.ru/d/C7w7cymBtfbxVA'
+            small: true
+          - title: Фото2
+            url: 'https://disk.yandex.ru/d/0friwXAXf1lqsA'
+            small: true
+          - title: Фото3
+            url: 'https://disk.yandex.ru/d/W0mb5rMLEyqvxw'
+            small: true
           - title: Инфобюллетень №2
             url: 'yolkino2021-info2'
             relative: true
@@ -52,6 +61,9 @@ sections:
             small: true
           - title: GPS
             url: 'https://viewer.o-gps-center.ru/viewer/event/10843/'
+            small: true
+          - title: Фото
+            url: 'https://disk.yandex.ru/d/1ooQa-XldmllTA'
             small: true
           - title: Инфобюллетень
             url: 'fa2021-info'
