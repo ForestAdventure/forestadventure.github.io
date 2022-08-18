@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Рогейн Forest Adventure Рудниковый 2022
-permalink: /fa2022-info2/
+permalink: /fa2022-info/
 background_image: ../assets/img/2022/team802.jpg
 regulations: true
 ---
