@@ -9,6 +9,6 @@ regulations: true
 Результаты
 ==========
 
-<iframe width="100%" height="700px" src="files/2021/fa/results.html"></iframe>
+<iframe width="100%" height="700px" src="/2022/zg/res.html"></iframe>
 
 
