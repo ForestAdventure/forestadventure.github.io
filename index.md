@@ -15,7 +15,7 @@ sections:
     background_style: bg-info text-white
     title: Рогейн Forest Adventure Рудниковый
     text: >-
-      27 августа, п. Фосфоритный
+      17 сентября, п. Фосфоритный
     actions:
       - title: Инфобюллетень
         url: 'fa2022-info'
@@ -31,7 +31,7 @@ sections:
     events:
       - title: Рогейн Forest Adventure Рудниковый
         img: assets/img/2022/fa-1.jpg
-        date: 27 августа 2022 г. (сб)
+        date: 17 сентября 2022 г. (сб)
         place: Воскресенский ГО, на север от Хорлово
         format: 7/3 часа бегом, 5/3 часа на велосипеде
         text: >-
