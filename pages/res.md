@@ -1,5 +1,5 @@
 ---
 layout: redirect
 permalink: /res/
-redirect: https://forestadventure.ru/files/2022/fa/startlist.html
+redirect: https://forestadventure.ru/2022/fa/startlist.html
 ---
