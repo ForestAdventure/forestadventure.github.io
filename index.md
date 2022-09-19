@@ -17,11 +17,8 @@ sections:
     text: >-
       17 сентября, п. Фосфоритный
     actions:
-      - title: Инфобюллетень
-        url: 'fa2022-info'
-        class: btn-light
-      - title: Заявка
-        url: 'https://orgeo.ru/event/registration/fa2022_1'
+      - title: Результаты
+        url: '2022/fa/results.html'
         class: btn-light
 
   - type: events.html
@@ -41,10 +38,12 @@ sections:
           - title: Инфобюллетень
             url: 'fa2022-info'
             small: true
-          - title: Заявка
-            url: 'https://orgeo.ru/event/registration/fa2022_1'
+          - title: Результаты
+            url: '2022/fa/results.html'
             small: true
-
+          - title: Карта
+            url: '2022/fa/map300dpi.png'
+            small: true
 
       #- title: Рогейн Forest Adventure Киржач
       #  img: assets/img/2022/fa-2.jpg
