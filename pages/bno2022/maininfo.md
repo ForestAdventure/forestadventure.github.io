@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Большое ночное ориентирование Андрея Зайцева 2022
-permalink: /bno2021-info/
+permalink: /bno2022-info/
 regulations: true
 ---
 
@@ -90,7 +90,7 @@ _13 ноября_
 
 Образцы карты
 
-{% include aligner.html images="assets/img/2022/map-bno-example1.png,assets/img/2021/map-bno-example2.png,assets/img/2021/map-bno-example3.png" column=3 %}
+{% include aligner.html images="assets/img/2022/map-bno-example1.png,assets/img/2022/map-bno-example2.png,assets/img/2022/map-bno-example3.png" column=3 %}
 
 
 Оборудование дистанций
