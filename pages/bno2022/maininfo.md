@@ -2,6 +2,7 @@
 layout: page
 title: Большое ночное ориентирование Андрея Зайцева 2022
 permalink: /bno2022-info/
+background_image: ../assets/img/2022/olyoshkino2021-finish.jpg
 regulations: true
 ---
 
