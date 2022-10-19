@@ -373,6 +373,7 @@ _Важные дополнения относительно_ [_Бюллетен�
 Страница в Instagram <https://instagr.am/forest_adventure_ru/>
 
 Спонсоры и партнёры
+-------------------
 
 {% include images.html
     images="assets/img/2020/veloforma-logo-200.png,assets/img/2021/arena.png,assets/img/2022/pillow.jpg,assets/img/2022/terr.png"
