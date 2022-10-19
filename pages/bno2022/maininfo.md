@@ -226,7 +226,7 @@ _13 ноября_
 
 [bno@forestadventure.ru](mailto:bno@forestadventure.ru)
 
-Официальный сайт <http://forestadventure.ru>
+Официальный сайт <https://forestadventure.ru>
 
 Страница ВКонтакте <https://vk.com/forestadventureru>
 
