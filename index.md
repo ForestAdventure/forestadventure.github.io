@@ -13,12 +13,12 @@ sections:
   - type: call-to-action.html
     section_id: nearestevent
     background_style: bg-info text-white
-    title: Рогейн Forest Adventure Рудниковый
+    title: Большое ночное ориентирование 2022
     text: >-
-      17 сентября, п. Фосфоритный
+      12 ноября, п. им. Цюрупы
     actions:
-      - title: Результаты
-        url: '2022/fa/results.html'
+      - title: Заявка
+        url: 'https://orgeo.ru/event/bno2022'
         class: btn-light
 
   - type: events.html
@@ -59,6 +59,12 @@ sections:
         text: >-
           17-е традиционные соревнования.
         actions:
+          - title: Положение
+            url: 'bno2022-info'
+            small: true
+          - title: Заявка
+            url: 'https://orgeo.ru/event/bno2022'
+            small: true
           - title: Как это было
             url: 'http://tkmgtu.ru/library/Большое_Ночное_Ориентирование'
             small: true
