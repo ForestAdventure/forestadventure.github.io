@@ -59,7 +59,7 @@ _Обновлено 3.11.2022. Изменения выделены цветом.
 **Схема прохода к старту**
 
 {% include images.html
-    images="assets/img/2022/start-bno.png"
+    images="assets/img/2022/start-bno-thumb.png"
     urls="assets/img/2022/start-bno.png"
     alts="Схема прохода к старту" %}
 
