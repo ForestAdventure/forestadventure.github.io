@@ -17,8 +17,8 @@ sections:
     text: >-
       12 ноября, п. им. Цюрупы
     actions:
-      - title: Заявка
-        url: 'https://orgeo.ru/event/bno2022'
+      - title: Результаты
+        url: '2022/bno/res.html'
         class: btn-light
 
   - type: events.html
@@ -59,14 +59,11 @@ sections:
         text: >-
           17-е традиционные соревнования.
         actions:
+          - title: Результаты
+            url: '2022/bno/res.html'
+            small: true
           - title: Положение
             url: 'bno2022-info'
-            small: true
-          - title: Заявка
-            url: 'https://orgeo.ru/event/bno2022'
-            small: true
-          - title: Как это было
-            url: 'http://tkmgtu.ru/library/Большое_Ночное_Ориентирование'
             small: true
 
   - type: call-to-action.html
