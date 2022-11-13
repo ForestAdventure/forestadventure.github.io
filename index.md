@@ -59,11 +59,8 @@ sections:
         text: >-
           17-е традиционные соревнования.
         actions:
-          - title: Результаты
-            url: '2022/bno/res.html'
-            small: true
-          - title: Положение
-            url: 'bno2022-info'
+          - title: Подробнее
+            url: 'bno2022/'
             small: true
 
   - type: call-to-action.html
