@@ -26,34 +26,34 @@ sections:
     #background_style: bg-dark
     title: Наши события
     events:
-      - title: Рогейн Forest Adventure Рудниковый
+      - title: Рогейн Ёлкино-2
         img: assets/img/2022/fa-1.jpg
-        date: 17 сентября 2022 г. (сб)
-        place: Воскресенский ГО, на север от Хорлово
-        format: 7/3 часа бегом, 5/3 часа на велосипеде
+        date: 1 июля 2023 г. (сб)
+        place: Воскресенский ГО, у деревни Ёлкино
+        format: 8/3 часа бегом, 6/3 часа на велосипеде
         text: >-
-          Продолжаем исследовать уникальный ландшафт бывшего Лопатинского рудника.
-          Замысловатый рельеф, прозрачный сосновый лес, быстрые дороги.
-        actions:
-          - title: Инфобюллетень
-            url: 'fa2022-info'
-            small: true
-          - title: Результаты
-            url: '2022/fa/results.html'
-            small: true
-          - title: Карта
-            url: '2022/fa/map300dpi.png'
-            small: true
+          Продолжение полюбившегося рогейна, который состоится в рамках спортивного фестиваля.
+        #actions:
+        #  - title: Инфобюллетень
+        #    url: 'fa2022-info'
+        #    small: true
+        #  - title: Результаты
+        #    url: '2022/fa/results.html'
+        #    small: true
+        #  - title: Карта
+        #    url: '2022/fa/map300dpi.png'
+        #    small: true
 
       - title: Большое ночное ориентирование Андрея Зайцева
         img: assets/img/2022/bno-finish.jpg
-        date: 12-13 ноября 2022 г.
+        date: 11-12 ноября 2023 г.
         text: >-
-          17-е традиционные соревнования.
-        actions:
-          - title: Подробнее
-            url: 'bno2022/'
-            small: true
+          18-е традиционные соревнования.
+          Место старта пока держим в тайне.
+        #actions:
+        #  - title: Подробнее
+        #    url: 'bno2022/'
+        #    small: true
 
   - type: call-to-action.html
     section_id: historylink

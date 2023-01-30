@@ -19,12 +19,15 @@ sections:
         actions:
           - title: Инфобюллетень
             url: 'fa2022-info'
+            relative: true
             small: true
           - title: Результаты
             url: '2022/fa/results.html'
+            relative: true
             small: true
           - title: Карта
             url: '2022/fa/map300dpi.png'
+            relative: true
             small: true
 
       #- title: Рогейн Forest Adventure Киржач
@@ -43,6 +46,7 @@ sections:
         actions:
           - title: Подробнее
             url: 'bno2022/'
+            relative: true
             small: true
 
 
