@@ -5,6 +5,48 @@ permalink: /history/
 
 sections:
   - type: events.html
+    section_id: 2022
+    title: 2022 год
+    events:
+      - title: Рогейн Forest Adventure Рудниковый
+        img: assets/img/2022/fa-1.jpg
+        date: 17 сентября 2022 г. (сб)
+        place: Воскресенский ГО, на север от Хорлово
+        format: 7/3 часа бегом, 5/3 часа на велосипеде
+        text: >-
+          Продолжаем исследовать уникальный ландшафт бывшего Лопатинского рудника.
+          Замысловатый рельеф, прозрачный сосновый лес, быстрые дороги.
+        actions:
+          - title: Инфобюллетень
+            url: 'fa2022-info'
+            small: true
+          - title: Результаты
+            url: '2022/fa/results.html'
+            small: true
+          - title: Карта
+            url: '2022/fa/map300dpi.png'
+            small: true
+
+      #- title: Рогейн Forest Adventure Киржач
+      #  img: assets/img/2022/fa-2.jpg
+      #  date: 20 августа 2022 г. (сб)
+      #  place: Владимирская область, Киржачский район
+      #  format: 8/3 часа бегом, 6/3 часа на велосипеде
+      #  text: >-
+      #    Сосновый лес, хорошие дороги в любую погоду, самый длинный деревянный пешеходный мост России.
+
+      - title: Большое ночное ориентирование Андрея Зайцева
+        img: assets/img/2022/bno-finish.jpg
+        date: 12-13 ноября 2022 г.
+        text: >-
+          17-е традиционные соревнования.
+        actions:
+          - title: Подробнее
+            url: 'bno2022/'
+            small: true
+
+
+  - type: events.html
     section_id: 2021
     title: 2021 год
     events:

@@ -10,16 +10,16 @@ header:
 
 
 sections:
-  - type: call-to-action.html
-    section_id: nearestevent
-    background_style: bg-info text-white
-    title: Большое ночное ориентирование 2022
-    text: >-
-      12 ноября, п. им. Цюрупы
-    actions:
-      - title: Результаты
-        url: '2022/bno/res.html'
-        class: btn-light
+  #- type: call-to-action.html
+  #  section_id: nearestevent
+  #  background_style: bg-info text-white
+  #  title: Большое ночное ориентирование 2022
+  #  text: >-
+  #    12 ноября, п. им. Цюрупы
+  #  actions:
+  #    - title: Результаты
+  #      url: '2022/bno/res.html'
+  #      class: btn-light
 
   - type: events.html
     section_id: events
@@ -44,14 +44,6 @@ sections:
           - title: Карта
             url: '2022/fa/map300dpi.png'
             small: true
-
-      #- title: Рогейн Forest Adventure Киржач
-      #  img: assets/img/2022/fa-2.jpg
-      #  date: 20 августа 2022 г. (сб)
-      #  place: Владимирская область, Киржачский район
-      #  format: 8/3 часа бегом, 6/3 часа на велосипеде
-      #  text: >-
-      #    Сосновый лес, хорошие дороги в любую погоду, самый длинный деревянный пешеходный мост России.
 
       - title: Большое ночное ориентирование Андрея Зайцева
         img: assets/img/2022/bno-finish.jpg
