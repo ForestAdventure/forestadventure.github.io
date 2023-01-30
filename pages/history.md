@@ -29,6 +29,13 @@ sections:
             url: '2022/fa/map300dpi.png'
             relative: true
             small: true
+          - title: Фото1
+            url: 'https://disk.yandex.ru/d/pfzW-XkkBx8WVw'
+            small: true
+          - title: Фото2
+            url: 'https://disk.yandex.ru/d/tdi3Qs8EGNzX4Q'
+            small: true
+
 
       #- title: Рогейн Forest Adventure Киржач
       #  img: assets/img/2022/fa-2.jpg
