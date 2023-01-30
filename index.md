@@ -27,7 +27,7 @@ sections:
     title: Наши события
     events:
       - title: Рогейн Ёлкино-2
-        img: assets/img/2022/fa-1.jpg
+        img: assets/img/2023/index1.jpg
         date: 1 июля 2023 г. (сб)
         place: Воскресенский ГО, у деревни Ёлкино
         format: 8/3 часа бегом, 6/3 часа на велосипеде
@@ -45,7 +45,7 @@ sections:
         #    small: true
 
       - title: Большое ночное ориентирование Андрея Зайцева
-        img: assets/img/2022/bno-finish.jpg
+        img: assets/img/2023/index2.jpg
         date: 11-12 ноября 2023 г.
         text: >-
           18-е традиционные соревнования.
