@@ -110,11 +110,12 @@ regulations: true
 
 Образцы карты
 
-{% include images.html images="assets/img/2021/map-yo-example1.png,assets/img/2021/map-yo-example2.png,assets/img/2021/map-yo-example3.png" %}
+{% include images.html images="assets/img/2023/map-fa-example1.png,assets/img/2023/map-fa-example2.png,assets/img/2023/map-fa-example3.png" %}
 
 Также будет использована **карта для спортивного ориентирования**, подготовленная Владимиром Тутыниным в августе 2022 г.
 Площадь района карты — 4 кв. км.
 
+{% include images.html images="assets/img/2023/map-fa-so-ex1.png" %}
 
 Программа
 ------------------------------------
