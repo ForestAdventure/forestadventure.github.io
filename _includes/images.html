@@ -1,7 +1,7 @@
 {% assign images = include.images | split: ',' %}
 {% assign urls = include.urls | split: ',' %}
 {% assign alts = include.alts | split: ',' %}
-<div class="row">
+<div class="row align-items-center">
   {% for image in images %}
   {% assign index = {{forloop.index0}} %}
   {% assign url = urls[index] %}

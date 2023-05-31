@@ -6,7 +6,7 @@ background_image: ../assets/img/2022/team802.jpg
 regulations: true
 ---
 
-{% include images.html images="assets/img/2023/logo_flat_blue_200.png" %}
+![logo]({{ "assets/img/2023/logo_flat_blue_200.png" | relative_url }})
 
 Информационный бюллетень №1
 ===========================
