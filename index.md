@@ -10,16 +10,19 @@ header:
 
 
 sections:
-  #- type: call-to-action.html
-  #  section_id: nearestevent
-  #  background_style: bg-info text-white
-  #  title: Большое ночное ориентирование 2022
-  #  text: >-
-  #    12 ноября, п. им. Цюрупы
-  #  actions:
-  #    - title: Результаты
-  #      url: '2022/bno/res.html'
-  #      class: btn-light
+  - type: call-to-action.html
+    section_id: nearestevent
+    background_style: bg-info text-white
+    title: Рогейн ЁЛКИНО-2
+    text: >-
+      1 июля, Ёлкино Воскресенского городского округа
+    actions:
+      - title: Заявка
+        url: 'https://orgeo.ru/event/fa2023'
+        class: btn-light
+      #- title: Результаты
+      #  url: '2022/bno/res.html'
+      #  class: btn-light
 
   - type: events.html
     section_id: events
@@ -34,14 +37,17 @@ sections:
         text: >-
           Продолжение полюбившегося рогейна, который состоится в рамках спортивного фестиваля.
         #actions:
-        #  - title: Инфобюллетень
-        #    url: 'fa2022-info'
-        #    small: true
+          - title: Инфобюллетень
+            url: 'fa2023-info'
+            small: true
+          - title: Заявка
+            url: 'https://orgeo.ru/event/fa2023'
+            small: true
         #  - title: Результаты
-        #    url: '2022/fa/results.html'
+        #    url: '2023/fa/res.html'
         #    small: true
         #  - title: Карта
-        #    url: '2022/fa/map300dpi.png'
+        #    url: '2023/fa/map300dpi.png'
         #    small: true
 
       - title: Большое ночное ориентирование Андрея Зайцева
