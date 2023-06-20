@@ -370,7 +370,7 @@ regulations: true
 -------------------
 
 {% include images.html
-    images="assets/img/2020/veloforma-logo-200.png,assets/img/2021/arena.png,assets/img/2022/terr.png"
-    urls="https://veloforma.net,https://arenasportfood.ru/,https://tur-eda.ru/"
-    alts="Veloforma.Net,Arena,Территория странствий" %}
+    images="assets/img/2020/veloforma-logo-200.png,assets/img/2021/arena.png,assets/img/2022/terr.png,assets/img/2023/susch.jpg"
+    urls="https://veloforma.net,https://arenasportfood.ru/,https://tur-eda.ru/,https://sushenka.blogspot.com/"
+    alts="Veloforma.Net,Arena,Территория странствий,СУШёНКА" %}
 
