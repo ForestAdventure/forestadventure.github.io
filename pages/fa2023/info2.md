@@ -45,6 +45,8 @@ _Важные дополнения относительно Бюллетеня �
 
 <iframe width="100%" height="400px" src="https://nakarte.me/#m=14/55.30700/38.83899&l=O&nktl=o-7bV8jvjAiZWMHIvCL8Kg"></iframe>
 
+[Прогноз погоды](https://yandex.ru/pogoda/elkino/details/10-day-weather?via=ms#1)
+
 Организаторы
 ------------
 
