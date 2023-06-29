@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Рогейн ЁЛКИНО-2
-permalink: /fa2023-info/
+permalink: /fa2023-info1/
 background_image: ../assets/img/2022/team802.jpg
 regulations: true
 ---
