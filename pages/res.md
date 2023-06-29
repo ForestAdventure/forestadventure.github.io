@@ -1,5 +1,5 @@
 ---
 layout: redirect
 permalink: /res/
-redirect: https://forestadventure.ru/2023/zg/
+redirect: https://forestadventure.ru/2023/fa/
 ---
