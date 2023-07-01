@@ -43,9 +43,9 @@ sections:
           - title: Заявка
             url: 'https://orgeo.ru/event/fa2023'
             small: true
-        #  - title: Результаты
-        #    url: '2023/fa/res.html'
-        #    small: true
+          - title: Результаты
+            url: '2023/fa/'
+            small: true
         #  - title: Карта
         #    url: '2023/fa/map300dpi.png'
         #    small: true
