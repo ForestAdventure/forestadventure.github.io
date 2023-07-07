@@ -17,12 +17,12 @@ sections:
     text: >-
       1 июля, Ёлкино Воскресенского городского округа
     actions:
-      - title: Заявка
-        url: 'https://orgeo.ru/event/fa2023'
-        class: btn-light
-      #- title: Результаты
-      #  url: '2022/bno/res.html'
+      #- title: Заявка
+      #  url: 'https://orgeo.ru/event/fa2023'
       #  class: btn-light
+      - title: Результаты
+        url: '2023/fa/index.html'
+        class: btn-light
 
   - type: events.html
     section_id: events
@@ -37,18 +37,25 @@ sections:
         text: >-
           Продолжение полюбившегося рогейна, который состоится в рамках спортивного фестиваля ТОР.
         actions:
-          - title: Инфобюллетень
-            url: 'fa2023-info'
-            small: true
-          - title: Заявка
-            url: 'https://orgeo.ru/event/fa2023'
-            small: true
+          #- title: Заявка
+          #  url: 'https://orgeo.ru/event/fa2023'
+          #  small: true
           - title: Результаты
             url: '2023/fa/'
             small: true
-        #  - title: Карта
-        #    url: '2023/fa/map300dpi.png'
-        #    small: true
+          #- title: Карта
+          #  url: '2023/fa/map300dpi.png'
+          #  small: true
+          #- title: Фото1
+          #  url: 'https://disk.yandex.ru/d/00m7s_xxkF9ISw'
+          #  small: true
+          #- title: Фото2
+          #  url: https://disk.yandex.ru/d/QTEABQwzbXK_Xg
+          #  small: true
+          - title: Инфобюллетень
+            url: 'fa2023-info'
+            small: true
+
 
       - title: Большое ночное ориентирование Андрея Зайцева
         img: assets/img/2023/index2.jpg
