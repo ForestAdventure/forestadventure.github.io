@@ -183,9 +183,9 @@ sections:
 
 
       Если вы хотите испольовать для проведения своих соревнований наши карты, то мы готовы их предоставить бесплатно по запросу.
-      Актуальные карты можно посмотреть в [nakarte](https://nakarte.me/#m=14/55.29732/38.81478&l=O/-cseyJuYW1lIjoiRkEgVE1TIiwidXJsIjoiaHR0cHM6Ly9zZW1icnVrLmdpdGh1Yi5pby9mYV90bXMve3p9L3t4fS97eX0ucG5nIiwidG1zIjp0cnVlLCJzY2FsZURlcGVuZGVudCI6ZmFsc2UsIm1heFpvb20iOjE3LCJpc092ZXJsYXkiOnRydWUsImlzVG9wIjp0cnVlfQ==)
+      Актуальные карты можно посмотреть в [nakarte](https://nakarte.me/#m=10/55.60279/38.47961&l=O/-cseyJuYW1lIjoiXHUwNDFhXHUwNDMwXHUwNDQwXHUwNDQyXHUwNDRiIEZvcmVzdEFkdmVudHVyZS5ydSIsInVybCI6Imh0dHBzOi8vc2VtYnJ1ay5naXRodWIuaW8vZmFfbWFwcy97en0ve3h9L3t5fS5wbmciLCJ0bXMiOnRydWUsInNjYWxlRGVwZW5kZW50IjpmYWxzZSwibWF4Wm9vbSI6MTYsImlzT3ZlcmxheSI6dHJ1ZSwiaXNUb3AiOnRydWV9)
 
-      Также вы можете арендовать у нас комплект электронной системы отметки [Sportiduino]({{ "sportiduino/" | relative_url}}):
+      Также вы можете арендовать у нас комплект электронной системы отметки [Sportiduino](sportiduino):
       станции для контрольных пунктов, старта и финиша и чипы для участников.
 
   - type: contact.html
