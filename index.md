@@ -181,6 +181,13 @@ sections:
 
       Присоединяйтесь!
 
+
+      Если вы хотите испольовать для проведения своих соревнований наши карты, то мы готовы их предоставить бесплатно по запросу.
+      Актуальные карты можно посмотреть в [nakarte](https://nakarte.me/#m=14/55.29732/38.81478&l=O/-cseyJuYW1lIjoiRkEgVE1TIiwidXJsIjoiaHR0cHM6Ly9zZW1icnVrLmdpdGh1Yi5pby9mYV90bXMve3p9L3t4fS97eX0ucG5nIiwidG1zIjp0cnVlLCJzY2FsZURlcGVuZGVudCI6ZmFsc2UsIm1heFpvb20iOjE3LCJpc092ZXJsYXkiOnRydWUsImlzVG9wIjp0cnVlfQ==)
+
+      Также вы можете арендовать у нас комплект электронной системы отметки [Sportiduino]({{ "sportiduino/" | relative_url}}):
+      станции для контрольных пунктов, старта и финиша и чипы для участников.
+
   - type: contact.html
     section_id: contacts
     title: Оставайтесь на связи!
