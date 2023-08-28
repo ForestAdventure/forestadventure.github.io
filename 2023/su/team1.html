@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <title>1 Singleton | Рогейн SURR Куровское</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>1 Singleton</h1>
+    <h2>Галина Морозова</h2>
+    <table class="team">
+        <tr><td>Место</td><td>7 (Бег8_Ж)</td><td>Дистанция</td><td>20.60 км</td></tr>
+        <tr><td>Очки</td><td>49</td><td>Средний темп</td><td>22:59.577 мин/км</td></tr>
+        <tr><td>Штраф</td><td>0</td><td>Эффективность планирования</td><td>2.38 очк/км</td></tr>
+        <tr><td>Время</td><td>7:53:40</td><td>Эффективность</td><td>9:40 мин/очк</td></tr>
+        <tr><td>Результат</td><td><b>49</b></td></tr>
+    </table>
+    <svg width="1598px" height="2343px">
+        <defs>
+            <linearGradient id="grad">
+                <stop offset="0%" stop-color="rgb(255,0,0)"/>
+                <stop offset="50%" stop-color="rgb(255,255,0)"/>
+                <stop offset="100%" stop-color="rgb(0,255,0)"/>
+            </linearGradient>
+            <style type="text/css"><![CDATA[
+                .course { stroke-opacity: 0.8; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+                .shadow {
+                    -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .8));
+                    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .8));
+                }
+                .small { font: bold 13px sans-serif; }
+            ]]></style>
+        </defs>
+        <image xlink:href="map.jpeg" />
+        <rect rx="5" width=1598 height="15" fill="url(#grad)"/>
+        <text class="small" x="2%" y="12" text-anchor="start">Медлено</text>
+        <text class="small" x="50%" y="12" text-anchor="middle">Средне</text>
+        <text class="small" x="98%" y="12" text-anchor="end">Быстро</text>
+        <polyline class="shadow" stroke="black" stroke-opacity="0.6" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" fill="none" points="63 2214, 116 2286, 358 2248, 565 2034, 795 1739, 682 1639, 628 1522, 577 1418, 433 1423, 254 1681, 167 1921, 54 2202, " />
+        <line class="course" x1="63" y1="2214" x2="116" y2="2286" stroke="rgb(63,255,0)"/>
+        <line class="course" x1="116" y1="2286" x2="358" y2="2248" stroke="rgb(90,255,0)"/>
+        <line class="course" x1="358" y1="2248" x2="565" y2="2034" stroke="rgb(41,255,0)"/>
+        <line class="course" x1="565" y1="2034" x2="795" y2="1739" stroke="rgb(0,255,0)"/>
+        <line class="course" x1="795" y1="1739" x2="682" y2="1639" stroke="rgb(162,255,0)"/>
+        <line class="course" x1="682" y1="1639" x2="628" y2="1522" stroke="rgb(255,0,0)"/>
+        <line class="course" x1="628" y1="1522" x2="577" y2="1418" stroke="rgb(129,255,0)"/>
+        <line class="course" x1="577" y1="1418" x2="433" y2="1423" stroke="rgb(169,255,0)"/>
+        <line class="course" x1="433" y1="1423" x2="254" y2="1681" stroke="rgb(60,255,0)"/>
+        <line class="course" x1="254" y1="1681" x2="167" y2="1921" stroke="rgb(75,255,0)"/>
+        <line class="course" x1="167" y1="1921" x2="54" y2="2202" stroke="rgb(47,255,0)"/>
+        <polyline stroke="black" stroke-opacity="0.8" stroke-width="1" fill-opacity="0.8" fill="rgb(63,255,0)" points="114 2287, 93 2266, 104 2258, 118 2285, " />
+        <polyline class="shadow" stroke="magenta" stroke-opacity="0.8" stroke-width="3" fill="none" points="63 2214, 39 2204, 60 2188, 63 2214, " />
+    </svg>
+    <table class="blueTable">
+        <thead>
+        <tr>
+<th>КП</th><th>Время</th><th>Сплит</th><th>Очки</th><th>Расстояние, км</th><th>Темп, мин/км</th><th>Мин/очко</th><th>Место / оба напр.</th>        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+<th></th><th></th><th></th><th>49</th><th>20.60</th><th>22:59.577</th><th>9:40</th><th></th>        </tr>
+        </tfoot>
+        <tbody>
+        <tr>
+<td>S</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>        </tr>
+        <tr>
+<td>45</td><td>17:30</td><td>17:30</td><td>4 / 4</td><td>0.89 / 0.89</td><td>19:38.550</td><td>4:22.500</td><td>21(25) / 21(25)</td>        </tr>
+        <tr>
+<td>51</td><td>1:04:47</td><td>47:17</td><td>5 / 9</td><td>2.07 / 2.96</td><td>22:50.579</td><td>9:27.400</td><td>22(22) / 33(33)</td>        </tr>
+        <tr>
+<td>53</td><td>1:47:52</td><td>43:05</td><td>5 / 14</td><td>2.52 / 5.48</td><td>17:05.770</td><td>8:37</td><td>15(17) / 22(24)</td>        </tr>
+        <tr>
+<td>55</td><td>2:26:41</td><td>38:49</td><td>5 / 19</td><td>3.16 / 8.65</td><td>12:15.870</td><td>7:45.800</td><td>13(14) / 21(22)</td>        </tr>
+        <tr>
+<td>43</td><td>3:06:46</td><td>40:05</td><td>4 / 23</td><td>1.28 / 9.93</td><td>31:17.517</td><td>10:01.250</td><td>13(14) / 18(20)</td>        </tr>
+        <tr>
+<td>62</td><td>4:25:09</td><td>1:18:23</td><td>6 / 29</td><td>1.09 / 11.02</td><td>1:11:54.851</td><td>13:03.833</td><td>16(16) / 35(35)</td>        </tr>
+        <tr>
+<td>42</td><td>4:52:04</td><td>26:55</td><td>4 / 33</td><td>0.98 / 12.00</td><td>27:26.410</td><td>6:43.750</td><td>7(8) / 16(17)</td>        </tr>
+        <tr>
+<td>64</td><td>5:31:16</td><td>39:12</td><td>6 / 39</td><td>1.22 / 13.22</td><td>32:02.179</td><td>6:32</td><td>14(14) / 29(29)</td>        </tr>
+        <tr>
+<td>54</td><td>6:22:27</td><td>51:11</td><td>5 / 44</td><td>2.65 / 15.87</td><td>19:17.787</td><td>10:14.200</td><td>15(15) / 34(34)</td>        </tr>
+        <tr>
+<td>52</td><td>7:07:49</td><td>45:22</td><td>5 / 49</td><td>2.16 / 18.03</td><td>21:03.071</td><td>9:04.400</td><td>13(14) / 36(37)</td>        </tr>
+        <tr>
+<td>F</td><td>7:53:40</td><td>45:51</td><td></td><td>2.57 / 20.60</td><td>17:49.736</td><td></td><td>16(16) / 16(16)</td>        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
