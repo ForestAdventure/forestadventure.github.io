@@ -13,15 +13,12 @@ sections:
   - type: call-to-action.html
     section_id: nearestevent
     background_style: bg-info text-white
-    title: Рогейн ЁЛКИНО-2
+    title: БНО
     text: >-
-      1 июля, Ёлкино Воскресенского городского округа
+      11-12 ноября, пос. Белопесоцкий Ступинского городского округа
     actions:
-      #- title: Заявка
-      #  url: 'https://orgeo.ru/event/fa2023'
-      #  class: btn-light
-      - title: Результаты
-        url: '2023/fa/index.html'
+      - title: Заявка
+        url: 'https://orgeo.ru/event/bno2023'
         class: btn-light
 
   - type: events.html
@@ -60,10 +57,16 @@ sections:
       - title: Большое ночное ориентирование Андрея Зайцева
         img: assets/img/2023/index2.jpg
         date: 11-12 ноября 2023 г.
+        place: Ступинский ГО, Белопесоцкий
         text: >-
           18-е традиционные соревнования.
-          Место старта пока держим в тайне.
-        #actions:
+        actions:
+          - title: Заявка
+            url: 'https://orgeo.ru/event/bno2023'
+            small: true
+          - title: Инфобюллетень
+            url: 'bno2023-info'
+            small: true
         #  - title: Подробнее
         #    url: 'bno2022/'
         #    small: true
