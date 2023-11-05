@@ -1,7 +1,7 @@
 ---
 layout: page
 title: БНО Андрея Зайцева 2023
-permalink: /bno2023-info/
+permalink: /bno2023-info1/
 background_image: ../assets/img/2022/olyoshkino2021-finish.jpg
 regulations: true
 ---
