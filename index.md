@@ -17,8 +17,8 @@ sections:
     text: >-
       11-12 ноября, пос. Белопесоцкий Ступинского городского округа
     actions:
-      - title: Заявка
-        url: 'https://orgeo.ru/event/bno2023'
+      - title: Результаты
+        url: '2023/bno/'
         class: btn-light
 
   - type: events.html
@@ -61,11 +61,14 @@ sections:
         text: >-
           18-е традиционные соревнования.
         actions:
-          - title: Заявка
-            url: 'https://orgeo.ru/event/bno2023'
+          - title: Список участников
+            url: 'https://orgeo.ru/event/participants/bno2023#tab'
             small: true
           - title: Инфобюллетень
             url: 'bno2023-info'
+            small: true
+          - title: Результаты
+            url: '2023/bno/'
             small: true
         #  - title: Подробнее
         #    url: 'bno2022/'
