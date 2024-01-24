@@ -7,6 +7,8 @@ header:
   url: /#events
 - title: О нас
   url: /#about
+- title: Аренда
+  url: /#rent
 - title: Контакты
   url: /#contacts
 - title: История

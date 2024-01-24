@@ -8,7 +8,7 @@ background_image: ../assets/img/2022/punch1.jpg
 Система электронной отметки
 ===========================
 
-{% include aligner.html images="assets/img/2020/sportiduino_punching_1.jpg,assets/img/2020/sportiduino_punching_2.jpg" %}
+{% include aligner.html images="assets/img/2020/sportiduino_punching_1.jpg,assets/img/2020/sportiduino_punching_2.jpg,assets/img/2020/sportiduino_punching_3.jpg" %}
 *Способ закрепления чипа и отметка на контрольном пункте.*
 
 Участникам выдаются чипы электронной отметки перед стартом.
@@ -46,5 +46,9 @@ background_image: ../assets/img/2022/punch1.jpg
 
 Проект системы отметки Sportiduino является открытым (open source).
 
+<i class="fa fa-lg fa-github"></i>
 [Страница проекта на Github](https://github.com/sportiduino/sportiduino).
+
+<i class="fa fa-lg fa-book"></i>
+[Руководство пользователя](https://github.com/sportiduino/sportiduino/blob/master/docs/ru/UserManual.md).
 

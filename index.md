@@ -163,8 +163,20 @@ sections:
       Если вы хотите испольовать для проведения своих соревнований наши карты, то мы готовы их предоставить бесплатно по запросу.
       Актуальные карты можно посмотреть в [nakarte](https://nakarte.me/#m=10/55.60279/38.47961&l=O/-cseyJuYW1lIjoiXHUwNDFhXHUwNDMwXHUwNDQwXHUwNDQyXHUwNDRiIEZvcmVzdEFkdmVudHVyZS5ydSIsInVybCI6Imh0dHBzOi8vc2VtYnJ1ay5naXRodWIuaW8vZmFfbWFwcy97en0ve3h9L3t5fS5wbmciLCJ0bXMiOnRydWUsInNjYWxlRGVwZW5kZW50IjpmYWxzZSwibWF4Wm9vbSI6MTYsImlzT3ZlcmxheSI6dHJ1ZSwiaXNUb3AiOnRydWV9)
 
-      Также вы можете арендовать у нас комплект электронной системы отметки [Sportiduino](sportiduino):
-      станции для контрольных пунктов, старта и финиша и чипы для участников.
+  - type: paragraph.html
+    section_id: rent
+    title: Аренда
+    text_style: text-center
+    text: >+
+      Для проведения своих соревнований по ориентированию, рогейнов, квестов и тренировок
+      вы можете арендовать у нас комплект электронной системы отметки [Sportiduino](sportiduino):
+      станции для контрольных пунктов, старта и финиша, чипы для участников.
+
+      Цена аренды:
+      - 200 рублей за станцию, при общем количестве станций до 40 штук;
+      - 180 рублей за станцию, при общем количестве станций от 40 штук.
+
+      Чипы предоставляются беплатно.
 
   - type: contact.html
     section_id: contacts
