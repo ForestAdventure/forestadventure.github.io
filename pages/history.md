@@ -5,6 +5,44 @@ permalink: /history/
 
 sections:
   - type: events.html
+    section_id: 2023
+    title: 2023 год
+    events:
+      - title: Рогейн ЁЛКИНО-2
+        img: assets/img/2023/index1.jpg
+        date: 1 июля 2023 г. (сб)
+        place: Воскресенский ГО, у деревни Ёлкино
+        format: 6/3 часа бегом и на велосипеде
+        text: >-
+          Продолжение полюбившегося рогейна, который состоялся в рамках спортивного фестиваля ТОР.
+        actions:
+          - title: Результаты
+            url: '2023/fa/'
+            relative: true
+            small: true
+          - title: Инфобюллетень
+            url: 'fa2023-info'
+            relative: true
+            small: true
+
+      - title: Большое ночное ориентирование Андрея Зайцева
+        img: assets/img/2023/index2.jpg
+        date: 11-12 ноября 2023 г.
+        place: Ступинский ГО, Белопесоцкий
+        text: >-
+          18-е традиционные соревнования.
+        actions:
+          - title: Результаты
+            url: '2023/bno/'
+            relative: true
+            small: true
+          - title: Инфобюллетень
+            url: 'bno2023-info'
+            relative: true
+            small: true
+
+
+  - type: events.html
     section_id: 2022
     title: 2022 год
     events:

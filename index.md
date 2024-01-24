@@ -10,69 +10,57 @@ header:
 
 
 sections:
-  - type: call-to-action.html
-    section_id: nearestevent
-    background_style: bg-info text-white
-    title: БНО
-    text: >-
-      11-12 ноября, пос. Белопесоцкий Ступинского городского округа
-    actions:
-      - title: Результаты
-        url: '2023/bno/'
-        class: btn-light
+  #- type: call-to-action.html
+  #  section_id: nearestevent
+  #  background_style: bg-info text-white
+  #  title: БНО
+  #  text: >-
+  #    11-12 ноября, пос. Белопесоцкий Ступинского городского округа
+  #  actions:
+  #    - title: Результаты
+  #      url: '2023/bno/'
+  #      class: btn-light
 
   - type: events.html
     section_id: events
     #background_style: bg-dark
     title: Наши события
     events:
-      - title: Рогейн ЁЛКИНО-2
-        img: assets/img/2023/index1.jpg
-        date: 1 июля 2023 г. (сб)
-        place: Воскресенский ГО, у деревни Ёлкино
-        format: 6/3 часа бегом и на велосипеде
+      - title: Рогейн Forest Adventure
+        img: assets/img/2024/index1.jpg
+        date: 31 августа 2024 г. (сб)
+        place: берега реки Осётр, городской округ Луховицы Московской области
+        format: 8/4 часа бегом, 6/3 часа на велосипеде, 2 часа родители-дети
         text: >-
-          Продолжение полюбившегося рогейна, который состоится в рамках спортивного фестиваля ТОР.
+          Новый живописный район. Это будет один из самых "горных" рогейнов Подмосковья!
         actions:
           #- title: Заявка
-          #  url: 'https://orgeo.ru/event/fa2023'
+          #  url: 'https://orgeo.ru/event/fa2024'
           #  small: true
-          - title: Результаты
-            url: '2023/fa/'
-            small: true
-          #- title: Карта
-          #  url: '2023/fa/map300dpi.png'
+          #- title: Результаты
+          #  url: '2024/fa/'
           #  small: true
-          #- title: Фото1
-          #  url: 'https://disk.yandex.ru/d/00m7s_xxkF9ISw'
+          #- title: Инфобюллетень
+          #  url: 'fa2024-info'
           #  small: true
-          #- title: Фото2
-          #  url: https://disk.yandex.ru/d/QTEABQwzbXK_Xg
-          #  small: true
-          - title: Инфобюллетень
-            url: 'fa2023-info'
-            small: true
 
 
       - title: Большое ночное ориентирование Андрея Зайцева
-        img: assets/img/2023/index2.jpg
-        date: 11-12 ноября 2023 г.
-        place: Ступинский ГО, Белопесоцкий
+        img: assets/img/2024/index2.jpg
+        date: 9-10 ноября 2024 г.
+        place: Московская область
         text: >-
-          18-е традиционные соревнования.
+          19-е традиционные соревнования.
         actions:
-          - title: Список участников
-            url: 'https://orgeo.ru/event/participants/bno2023#tab'
-            small: true
-          - title: Инфобюллетень
-            url: 'bno2023-info'
-            small: true
-          - title: Результаты
-            url: '2023/bno/'
-            small: true
-        #  - title: Подробнее
-        #    url: 'bno2022/'
-        #    small: true
+          #- title: Заявка
+          #  url: 'https://orgeo.ru/event/bno2024'
+          #  small: true
+          #- title: Инфобюллетень
+          #  url: 'bno2024-info'
+          #  small: true
+          #- title: Результаты
+          #  url: '2024/bno/'
+          #  small: true
 
   - type: call-to-action.html
     section_id: historylink
