@@ -46,7 +46,7 @@ background_image: ../assets/img/2022/punch1.jpg
 
 Проект системы отметки Sportiduino является открытым (open source).
 
-<i class="fa fa-lg fa-github"></i>
+<i class="fab fa-lg fa-github"></i>
 [Страница проекта на Github](https://github.com/sportiduino/sportiduino).
 
 <i class="fa fa-lg fa-book"></i>
