@@ -159,8 +159,7 @@ sections:
 
       Присоединяйтесь!
 
-
-      Если вы хотите испольовать для проведения своих соревнований наши карты, то мы готовы их предоставить бесплатно по запросу.
+      Если вы хотите использовать для проведения своих соревнований наши карты, то мы готовы их предоставить бесплатно по запросу.
       Актуальные карты можно посмотреть в [nakarte](https://nakarte.me/#m=10/55.60279/38.47961&l=O/-cseyJuYW1lIjoiXHUwNDFhXHUwNDMwXHUwNDQwXHUwNDQyXHUwNDRiIEZvcmVzdEFkdmVudHVyZS5ydSIsInVybCI6Imh0dHBzOi8vc2VtYnJ1ay5naXRodWIuaW8vZmFfbWFwcy97en0ve3h9L3t5fS5wbmciLCJ0bXMiOnRydWUsInNjYWxlRGVwZW5kZW50IjpmYWxzZSwibWF4Wm9vbSI6MTYsImlzT3ZlcmxheSI6dHJ1ZSwiaXNUb3AiOnRydWV9)
 
   - type: paragraph.html
@@ -186,7 +185,7 @@ sections:
     text: >-
       Новости, фотографии, полезную информацию мы публикуем на наших страницах в социальных сетях.
       Там же вы можете задать любые вопросы, поделиться впечатлениями.
-      Или пишите нам на электнонную почту, с радостью ответим!
+      Или пишите нам на электронную почту, с радостью ответим!
     actions:
     - title: 'info@forestadventure.ru'
       icon: fa-envelope
