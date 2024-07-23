@@ -368,6 +368,8 @@ regulations: true
 
 Семён Якимов [semyon@forestadventure.ru](mailto:semyon@forestadventure.ru)
 
+Мария Якимова [mariya@forestadventure.ru](mailto:mariya@forestadventure.ru)
+
 [info@forestadventure.ru](mailto:info@forestadventure.ru)
 
 Официальный сайт рогейна <http://forestadventure.ru>
@@ -375,8 +377,6 @@ regulations: true
 Страница ВКонтакте <https://vk.com/forestadventureru>
 
 Канал в Telegram <https://t.me/forestadventure>
-
-Страница в Instagram <https://instagr.am/forest_adventure_ru/>
 
 <!--
 Спонсоры и партнёры
