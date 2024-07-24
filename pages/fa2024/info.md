@@ -132,11 +132,9 @@ regulations: true
 </span>
 -->
 
-<!--
 Фрагменты карты
 
-{% include images.html images="assets/img/2023/map-fa-example1.png,assets/img/2023/map-fa-example2.png,assets/img/2023/map-fa-example3.png" %}
--->
+{% include images.html images="assets/img/2024/map-fa-ex1.png,assets/img/2024/map-fa-ex2.png,assets/img/2024/map-fa-ex3.png" %}
 
 Программа
 ------------------------------------
