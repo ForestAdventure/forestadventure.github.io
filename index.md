@@ -13,12 +13,12 @@ sections:
   #- type: call-to-action.html
   #  section_id: nearestevent
   #  background_style: bg-info text-white
-  #  title: БНО
+  #  title: Рогейн Forest Adventure Осётр
   #  text: >-
-  #    11-12 ноября, пос. Белопесоцкий Ступинского городского округа
+  #    31 августа, Ильясово, городской округ Луховицы Московской области
   #  actions:
-  #    - title: Результаты
-  #      url: '2023/bno/'
+  #    - title: Заявка
+  #      url: 'https://orgeo.ru/event/fa2024'
   #      class: btn-light
 
   - type: events.html
@@ -26,7 +26,7 @@ sections:
     #background_style: bg-dark
     title: Наши события
     events:
-      - title: Рогейн Forest Adventure
+      - title: Рогейн Forest Adventure Осётр
         img: assets/img/2024/index1.jpg
         date: 31 августа 2024 г. (сб)
         place: берега реки Осётр, городской округ Луховицы Московской области
