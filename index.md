@@ -10,16 +10,16 @@ header:
 
 
 sections:
-  #- type: call-to-action.html
-  #  section_id: nearestevent
-  #  background_style: bg-info text-white
-  #  title: Рогейн Forest Adventure Осётр
-  #  text: >-
-  #    31 августа, Ильясово, городской округ Луховицы Московской области
-  #  actions:
-  #    - title: Заявка
-  #      url: 'https://orgeo.ru/event/fa2024'
-  #      class: btn-light
+  - type: call-to-action.html
+    section_id: nearestevent
+    background_style: bg-info text-white
+    title: Рогейн Forest Adventure Осётр
+    text: >-
+      31 августа, Ильясово, городской округ Луховицы Московской области
+    actions:
+      - title: Заявка
+        url: 'https://orgeo.ru/event/fa2024'
+        class: btn-light
 
   - type: events.html
     section_id: events
@@ -34,15 +34,15 @@ sections:
         text: >-
           Новый живописный район. Это будет один из самых "горных" рогейнов Подмосковья!
         actions:
-          #- title: Заявка
-          #  url: 'https://orgeo.ru/event/fa2024'
-          #  small: true
+          - title: Заявка
+            url: 'https://orgeo.ru/event/fa2024'
+            small: true
           #- title: Результаты
           #  url: '2024/fa/'
           #  small: true
-          #- title: Инфобюллетень
-          #  url: 'fa2024-info'
-          #  small: true
+          - title: Инфобюллетень
+            url: 'fa2024-info'
+            small: true
 
 
       - title: Большое ночное ориентирование Андрея Зайцева
