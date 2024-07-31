@@ -398,9 +398,9 @@ regulations: true
 -------------------
 
 {% include images.html
-    images="assets/img/2020/veloforma-logo-200.png,assets/img/2023/susch.jpg"
-    urls="https://veloforma.net,https://sushenka.blogspot.com/"
-    alts="Veloforma.Net,СУШёНКА" %}
+    images="assets/img/2020/veloforma-logo-200.png,assets/img/2022/terr.png,assets/img/2023/susch.jpg"
+    urls="https://veloforma.net,https://tur-eda.ru,https://sushenka.blogspot.com/"
+    alts="Veloforma.Net,Территория странствий,СУШёНКА" %}
  
 <!--
 {% include images.html

@@ -203,21 +203,23 @@ sections:
       icon_type: fab
       url: 'http://instagram.com/forest_adventure_ru'
 
-  #- type: sponsors.html
-  #  section_id: sponsors
-  #  title: Спонсоры и партнёры
-  #  items:
-  #    - name: Veloforma.Net
-  #      url: https://veloforma.net
-  #      img: assets/img/2020/veloforma-logo-200.png
-  #    - name: Arena
-  #      url: https://arenasportfood.ru
-  #      img: assets/img/2021/arena.png
-  #    - name: Правильная подушка
-  #      url: https://www.ozon.ru/brand/proekt-pravilnaya-podushka-100111938/
-  #      img: assets/img/2022/pillow.jpg
-  #    - name: Территория странствий
-  #      url: https://tur-eda.ru
-  #      img: assets/img/2022/terr.png
-
+  - type: sponsors.html
+    section_id: sponsors
+    title: Спонсоры и партнёры
+    items:
+      - name: Veloforma.Net
+        url: https://veloforma.net
+        img: assets/img/2020/veloforma-logo-200.png
+      #- name: Arena
+      #  url: https://arenasportfood.ru
+      #  img: assets/img/2021/arena.png
+      #- name: Правильная подушка
+      #  url: https://www.ozon.ru/brand/proekt-pravilnaya-podushka-100111938/
+      #  img: assets/img/2022/pillow.jpg
+      - name: Территория странствий
+        url: https://tur-eda.ru
+        img: assets/img/2022/terr.png
+      - name: СУШёНКА
+        url: https://sushenka.blogspot.com/
+        img: assets/img/2023/susch.jpg
 ---
