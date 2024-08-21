@@ -65,7 +65,7 @@ regulations: true
 
 *Границы района*
 
-<iframe width="100%" height="800px" src="https://nakarte.me/#m=13/54.89645/38.76964&l=O&nktl=znxYi6Xy53wUZ3nHW47I5A"></iframe>
+<iframe width="100%" height="800px" src="https://nakarte.me/#m=12/54.89487/38.78311&l=O&nktl=znxYi6Xy53wUZ3nHW47I5A"></iframe>
 
 Местность средне и сильнопересечённая.
 *Рельеф* эрозионного и оползневого типа.
