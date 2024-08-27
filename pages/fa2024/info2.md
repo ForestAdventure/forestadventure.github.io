@@ -1,15 +1,12 @@
 ---
 layout: page
-title: Рогейн Осётр
+title: Инфобюллетень №2 Рогейн Осётр
 permalink: /fa2024-info/
 background_image: ../assets/img/2024/osetr1.jpg
 regulations: true
 ---
 
 ![logo]({{ "assets/img/2020/logo-fa-200.png" | relative_url }})
-
-Информационный бюллетень №2
-===========================
 
 Время и место проведения
 ---------------------------------------------------

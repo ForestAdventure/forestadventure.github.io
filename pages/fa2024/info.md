@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Инфобюллетень №2 Рогейн Осётр
+title: Инфобюллетень №1 Рогейн Осётр
 permalink: /fa2024-info1/
 background_image: ../assets/img/2024/osetr1.jpg
 regulations: true
