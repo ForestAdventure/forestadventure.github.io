@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Рогейн Осётр
-permalink: /fa2024-info/
+permalink: /fa2024-info1/
 background_image: ../assets/img/2024/osetr1.jpg
 regulations: true
 ---
