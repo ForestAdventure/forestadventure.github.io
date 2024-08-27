@@ -39,9 +39,9 @@ regulations: true
 <iframe width="100%" height="400px" src="https://nakarte.me/#m=14/55.30700/38.83899&l=O&nktl=o-7bV8jvjAiZWMHIvCL8Kg"></iframe>
 -->
 
-**Схема стартово-финишного городка**
+[Схема стартово-финишного городка](https://yandex.ru/maps/?um=constructor%3A69d2ab44e3223d5948acf772c8680a35973568af701429e19187f230eb665a9b&source=constructorLink)
 
-<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A69d2ab44e3223d5948acf772c8680a35973568af701429e19187f230eb665a9b&amp;source=constructor" width="581" height="501" frameborder="0"></iframe>
+<!--<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A69d2ab44e3223d5948acf772c8680a35973568af701429e19187f230eb665a9b&amp;source=constructor" width="581" height="501" frameborder="0"></iframe>-->
 
 [Прогноз погоды](https://yandex.ru/weather/ru-RU/details?lat=54.92856216&lon=38.80883789&lang=ru&via=ms)
 
@@ -64,9 +64,8 @@ regulations: true
 
 *Площадь района* — 65 кв. км.
 
-[*Границы района*](https://nakarte.me/#m=12/54.89487/38.78311&l=O&nktl=znxYi6Xy53wUZ3nHW47I5A)
-
-<!--<iframe width="100%" height="800px" src="https://nakarte.me/#m=12/54.89487/38.78311&l=O&nktl=znxYi6Xy53wUZ3nHW47I5A"></iframe>-->
+*Границы района*
+<iframe width="100%" height="800px" src="https://nakarte.me/#m=12/54.89487/38.78311&l=O&nktl=znxYi6Xy53wUZ3nHW47I5A"></iframe>
 
 Местность средне и сильнопересечённая.
 *Рельеф* эрозионного и оползневого типа.
