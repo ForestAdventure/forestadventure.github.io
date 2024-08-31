@@ -1,5 +1,5 @@
 ---
 layout: redirect
 permalink: /fa2024res/
-redirect: https://orgeo.ru/live/#/fa2024
+redirect: https://forestadventure.ru/2024/fa/index.html
 ---
