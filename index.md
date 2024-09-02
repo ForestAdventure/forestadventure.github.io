@@ -17,8 +17,8 @@ sections:
     text: >-
       31 августа, Ильясово, городской округ Луховицы Московской области
     actions:
-      - title: Заявка
-        url: 'https://orgeo.ru/event/fa2024'
+      - title: Результаты
+        url: '2024/fa/'
         class: btn-light
 
   - type: events.html
@@ -34,15 +34,15 @@ sections:
         text: >-
           Новый живописный район. Это будет один из самых "горных" рогейнов Подмосковья!
         actions:
-          - title: Заявка
-            url: 'https://orgeo.ru/event/fa2024'
-            small: true
-          #- title: Результаты
-          #  url: '2024/fa/'
+          #- title: Заявка
+          #  url: 'https://orgeo.ru/event/fa2024'
           #  small: true
-          - title: Инфобюллетень
-            url: 'fa2024-info'
+          - title: Результаты
+            url: '2024/fa/'
             small: true
+          #- title: Инфобюллетень
+          #  url: 'fa2024-info'
+          #  small: true
 
 
       - title: Большое ночное ориентирование Андрея Зайцева
