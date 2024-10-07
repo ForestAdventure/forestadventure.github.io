@@ -13,13 +13,16 @@ sections:
   - type: call-to-action.html
     section_id: nearestevent
     background_style: bg-info text-white
-    title: Рогейн Forest Adventure Осётр
+    title: Большое ночное ориентирование Андрея Зайцева 2024
     text: >-
-      31 августа, Ильясово, городской округ Луховицы Московской области
+      9 ноября, пос. Хорлово, городской округ Воскресенск Московской области
     actions:
-      - title: Результаты
-        url: '2024/fa/'
+      - title: Заявка
+        url: 'https://orgeo.ru/event/bno2024'
         class: btn-light
+      #- title: Результаты
+      #  url: '2024/bno/'
+      #  class: btn-light
 
   - type: events.html
     section_id: events
@@ -52,12 +55,12 @@ sections:
         text: >-
           19-е традиционные соревнования.
         actions:
-          #- title: Заявка
-          #  url: 'https://orgeo.ru/event/bno2024'
-          #  small: true
-          #- title: Инфобюллетень
-          #  url: 'bno2024-info'
-          #  small: true
+          - title: Заявка
+            url: 'https://orgeo.ru/event/bno2024'
+            small: true
+          - title: Инфобюллетень
+            url: 'bno2024-info'
+            small: true
           #- title: Результаты
           #  url: '2024/bno/'
           #  small: true
