@@ -31,18 +31,16 @@ table_border: true
 
 Район проведения — окрестности **посёлка Хорлово**, городской округ Воскресенск Московской области.
 
+Координаты места старта — N 55.34055° E 38.79249°
 <!--
-Координаты места старта — N 54.86249° E 38.12608°
-
 {% include images.html
     images="assets/img/2023/start-bno-thumb.png"
     urls="assets/img/2023/start-bno.png"
     alts="Схема прохода к старту" %}
 -->
 
-<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af5e998fadc5fe647b3c47177bf6af38adacfae545939ebd2dcb7d9d305afc6c8&amp;width=486&amp;height=587&amp;lang=ru_RU&amp;scroll=true"></script>
-
-Точные координаты места старта будут опубликованы в Информационном бюллетене №2.
+<!--<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af5e998fadc5fe647b3c47177bf6af38adacfae545939ebd2dcb7d9d305afc6c8&amp;width=486&amp;height=587&amp;lang=ru_RU&amp;scroll=true"></script>-->
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af5e998fadc5fe647b3c47177bf6af38adacfae545939ebd2dcb7d9d305afc6c8&amp;width=100%25&amp;height=597&amp;lang=ru_RU&amp;scroll=true"></script>
 
 **Проезд на общественном транспорте**
 
@@ -218,7 +216,7 @@ _10 ноября (воскресенье)_
 ---------------
 
 1. Участник получает чип отметки по фамилии за отдельным столом в Секретариате.
-Если участник не заявился или не оплатил заявку, это можно сделать в платке Секретариата.
+Если участник не заявился или не оплатил заявку, это можно сделать в палатке Секретариата.
 Если участник имеет свой чип Clever Timing System и заявка оплачена онлайн, то он может сразу проходить в зону старта.
 1. Проходит в зону старта. Отмечается на станции Проверка.
 Если чип свой, необходимо его также перед этим очистить на станции Очистка.
