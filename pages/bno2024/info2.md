@@ -37,7 +37,7 @@ table_border: true
 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af5e998fadc5fe647b3c47177bf6af38adacfae545939ebd2dcb7d9d305afc6c8&amp;width=100%25&amp;height=597&amp;lang=ru_RU&amp;scroll=true"></script>
 
 {% include images.html
-    images="assets/img/2024/start-bno2024-thumb.png"
+    images="assets/img/2024/start-bno2024.png"
     urls="assets/img/2024/start-bno2024.png"
     alts="Схема прохода к старту" %}
 
