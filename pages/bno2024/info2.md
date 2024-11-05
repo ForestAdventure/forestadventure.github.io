@@ -32,22 +32,21 @@ table_border: true
 Район проведения — окрестности **посёлка Хорлово**, городской округ Воскресенск Московской области.
 
 Координаты места старта — N 55.34055° E 38.79249°
-<!--
-{% include images.html
-    images="assets/img/2023/start-bno-thumb.png"
-    urls="assets/img/2023/start-bno.png"
-    alts="Схема прохода к старту" %}
--->
 
 <!--<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af5e998fadc5fe647b3c47177bf6af38adacfae545939ebd2dcb7d9d305afc6c8&amp;width=486&amp;height=587&amp;lang=ru_RU&amp;scroll=true"></script>-->
 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af5e998fadc5fe647b3c47177bf6af38adacfae545939ebd2dcb7d9d305afc6c8&amp;width=100%25&amp;height=597&amp;lang=ru_RU&amp;scroll=true"></script>
+
+{% include images.html
+    images="assets/img/2024/start-bno2024-thumb.png"
+    urls="assets/img/2024/start-bno2024.png"
+    alts="Схема прохода к старту" %}
 
 **Проезд на общественном транспорте**
 
 1. На электричке от Москвы-Казанской до платформы 88 километр ([расписание](https://rasp.yandex.ru/search/?fromId=c213&fromName=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&toId=s9601903&toName=88+%D0%BA%D0%BC&when=9+%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F)).
 Далее на автобусе до пос. Хорлово (авт. ост. Улица Карла Маркса) ([расписание автобусов](https://rasp.yandex.ru/search/bus/?fromId=s9744180&fromName=%D0%9F%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0+88+%D0%BA%D0%BC&toId=s9738033&toName=%D0%A5%D0%BE%D1%80%D0%BB%D0%BE%D0%B2%D0%BE+%2F+%D0%A3%D0%BB%D0%B8%D1%86%D0%B0+%D0%9A%D0%B0%D1%80%D0%BB%D0%B0+%D0%9C%D0%B0%D1%80%D0%BA%D1%81%D0%B0&when=9+%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F)).
 В пути 12-20 минут.
-Далее пешком около 2,2 км до места старта.
+Далее пешком 2,7 км до места старта.
 2. На электричке от Москвы-Казанской до станции Воскресенск (следующая после пл. 88 км) ([расписание до ст. Воскресенск](https://rasp.yandex.ru/search/?fromId=c213&fromName=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&toId=s9600705&toName=%D0%92%D0%BE%D1%81%D0%BA%D1%80%D0%B5%D1%81%D0%B5%D0%BD%D1%81%D0%BA&when=9+%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F)).
 Далее пересадка на электричку до ст. Хорлово (10:20, 12:06, 18:07, [расписание](https://rasp.yandex.ru/search/?fromId=s9600705&fromName=%D0%92%D0%BE%D1%81%D0%BA%D1%80%D0%B5%D1%81%D0%B5%D0%BD%D1%81%D0%BA&toId=s9601932&toName=%D0%A5%D0%BE%D1%80%D0%BB%D0%BE%D0%B2%D0%BE&when=9+%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F)).
 В пути 11 минут.
@@ -58,7 +57,7 @@ table_border: true
 
 **Проезд на автомобиле**
 
-До посёлка Хорлово, далее по схеме, которая будет опубликована в Информационном бюллетене №2.
+До посёлка Хорлово, далее по схеме.
 
 Дистанции
 ---------------------------------------------------
