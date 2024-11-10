@@ -17,12 +17,12 @@ sections:
     text: >-
       9 ноября, пос. Хорлово, городской округ Воскресенск Московской области
     actions:
-      - title: Заявка
-        url: 'https://orgeo.ru/event/bno2024'
-        class: btn-light
-      #- title: Результаты
-      #  url: '2024/bno/'
+      #- title: Заявка
+      #  url: 'https://orgeo.ru/event/bno2024'
       #  class: btn-light
+      - title: Результаты
+        url: '2024/bno/'
+        class: btn-light
 
   - type: events.html
     section_id: events
@@ -55,15 +55,15 @@ sections:
         text: >-
           19-е традиционные соревнования.
         actions:
-          - title: Заявка
-            url: 'https://orgeo.ru/event/bno2024'
-            small: true
-          - title: Инфобюллетень
-            url: 'bno2024-info'
-            small: true
-          #- title: Результаты
-          #  url: '2024/bno/'
+          #- title: Заявка
+          #  url: 'https://orgeo.ru/event/bno2024'
           #  small: true
+          #- title: Инфобюллетень
+          #  url: 'bno2024-info'
+          #  small: true
+          - title: Результаты
+            url: '2024/bno/'
+            small: true
 
   - type: call-to-action.html
     section_id: historylink
