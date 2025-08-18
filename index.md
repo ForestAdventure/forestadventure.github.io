@@ -10,60 +10,44 @@ header:
 
 
 sections:
-  - type: call-to-action.html
-    section_id: nearestevent
-    background_style: bg-info text-white
-    title: Большое ночное ориентирование Андрея Зайцева 2024
-    text: >-
-      9 ноября, пос. Хорлово, городской округ Воскресенск Московской области
-    actions:
-      #- title: Заявка
-      #  url: 'https://orgeo.ru/event/bno2024'
-      #  class: btn-light
-      - title: Результаты
-        url: '2024/bno/'
-        class: btn-light
+  #- type: call-to-action.html
+  #  section_id: nearestevent
+  #  background_style: bg-info text-white
+  #  title: Большое ночное ориентирование Андрея Зайцева 2024
+  #  text: >-
+  #    9 ноября, пос. Хорлово, городской округ Воскресенск Московской области
+  #  actions:
+  #    #- title: Заявка
+  #    #  url: 'https://orgeo.ru/event/bno2024'
+  #    #  class: btn-light
+  #    - title: Результаты
+  #      url: '2024/bno/'
+  #      class: btn-light
 
   - type: events.html
     section_id: events
     #background_style: bg-dark
     title: Наши события
     events:
-      - title: Рогейн Forest Adventure Осётр
-        img: assets/img/2024/index1.jpg
-        date: 31 августа 2024 г. (сб)
-        place: берега реки Осётр, городской округ Луховицы Московской области
-        format: 8/4 часа бегом, 6/3 часа на велосипеде, 1,5 часа родители-дети
-        text: >-
-          Новый живописный район. Это будет один из самых "горных" рогейнов Подмосковья!
-        actions:
-          #- title: Заявка
-          #  url: 'https://orgeo.ru/event/fa2024'
-          #  small: true
-          - title: Результаты
-            url: '2024/fa/'
-            small: true
-          #- title: Инфобюллетень
-          #  url: 'fa2024-info'
-          #  small: true
-
-
       - title: Большое ночное ориентирование Андрея Зайцева
         img: assets/img/2024/index2.jpg
-        date: 9-10 ноября 2024 г.
+        date: 15-16 ноября 2025 г.
         place: Московская область
         text: >-
-          19-е традиционные соревнования.
+          Традиционные соревнования.
         actions:
+          - title: Страница истории БНО
+            url: 'https://tkmgtu.ru/library/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B5_%D0%9D%D0%BE%D1%87%D0%BD%D0%BE%D0%B5_%D0%9E%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5'
+            small: true
           #- title: Заявка
           #  url: 'https://orgeo.ru/event/bno2024'
           #  small: true
           #- title: Инфобюллетень
           #  url: 'bno2024-info'
           #  small: true
-          - title: Результаты
-            url: '2024/bno/'
-            small: true
+          #- title: Результаты
+          #  url: '2024/bno/'
+          #  small: true
 
   - type: call-to-action.html
     section_id: historylink
@@ -153,8 +137,8 @@ sections:
       Мы проводим Большое ночное ориентирование с 2016 года, а также проводили [Владимирский рогейн](https://vrogaining.ru) с 2015 до 2018 года.
 
       Автор карт и дистанций, идейный вдохновитель проекта — **Семён Якимов**,
-      чемпион России по рогейну 2021, многократный победитель и призёр рогейнов,
-      российских и международных приключенческих гонок, навигатор команды Blizzard.
+      чемпион мира и многократный чемпион России по рогейну, победитель и призёр рогейнов,
+      российских и международных приключенческих гонок.
 
       Мы любим лес, карты и дух соперничества.
       И хотим делится этой любовью с нашими участниками.

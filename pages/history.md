@@ -5,6 +5,42 @@ permalink: /history/
 
 sections:
   - type: events.html
+    section_id: 2024
+    title: 2024 год
+    events:
+      - title: Рогейн Forest Adventure Осётр
+        img: assets/img/2024/index1.jpg
+        date: 31 августа 2024 г. (сб)
+        place: берега реки Осётр, городской округ Луховицы Московской области
+        format: 8/4 часа бегом, 6/3 часа на велосипеде, 1,5 часа родители-дети
+        text: >-
+          Этот район впервые использовался для проведения рогейна. Один из самых "горных" рогейнов Подмосковья!
+        actions:
+          - title: Результаты
+            url: '2024/fa/'
+            relative: true
+            small: true
+          #- title: Инфобюллетень
+          #  url: 'fa2024-info'
+          #  small: true
+
+      - title: Большое ночное ориентирование Андрея Зайцева
+        img: assets/img/2024/index2.jpg
+        date: 9-10 ноября 2024 г.
+        place: Московская область
+        text: >-
+          19-е традиционные соревнования.
+        actions:
+          #- title: Инфобюллетень
+          #  url: 'bno2024-info'
+          #  small: true
+          - title: Результаты
+            url: '2024/bno/'
+            relative: true
+            small: true
+
+
+  - type: events.html
     section_id: 2023
     title: 2023 год
     events:
