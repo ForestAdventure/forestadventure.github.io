@@ -4,6 +4,18 @@ title: История
 permalink: /history/
 
 sections:
+  - type: call-to-action.html
+    section_id: nearestevent
+    background_style: bg-info text-white
+    title: Пути участников
+    text: >-
+      Можно посмотреть пути участников различных рогейнов.
+    actions:
+      - title: Перейти
+        url: '/rr/'
+        class: btn-light
+
+
   - type: events.html
     section_id: 2024
     title: 2024 год
