@@ -11,9 +11,11 @@
           {% if e.date %} — {{ e.date }}{% endif %}
           {% if e.place %}, {{ e.place }}{% endif %}
           <div class="tags">
-            {% for tag in e.tags %}
-              <span class="tag" style="background:#eee;padding:2px 5px;border-radius:4px;margin:2px;">{{ tag }}</span>
-            {% endfor %}
+            {% if e.tags %}
+              {% for tag in e.tags %}
+                <span class="tag" style="background:#eee;padding:2px 5px;border-radius:4px;margin:2px;">{{ tag }}</span>
+              {% endfor %}
+            {% endif %}
           </div>
         </li>
       {% endfor %}
