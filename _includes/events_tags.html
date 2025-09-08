@@ -4,11 +4,6 @@
       <h2>{{ section.title }}</h2>
     {% endif %}
 
-    <!--<div id="tag-filter-{{ section.section_id }}" class="tag-filter" style="margin: 1em 0;">
-      <strong>Фильтр по тегам:</strong>
-      <div class="tag-buttons" style="margin-top: 0.5em;"></div>
-    </div>-->
-
     <ul class="events-list">
       {% for e in section.events %}
         <li class="event-item" data-tags="{{ e.tags | join: ',' }}">
