@@ -4,6 +4,7 @@ title: Пути участников
 permalink: /rr2/
 background_image: ../assets/img/map_plan.jpg
 
+<!--
 sections:
   - type: events_tags.html
     section_id: 2025
@@ -62,11 +63,22 @@ sections:
         date: 19 апреля 2025 г.
         place: Нерская, Московская область
         tags: []
+
+      - title: Рогейн Ёлкино V3
+        url: '/2025/yo/'
+        date: 5 апреля 2025 г.
+        place: Ёлкино, Московская область
+        tags: [Бег2ч, Бег4ч, Вело3ч]
+
+      - title: Turtle Rogaine
+        url: '/2025/turtle/'
+        date: 16 марта 2025 г.
+        place: Тбилиси, Грузия
+        tags: [Бег2ч, Бег6ч]
+        -->
 ---
 
 <!--
-* [Рогейн Ёлкино V3](/2025/yo/) — 5 апреля, Ёлкино, Московская область.
-* [Turtle Rogaine](/2025/turtle/) — 16 марта, Тбилиси, Грузия.
 
 ## 2024 год
 
