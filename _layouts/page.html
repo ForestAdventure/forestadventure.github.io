@@ -14,6 +14,11 @@ layout: base
   </div>
 </header>
 
+<div id="global-tag-filter" class="tag-filter" style="margin: 1em 0; display: none;">
+  <strong>Фильтр по тегам:</strong>
+  <div class="tag-buttons" style="margin-top: 0.5em;"></div>
+</div>
+
 <!-- Any Ready-to-Use sections -->
 {% for section in page.sections %}
     {% include {{ section.type }} section=section site=site page=page %}
@@ -55,4 +60,63 @@ layout: base
     border: 1px solid #dee2e6;
   }
   {% endif %}
+  .tag-buttons button {
+    margin: 3px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .tag-buttons button.active {
+    background: #007bff;
+    color: white;
+    border-color: #007bff;
+    transform: translateY(1px);
+  }
 </style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const events = document.querySelectorAll(".event-item");
+  const filterBlock = document.getElementById("global-tag-filter");
+  const buttonContainer = filterBlock.querySelector(".tag-buttons");
+
+  // Собираем все уникальные теги
+  const allTags = new Set();
+  events.forEach(event => {
+    event.dataset.tags.split(",").forEach(tag => {
+      if (tag.trim()) allTags.add(tag.trim());
+    });
+  });
+
+  // Если тегов нет — выходим
+  if (!allTags.size) return;
+
+  // Показать фильтр
+  filterBlock.style.display = "";
+
+  // Создаем кнопки
+  [...allTags].sort().forEach(tag => {
+    const button = document.createElement("button");
+    button.textContent = tag;
+    button.dataset.tag = tag;
+    button.addEventListener("click", function() {
+      this.classList.toggle("active");
+      filterEvents();
+    });
+    buttonContainer.appendChild(button);
+  });
+
+  function filterEvents() {
+    const selectedTags = [...buttonContainer.querySelectorAll(".active")].map(b => b.dataset.tag);
+    events.forEach(event => {
+      const tags = event.dataset.tags.split(",");
+      const match = selectedTags.every(tag => tags.includes(tag));
+      event.style.display = selectedTags.length === 0 || match ? "" : "none";
+    });
+  }
+});
+</script>
+

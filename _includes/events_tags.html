@@ -4,12 +4,12 @@
       <h2>{{ section.title }}</h2>
     {% endif %}
 
-    <div id="tag-filter-{{ section.section_id }}" class="tag-filter" style="margin: 1em 0;">
+    <!--<div id="tag-filter-{{ section.section_id }}" class="tag-filter" style="margin: 1em 0;">
       <strong>Фильтр по тегам:</strong>
       <div class="tag-buttons" style="margin-top: 0.5em;"></div>
-    </div>
+    </div>-->
 
-    <ul class="events-list" id="events-list-{{ section.section_id }}">
+    <ul class="events-list">
       {% for e in section.events %}
         <li class="event-item" data-tags="{{ e.tags | join: ',' }}">
           <strong><a href="{{ e.url | relative_url }}">{{ e.title }}</a></strong>
@@ -26,7 +26,7 @@
   </div>
 </section>
 
-<style>
+<!--<style>
 .tag-buttons button {
   margin: 3px;
   padding: 5px 10px;
@@ -78,4 +78,6 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 </script>
+-->
+
 
