@@ -1,16 +1,16 @@
-<section id="{{ include.section_id }}" class="events-section">
+<section id="{{ section.section_id }}" class="events-section">
   <div class="container">
-    {% if include.title %}
-      <h2>{{ include.title }}</h2>
+    {% if section.title %}
+      <h2>{{ section.title }}</h2>
     {% endif %}
 
-    <div id="tag-filter-{{ include.section_id }}" style="margin: 1em 0;">
+    <div id="tag-filter-{{ section.section_id }}" style="margin: 1em 0;">
       <strong>Фильтр по тегам:</strong>
       <div class="tag-checkboxes"></div>
     </div>
 
-    <ul class="events-list" id="events-list-{{ include.section_id }}">
-      {% for e in include.events %}
+    <ul class="events-list" id="events-list-{{ section.section_id }}">
+      {% for e in section.events %}
         <li class="event-item" data-tags="{{ e.tags | join: ',' }}">
           <strong><a href="{{ e.url | default: '#' }}">{{ e.title }}</a></strong>
           {% if e.date %} — {{ e.date }}{% endif %}
@@ -28,7 +28,7 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  const sectionId = "{{ include.section_id }}";
+  const sectionId = "{{ section.section_id }}";
   const events = document.querySelectorAll(`#events-list-${sectionId} .event-item`);
   const checkboxContainer = document.querySelector(`#tag-filter-${sectionId} .tag-checkboxes`);
 
