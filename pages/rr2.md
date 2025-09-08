@@ -3,7 +3,6 @@ layout: page
 title: Пути участников
 permalink: /rr2/
 background_image: ../assets/img/map_plan.jpg
----
 
 sections:
   - type: events_tags.html
@@ -20,6 +19,8 @@ sections:
         date: 21 июня 2025 г.
         place: Заполицы, Московская область
         tags: [4ч, 8ч]
+
+---
 
 <!--
 * [Малахитовый рогейн](/2025/mlh/) — 17 августа, Москва.
