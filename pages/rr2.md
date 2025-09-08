@@ -3,7 +3,9 @@ layout: page
 title: Пути участников
 permalink: /rr2/
 background_image: ../assets/img/map_plan.jpg
+---
 
+<!--
 sections:
   - type: events_tags.html
     section_id: 2025
@@ -76,7 +78,6 @@ sections:
         tags: [Бег2ч, Бег6ч]
 ---
 
-<!--
 
 ## 2024 год
 
