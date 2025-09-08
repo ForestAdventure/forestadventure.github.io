@@ -21,9 +21,6 @@ sections:
         place: Москва
         tags: [Бег1.5ч, Бег3ч, Вело2ч, Вода3ч]
 
----
-<!--
-
       - title: HARD ROGAINE SWAMP
         url: '/2025/hrs/'
         date: 16 августа 2025 г.
@@ -47,6 +44,9 @@ sections:
         date: 21 июня 2025 г.
         place: Заполицы, Московская область
         tags: [Бег4ч, Бег8ч, Вело3ч, Вело6ч]
+
+---
+<!--
 
       - title: SPORT-MARAFON FEST
         url: '2025/smf/'
