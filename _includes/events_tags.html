@@ -1,0 +1,64 @@
+<section id="{{ include.section_id }}" class="events-section">
+  <div class="container">
+    {% if include.title %}
+      <h2>{{ include.title }}</h2>
+    {% endif %}
+
+    <div id="tag-filter-{{ include.section_id }}" style="margin: 1em 0;">
+      <strong>Фильтр по тегам:</strong>
+      <div class="tag-checkboxes"></div>
+    </div>
+
+    <ul class="events-list" id="events-list-{{ include.section_id }}">
+      {% for e in include.events %}
+        <li class="event-item" data-tags="{{ e.tags | join: ',' }}">
+          <strong><a href="{{ e.url | default: '#' }}">{{ e.title }}</a></strong>
+          {% if e.date %} — {{ e.date }}{% endif %}
+          {% if e.place %}, {{ e.place }}{% endif %}
+          <div class="tags">
+            {% for tag in e.tags %}
+              <span class="tag" style="background:#eee;padding:2px 5px;border-radius:4px;margin:2px;">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const sectionId = "{{ include.section_id }}";
+  const events = document.querySelectorAll(`#events-list-${sectionId} .event-item`);
+  const checkboxContainer = document.querySelector(`#tag-filter-${sectionId} .tag-checkboxes`);
+
+  // Собираем все уникальные теги
+  const allTags = new Set();
+  events.forEach(event => {
+    event.dataset.tags.split(",").forEach(tag => allTags.add(tag.trim()));
+  });
+
+  // Создаем чекбоксы
+  [...allTags].sort().forEach(tag => {
+    const label = document.createElement("label");
+    label.style.marginRight = "10px";
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.value = tag;
+    checkbox.addEventListener("change", filterEvents);
+    label.appendChild(checkbox);
+    label.append(" " + tag);
+    checkboxContainer.appendChild(label);
+  });
+
+  function filterEvents() {
+    const selectedTags = [...checkboxContainer.querySelectorAll("input:checked")].map(cb => cb.value);
+    events.forEach(event => {
+      const tags = event.dataset.tags.split(",");
+      const match = selectedTags.every(tag => tags.includes(tag));
+      event.style.display = selectedTags.length === 0 || match ? "" : "none";
+    });
+  }
+});
+</script>
+
