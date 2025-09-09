@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Пути участников
-permalink: /rr/
+permalink: /rr1/
 background_image: ../assets/img/map_plan.jpg
 ---
 
