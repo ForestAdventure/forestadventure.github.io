@@ -9,6 +9,12 @@ sections:
     section_id: 2025
     title: 2025 год
     events:
+      - title: Овощерогейнище
+        url: '2025/ov/'
+        date: 13 сентября 2025 г.
+        place: Королёв, Московская область
+        tags: [Бег, Вело, ≤4ч]
+
       - title: Спортмастер PRO Fest
         url: '2025/smpf/'
         date: 24 августа 2025 г.
