@@ -250,7 +250,7 @@ sections:
         tags: [Бег]
 
       - title: Рудниковый рогейн
-        url: '/2022/fa/res.html'
+        url: '/2022/fa/routes.html'
         date: 17 сентября 2022 г.
         place: Фосфоритный, Московская область
         tags: [Бег, Вело, ≤8ч]
