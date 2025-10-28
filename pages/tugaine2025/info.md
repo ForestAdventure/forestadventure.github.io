@@ -4,6 +4,7 @@ title: ТУГЕЙН - Инфобюллетень
 permalink: /tu-info/
 background_image: ../assets/img/2025/Skhodnenskiy_bucket.jpg
 regulations: true
+table_border: true
 ---
 
 ![logo]({{ "assets/img/2020/logo-fa-200.png" | relative_url }})
@@ -114,7 +115,7 @@ regulations: true
 | 14:00 — 14:15 | Финиш участников бегового формата. +15 минут — окончание штрафного времени, приём протестов. |
 | 14:30 | Награждение победителей и призёров бегового формата. |
 
-Время захода солнца — 19:19.
+Время захода солнца — 16:04.
 
 В программе возможны изменения.
 
