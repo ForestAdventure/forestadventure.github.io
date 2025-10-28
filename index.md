@@ -49,6 +49,19 @@ sections:
           #- title: Результаты
           #  url: '2024/bno/'
           #  small: true
+      - title: ТУГЕЙН - Рогейн в Тушино
+        img: assets/img/2025/skhodnenskiy.jpg
+        date: 29 ноября 2025 г.
+        place: Москва, Северное Тушино
+        text: >-
+            Рогейн на 3 часа бегом (2 вело) по городу и паркам.
+        actions:
+          - title: Заявка
+            url: 'https://orgeo.ru/event/tugaine'
+            small: true
+          - title: Инфобюллетень
+            small: true
+            url: 'tu-info'
 
   - type: call-to-action.html
     section_id: historylink
