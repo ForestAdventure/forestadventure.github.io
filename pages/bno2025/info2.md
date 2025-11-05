@@ -33,38 +33,32 @@ table_border: true
 
 Координаты места старта — **N 55.34482° E 38.90760°**
 
-<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5b9f8ffff433f7ffd180aa58f87a493bc9442f74413480980d8cbb5cc5a17a8c&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
-
-<!--<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af5e998fadc5fe647b3c47177bf6af38adacfae545939ebd2dcb7d9d305afc6c8&amp;width=100%25&amp;height=597&amp;lang=ru_RU&amp;scroll=true"></script>-->
-
-<!--**Схема прохода к старту**-->
-
-<!--
-<a href="/assets/img/2025/start-bno2025.png">
-    <img src="/assets/img/2025/start-bno2025-thumb.png" title="Схема прохода к старту" alt="Схема прохода к старту">
-</a>
--->
-
 **Проезд на общественном транспорте**
 
 1. На электричке от Москвы-Казанской до **платформы 88 километр** ([расписание](https://rasp.yandex.ru/search/?fromId=c213&fromName=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&toId=s9601903&toName=88+%D0%BA%D0%BC&when=15+%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F)).
 Далее на автобусах №№24, 39 или 29 до пос. Фосфоритный ([маршрут с расписанием автобусов](https://yandex.ru/maps/1/moscow-and-moscow-oblast/?ll=38.786987%2C55.329869&mode=routes&rtd=0&rtext=55.327180%2C38.685582~55.335024%2C38.888393&rtt=mt&ruri=~&utm_source=share&z=13.43)).
 В пути 20-25 минут.
-Далее пешком 1,8 км до места старта.
+Далее пешком 2 км до места старта.
 2. На электричке от Москвы-Казанской до станции Воскресенск (следующая после пл. 88 км) ([расписание до ст. Воскресенск](https://rasp.yandex.ru/search/?fromId=c213&fromName=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&toId=s9600705&toName=%D0%92%D0%BE%D1%81%D0%BA%D1%80%D0%B5%D1%81%D0%B5%D0%BD%D1%81%D0%BA&when=15+%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F)).
 Далее пересадка на электричку до пл. Рудниковская (12:11, 18:07 [расписание](https://rasp.yandex.ru/search/?fromId=s9600705&fromName=%D0%92%D0%BE%D1%81%D0%BA%D1%80%D0%B5%D1%81%D0%B5%D0%BD%D1%81%D0%BA&toId=s9601861&toName=%D0%A0%D1%83%D0%B4%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F&when=15+%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F)).
 В пути 20 минут.
-Далее пешком 1,5 км до места старта.
-
-Схема прохода к старту будет опубликована в Информационном бюллетене №2.
-
-Первый обратный автобус в воскресенье в 4:02.
-Первая обратная электричка от пл. Рудниковская в 4:57.
+Далее пешком 1,7 км до места старта.
 
 **Проезд на автомобиле**
 
 До посёлка Фосфоритный.
-Места парковки будут обозначены на схеме в Информационном бюллетене №2.
+Места парковки обозначены на схеме.
+
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5b9f8ffff433f7ffd180aa58f87a493bc9442f74413480980d8cbb5cc5a17a8c&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+
+**Схема прохода к старту**
+
+<a href="/assets/img/2025/na_start_bno.png">
+    <img src="/assets/img/2025/na_start_bno.png" title="Схема прохода к старту" alt="Схема прохода к старту">
+</a>
+
+Первый обратный автобус в воскресенье в 4:02.
+Первая обратная электричка от пл. Рудниковская в 4:57.
 
 Дистанции
 ---------------------------------------------------
