@@ -54,7 +54,7 @@ table_border: true
 **Схема прохода к старту**
 
 <a href="/assets/img/2025/na_start_bno.png">
-    <img src="/assets/img/2025/na_start_bno.png" title="Схема прохода к старту" alt="Схема прохода к старту">
+    <img src="/assets/img/2025/na_start_bno_thumb.png" title="Схема прохода к старту" alt="Схема прохода к старту">
 </a>
 
 Первый обратный автобус в воскресенье в 4:02.
