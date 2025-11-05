@@ -129,7 +129,7 @@ _16 ноября (воскресенье)_
 
 **Образцы карты**
 
-{% include aligner.html images="assets/img/2025/map-bno-ex1.png,assets/img/2025/map-bno-ex2.png,assets/img/2025/map-bno-ex3.png" pill=true  column=3 %}
+{% include aligner.html images="assets/img/2025/map-bno-ex1.png,assets/img/2025/map-bno-ex2.png,assets/img/2025/map-bno-ex3.png" column=3 pill="true" %}
 
 Местность
 ---------------------------------------------------
