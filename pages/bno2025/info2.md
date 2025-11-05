@@ -31,7 +31,9 @@ table_border: true
 
 Район проведения — окрестности [**посёлка Фосфоритный**](https://yandex.ru/maps/-/CLRtZ8LM), городской округ Воскресенск Московской области.
 
-<!--Координаты места старта — N 55.34055° E 38.79249°-->
+Координаты места старта — **N 55.34482° E 38.90760°**
+
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5b9f8ffff433f7ffd180aa58f87a493bc9442f74413480980d8cbb5cc5a17a8c&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
 
 <!--<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af5e998fadc5fe647b3c47177bf6af38adacfae545939ebd2dcb7d9d305afc6c8&amp;width=100%25&amp;height=597&amp;lang=ru_RU&amp;scroll=true"></script>-->
 
