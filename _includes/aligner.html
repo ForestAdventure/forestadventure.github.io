@@ -1,8 +1,9 @@
 {% assign images = include.images | split: ',' %}
+{% assign pill = include.pill | default: 'false' %}
 <div class="row">
     {% for image in images %}
     <div class="col" >
-        <img class="rounded img-fluid"
+        <img class="img-fluid {% if pill == 'true' %}rounded-pill{% else %}rounded{% endif %}"
              src="{{ image | prepend: '/' | relative_url }}"
              alt="{{ image | prepend: '/' | split: '/' | last }}">
     </div>
