@@ -1,7 +1,7 @@
 ---
 layout: page
 title: БНО Андрея Зайцева 2025
-permalink: /bno2025-info/
+permalink: /bno2025-info1/
 background_image: ../assets/img/2022/olyoshkino2021-finish.jpg
 regulations: true
 table_border: true
