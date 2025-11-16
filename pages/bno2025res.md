@@ -1,5 +1,5 @@
 ---
 layout: redirect
 permalink: /bno2025res/
-redirect: https://orgeo.ru/live/#/bno2025
+redirect: https://forestadventure.ru/2025/bno/
 ---
