@@ -260,7 +260,7 @@ table_border: true
 Смена группы, объединение или разделение команды, замена участника — **бесплатно**, в том числе на месте старта.
 
 Система Orgeo не позволяет редактировать оплаченные заявки.
-Для изменения заявки необходимо отправить письмо на адрес электронной почты.
+Для изменения заявки напишите в [сообщения ТГ канала](https://t.me/forestadventure?direct) или на адрес электронной почты.
 
 Приглашаем волонтёров (помощь в центре мероприятия, снятие части дистанции и&nbsp;др.).
 Бесплатное участие гарантируем!
@@ -291,7 +291,7 @@ table_border: true
 
 Мария Якимова [mariya@forestadventure.ru](mailto:mariya@forestadventure.ru)
 
-[info@forestadventure.ru](mailto:info@forestadventure.ru)
+[Сообщения канала в Telegram](https://t.me/forestadventure?direct)
 
 Официальный сайт рогейна <http://forestadventure.ru>
 
