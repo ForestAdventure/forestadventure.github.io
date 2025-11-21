@@ -1,5 +1,5 @@
 ---
 layout: redirect
 permalink: /res/
-redirect: https://forestadventure.ru/2024/zl/
+redirect: https://orgeo.ru/live/#47419/
 ---
