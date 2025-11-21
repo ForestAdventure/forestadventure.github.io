@@ -851,7 +851,7 @@
 
     var Fields = {
         fields: [
-            {key: 'team_number', title: '№ ком-ды', size: 6},
+            {key: 'team_number', title: '№ ком-ды', size: 6, active: false},
             {key: 'name', title: 'Имя', size: 30},
             {key: 'surname', title: 'Фамилия', size: 30},
             {key: 'age', title: '', size: 4},
@@ -898,6 +898,7 @@
                 var isTeamRace = race.data.race_type === 6
                 var isRogaining = race.settings.result_processing_mode === "scores" && race.settings.result_processing_score_mode == "rogain";
                 this.getField('bib').active = !isTeamRace
+                this.getField('team_number').active = location.href.indexOf('tn=1') > -1;
                 this.getField('card_number').active = location.href.indexOf('cn=1') > -1;
                 this.getField('subgroup').active = location.href.indexOf('sg=1') > -1;
             } catch (e){}
@@ -928,6 +929,7 @@
         personsCountElement.innerHTML = person_count.toString();
 
         var query = {
+            tn: Fields.isActive('team_number') ? 1 : 0,
             cn: Fields.isActive('card_number') ? 1 : 0,
             sg: Fields.isActive('subgroup') ? 1 : 0
         };
@@ -996,6 +998,14 @@
             value: Fields.isActive('bib'),
             change: function (checked) {
                 Fields.active('bib', checked);
+                render()
+            }
+        },
+        {
+            title: 'Номер команды',
+            value: Fields.isActive('team_number'),
+            change: function (checked) {
+                Fields.active('team_number', checked);
                 render()
             }
         },
