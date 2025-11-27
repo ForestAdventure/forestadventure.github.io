@@ -1,4 +1,4 @@
 ---
 layout: redirect
-permalink: /2025/tu/
+permalink: /tures/
 redirect: https://orgeo.ru/live/#/tugaine
