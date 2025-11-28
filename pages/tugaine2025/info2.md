@@ -68,6 +68,7 @@ table_border: true
 
 *Опасные места:*
 * улицы с интенсивным автомобильным движением;
+* лыжероллерная трасса (будьте внимательны, держитесь края);
 * крутые склоны оврагов.
 
 *Интересные объекты:*
@@ -329,12 +330,10 @@ table_border: true
 Канал в Telegram <https://t.me/forestadventure>
 
 
-<!--Спонсоры и партнёры-->
+Спонсоры и партнёры
 
-<!--
 {% include images.html
-    images="assets/img/2020/veloforma-logo-200.png,assets/img/2021/arena.png,assets/img/2022/terr.png,assets/img/2023/susch.jpg"
-    urls="https://veloforma.net,https://arenasportfood.ru/,https://tur-eda.ru/,https://sushenka.blogspot.com/"
-    alts="Veloforma.Net,Arena,Территория странствий,СУШёНКА" %}
-    -->
+    images="assets/img/2022/terr.png,assets/img/2025/hemotaksis.png"
+    urls="https://tur-eda.ru/,https://hemotaksis-run.ru/"
+    alts="Территория странствий,Хемотаксис" %}
 
