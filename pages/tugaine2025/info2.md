@@ -331,6 +331,7 @@ table_border: true
 
 
 Спонсоры и партнёры
+------------------
 
 {% include images.html
     images="assets/img/2022/terr.png,assets/img/2025/hemotaksis.png"
