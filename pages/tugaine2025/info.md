@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ТУГЕЙН - Инфобюллетень
-permalink: /tu-info/
+permalink: /tu-info1/
 background_image: ../assets/img/2025/Skhodnenskiy_bucket.jpg
 regulations: true
 table_border: true
