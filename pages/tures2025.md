@@ -1,5 +1,5 @@
 ---
 layout: redirect
 permalink: /tures/
-redirect: https://orgeo.ru/live/#/tugaine
+redirect: https://forestadvnture.ru/2025/tu/index.html?sg=1
 ---
