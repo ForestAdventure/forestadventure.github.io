@@ -57,12 +57,16 @@ sections:
         text: >-
             Рогейн на 3 часа бегом (2 вело) по городу и паркам.
         actions:
-          - title: Заявка
-            url: 'https://orgeo.ru/event/tugaine'
+          - title: Результаты
+            url: '2025/tu/?sg=1'
             small: true
-          - title: Инфобюллетень
-            small: true
-            url: 'tu-info'
+
+          #- title: Заявка
+          #  url: 'https://orgeo.ru/event/tugaine'
+          #  small: true
+          #- title: Инфобюллетень
+          #  small: true
+          #  url: 'tu-info'
 
   - type: call-to-action.html
     section_id: historylink
