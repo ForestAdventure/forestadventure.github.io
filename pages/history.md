@@ -15,6 +15,42 @@ sections:
         url: '/rr/'
         class: btn-light
 
+  - type: events.html
+    section_id: 2025
+    title: 2025 год
+    events:
+      - title: Большое ночное ориентирование Андрея Зайцева
+        img: assets/img/2025/bno3.jpg
+        date: 15-16 ноября 2025 г.
+        place: пос. Фосфоритный, Московская область
+        text: >-
+          Традиционные соревнования.
+        actions:
+          #- title: Заявка
+          #  url: 'https://orgeo.ru/event/bno2025'
+          #  small: true
+          #- title: Инфобюллетень
+          #  small: true
+          #  url: 'bno2025-info'
+          - title: Результаты
+            url: '2025/bno/'
+            small: true
+          - title: Страница истории БНО
+            url: 'https://tkmgtu.ru/library/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B5_%D0%9D%D0%BE%D1%87%D0%BD%D0%BE%D0%B5_%D0%9E%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5'
+            small: true
+            small: true
+
+      - title: ТУГЕЙН - Рогейн в Тушино
+        img: assets/img/2025/tugaine.jpg
+        date: 29 ноября 2025 г.
+        place: Москва, Северное Тушино
+        text: >-
+            Рогейн на 3 часа бегом (2 вело) по городу и паркам.
+        actions:
+          - title: Результаты
+            url: '2025/tu/?sg=1'
+            small: true
+
 
   - type: events.html
     section_id: 2024
@@ -39,7 +75,7 @@ sections:
       - title: Большое ночное ориентирование Андрея Зайцева
         img: assets/img/2024/index2.jpg
         date: 9-10 ноября 2024 г.
-        place: Московская область
+        place: пос. Хорлово, Московская область
         text: >-
           19-е традиционные соревнования.
         actions:
