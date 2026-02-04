@@ -36,9 +36,6 @@ sections:
             url: '2025/bno/'
             relative: true
             small: true
-          - title: Страница истории БНО
-            url: 'https://tkmgtu.ru/library/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B5_%D0%9D%D0%BE%D1%87%D0%BD%D0%BE%D0%B5_%D0%9E%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5'
-            small: true
 
       - title: ТУГЕЙН - Рогейн в Тушино
         img: assets/img/2025/tugaine.jpg
@@ -153,10 +150,10 @@ sections:
             relative: true
             small: true
           - title: Фото1
-            url: 'https://disk.yandex.ru/d/pfzW-XkkBx8WVw'
+            url: 'https://m.vk.com/album-190261264_285258982'
             small: true
           - title: Фото2
-            url: 'https://disk.yandex.ru/d/tdi3Qs8EGNzX4Q'
+            url: 'https://m.vk.com/album-190261264_285384352'
             small: true
 
 
