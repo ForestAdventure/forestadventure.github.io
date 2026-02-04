@@ -34,10 +34,10 @@ sections:
           #  url: 'bno2025-info'
           - title: Результаты
             url: '2025/bno/'
+            relative: true
             small: true
           - title: Страница истории БНО
             url: 'https://tkmgtu.ru/library/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B5_%D0%9D%D0%BE%D1%87%D0%BD%D0%BE%D0%B5_%D0%9E%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5'
-            small: true
             small: true
 
       - title: ТУГЕЙН - Рогейн в Тушино
@@ -49,6 +49,7 @@ sections:
         actions:
           - title: Результаты
             url: '2025/tu/?sg=1'
+            relative: true
             small: true
 
 
