@@ -150,10 +150,10 @@ sections:
             relative: true
             small: true
           - title: Фото1
-            url: 'https://m.vk.com/album-190261264_285258982'
+            url: 'https://vk.com/album-190261264_285258982'
             small: true
           - title: Фото2
-            url: 'https://m.vk.com/album-190261264_285384352'
+            url: 'https://vk.com/album-190261264_285384352'
             small: true
 
 
