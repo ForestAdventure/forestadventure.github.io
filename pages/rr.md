@@ -6,6 +6,22 @@ background_image: ../assets/img/map_plan.jpg
 
 sections:
   - type: events_tags.html
+    section_id: 2026
+    title: 2026 год
+    events:
+      - title: Рогейн Супремус
+        url: '/2026/supr/'
+        date: 1 марта 2026 г.
+        place: Стадион Медик, Москва
+        tags: [Лыжи, ≤2ч]
+
+      - title: Нано-Подкуст, 1 этап
+        url: '/2026/nano1/'
+        date: 11 января 2026 г.
+        place: Битца, Москва
+        tags: [Бег, ≤2ч]
+
+  - type: events_tags.html
     section_id: 2025
     title: 2025 год
     events:
