@@ -7,7 +7,8 @@ regulations: true
 table_border: true
 ---
 
-{% include aligner.html images="assets/img/2026/logo_wa_retrogaine.png" %}
+<!--{% include aligner.html images="assets/img/2026/logo_wa_retrogaine.png" %}-->
+![]({{"../assets/img/2026/logo_wa_retrogaine.png" | relative_url}}){: width="50%"}
 
 Информационный бюллетень №1
 ===========================
