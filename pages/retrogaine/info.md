@@ -1,6 +1,6 @@
 ---
 layout: page
-title: РЕТРОГЕЙН «МОСКОВСКИЙ&nbsp;КОМПАС&nbsp;-&nbsp;2006»
+title: РЕТРОГЕЙН «Московский&nbsp;Компас&nbsp;-&nbsp;2006»
 permalink: /retrogaine-inf1/
 background_image: ../assets/img/2026/bg-retrogaine.jpg
 regulations: true
@@ -96,7 +96,10 @@ table_border: true
 Будьте внимательны и готовы к некоторым сюрпризам в навигации.
 Учитывая дружеский характер старта, просим вас воздержаться от использования современных карт и навигаторов. 
 
-<!--Образец карты рогейна «Московский Компас 2006»-->
+**Образцы карты**
+
+{% include aligner.html images="assets/img/2026/map-retro-ex1.png,assets/img/2026/map-retro-ex2.png,assets/img/2026/map-retro-ex3.png" column=3 pill="true" %}
+
 
 Дистанция и оборудование КП
 ---------------------------------------------------
