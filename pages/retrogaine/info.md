@@ -1,7 +1,7 @@
 ---
 layout: page
 title: РЕТРОГЕЙН «МОСКОВСКИЙ КОМПАС - 2006» - Инфобюллетень
-permalink: /tu-info1/
+permalink: /retrogaine-inf1/
 regulations: true
 table_border: true
 ---
