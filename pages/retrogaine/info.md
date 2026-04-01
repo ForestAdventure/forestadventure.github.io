@@ -1,14 +1,13 @@
 ---
 layout: page
-title: РЕТРОГЕЙН «Московский&nbsp;Компас 2006»
+title: РЕТРОГЕЙН «Московский&nbsp;Компас&nbsp;2006»
 permalink: /retrogaine-inf/
 background_image: ../assets/img/2026/bg-retrogaine.jpg
 regulations: true
 table_border: true
 ---
 
-<!--{% include aligner.html images="assets/img/2026/logo_wa_retrogaine.png" %}-->
-![]({{"../assets/img/2026/logo_wa_retrogaine.png" | relative_url}}){: width="50%"}
+![]({{"../assets/img/2026/logo_wa_retrogaine.png" | relative_url}}){: width="95%" .mx-auto .d-block}
 
 Информационный бюллетень №1
 ===========================
