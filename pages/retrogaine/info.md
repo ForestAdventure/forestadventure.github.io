@@ -1,6 +1,6 @@
 ---
 layout: page
-title: РЕТРОГЕЙН «МОСКОВСКИЙ&nbsp;КОМПАС - 2006»
+title: РЕТРОГЕЙН «МОСКОВСКИЙ&nbsp;КОМПАС&nbsp;-&nbsp;2006»
 permalink: /retrogaine-inf1/
 background_image: ../assets/img/2026/bg-retrogaine.jpg
 regulations: true
