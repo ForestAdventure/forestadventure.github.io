@@ -1,6 +1,6 @@
 ---
 layout: page
-title: РЕТРОГЕЙН «МОСКОВСКИЙ КОМПАС - 2006» - Инфобюллетень
+title: РЕТРОГЕЙН «МОСКОВСКИЙ КОМПАС - 2006»
 permalink: /retrogaine-inf1/
 regulations: true
 table_border: true
@@ -182,7 +182,7 @@ table_border: true
 **Участники рогейна «Московский Компас 2006» приглашаются на соревнование без оплаты стартового взноса.
 Добро пожаловать!**
 
-Для получения персонального промокода направьте запрос на адрес [semyon@forestadventure.ru](mailto:semyon@forestadventure.ru?subject=Промокод для участия в Ретророгейне).
+Для получения персонального промокода направьте запрос на адрес [semyon@forestadventure.ru](mailto:semyon@forestadventure.ru?subject=Промокод для участия в Ретрогейне).
 
 [Список участников и результаты](https://moscompass.ru/news/2006/rogain.htm) рогейна «Московский Компас 2006».
 
@@ -213,6 +213,8 @@ table_border: true
 Официальный сайт Ретрогейна <http://forestadventure.ru>
 
 Канал в Telegram <https://t.me/forestadventure>
+
+Страница ВКонтакте <https://vk.com/forestadventureru>
 
 <!--Спонсоры и партнёры-->
 
