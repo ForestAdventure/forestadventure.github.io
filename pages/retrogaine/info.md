@@ -212,8 +212,6 @@ table_border: true
 
 Официальный сайт Ретрогейна <http://forestadventure.ru>
 
-Страница ВКонтакте <https://vk.com/forestadventureru>
-
 Канал в Telegram <https://t.me/forestadventure>
 
 <!--Спонсоры и партнёры-->
