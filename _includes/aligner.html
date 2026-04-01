@@ -2,8 +2,9 @@
 {% assign pill = include.pill | default: 'false' %}
 <div class="row">
     {% for image in images %}
-    <div class="col d-flex" >
+    <div class="col" >
         <img class="img-fluid {% if pill == 'true' %}rounded-pill{% else %}rounded{% endif %}"
+             style="display: block; width: 100%; height: auto;"
              src="{{ image | prepend: '/' | relative_url }}"
              alt="{{ image | prepend: '/' | split: '/' | last }}">
     </div>
