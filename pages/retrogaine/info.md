@@ -223,7 +223,10 @@ table_border: true
 
 Страница в VK <https://vk.com/forestadventureru>
 
-<!--Спонсоры и партнёры-->
+Партнёры
+------------
+
+Компания «Московский Компас» <moscompass.ru>
 
 <!--
 {% include images.html
