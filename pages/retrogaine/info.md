@@ -1,7 +1,7 @@
 ---
 layout: page
 title: РЕТРОГЕЙН «Московский&nbsp;Компас 2006»
-permalink: /retrogaine-inf1/
+permalink: /retrogaine-inf/
 background_image: ../assets/img/2026/bg-retrogaine.jpg
 regulations: true
 table_border: true
