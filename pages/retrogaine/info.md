@@ -7,7 +7,7 @@ regulations: true
 table_border: true
 ---
 
-![]({{"../assets/img/2026/logo_wa_retrogaine.png" | relative_url}}){: width="95%" .mx-auto .d-block}
+![]({{"../assets/img/2026/logo_wa_retrogaine.png" | relative_url}}){: max-width="95%" .mx-auto .d-block}
 
 Информационный бюллетень №1
 ===========================
