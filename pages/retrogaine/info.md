@@ -226,7 +226,7 @@ table_border: true
 Партнёры
 ------------
 
-Компания «Московский Компас» <moscompass.ru>
+Компания «Московский Компас» <https://moscompass.ru>
 
 <!--
 {% include images.html
