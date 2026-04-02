@@ -29,6 +29,19 @@ sections:
     #background_style: bg-dark
     title: Наши события
     events:
+      - title: РЕТРОГЕЙН «Московский Компас 2006»
+        img: assets/img/2026/retrogaine1.jpg
+        date: 19 апреля 2026 г.
+        place: Томилинский лесопарк, Московская область
+        text: >-
+          3 часа бегом по ретро-карте в честь 20-летия первого рогейна в Московском регионе
+        actions:
+          - title: Инфобюллетень
+            small: true
+            url: 'retrogaine-inf'
+          - title: Заявка
+            url: 'https://orgeo.ru/event/retrogaine'
+            small: true
       - title: Большое ночное ориентирование Андрея Зайцева
         img: assets/img/2025/bno.jpg
         date: 14-15 ноября 2026 г.
