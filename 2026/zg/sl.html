@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+
+    <title>Стартовый протокол - ЗВЁЗДНАЯ ГОНКА 2026</title>
+    
+
+    
+<style>
+    body {
+      font-family: sans-serif;
+    }
+
+    p,
+    blockquote,
+    ul,
+    ol,
+    dl,
+    table,
+    pre {
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+
+    table.sportorg-table {
+        display: block;
+        width: 100%;
+        overflow: auto;
+        word-break: keep-all;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    table.sportorg-table th {
+        font-weight: bold;
+        border-bottom: 2px solid black;
+        margin-bottom: 5px;
+    }
+
+    table.sportorg-table th,
+    table.sportorg-table td {
+        padding: 3px 13px;
+        text-align: left;
+        /*border: 1px solid #ddd;*/
+    }
+
+    table.sportorg-table tr {
+        background-color: #fff;
+        border-bottom: 1px solid #ccc;
+        white-space: pre-wrap;
+        overflow: hidden;
+    }
+
+    /*table.sportorg-table tr:nth-child(2n) {*/
+        /*background-color: #f8f8f8;*/
+    /*}*/
+
+    table.blue-table {
+        background-color: #EEEEEE;
+        text-align: left;
+        word-break: keep-all;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    table.blue-table tr {
+        border-bottom: 1px solid #ccc;
+        overflow: hidden;
+    }
+    table.blue-table td,
+    table.blue-table th {
+        padding: 3px 13px;
+        white-space: pre-wrap;
+    }
+    table.blue-table tr:nth-child(even) {
+        background: #D0E4F5;
+    }
+    table.blue-table thead {
+      background: #1C6EA4;
+      background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+      background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+      background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+      /*border-bottom: 2px solid #444444;*/
+    }
+    table.blue-table thead th {
+      font-weight: bold;
+      color: #FFFFFF;
+    }
+    table.blue-table thead th:first-child {
+      border-left: none;
+    }
+
+    table.empty-table {
+        width: auto;
+    }
+
+    table.empty-table tr {
+        background-color: white;
+        border: 0;
+    }
+
+    table.empty-table td, table.empty-table th {
+        border: 0;
+    }
+
+    hr {
+        box-sizing: content-box;
+        height: 0;
+    }
+
+    hr {
+        height: 0;
+        margin: 15px 0;
+        overflow: hidden;
+        background: transparent;
+        border: 0;
+        border-bottom: 1px solid #ddd;
+    }
+
+    hr:before {
+        display: table;
+        content: "";
+    }
+
+    hr:after {
+        display: table;
+        clear: both;
+        content: "";
+    }
+
+    hr {
+        height: 4px;
+        padding: 0;
+        margin: 16px 0;
+        background-color: #e7e7e7;
+        border: 0 none;
+    }
+
+    a:not([href]) {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    a {
+        color: #4078c0;
+        text-decoration: none;
+    }
+
+    a:hover,
+    a:active {
+        text-decoration: underline;
+    }
+
+    a {
+        background-color: transparent;
+    }
+
+    a:active,
+    a:hover {
+        outline: 0;
+    }
+
+    .print-only {
+        display: none;
+    }
+
+    .no-print {
+        display: block;
+    }
+
+    .nowrap {
+        white-space: nowrap;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .text-left {
+        text-align: left;
+    }
+
+    /* SPLITS */
+
+    .table-leg {
+        padding: 0;
+        margin: 0;
+    }
+
+    .table-leg th,
+    .table-leg td {
+        border: 0;
+    }
+
+    .table-leg tr {
+        border-top: 0;
+    }
+
+    .result-1,
+    .result-2,
+    .result-3 {
+        font-weight: bold;
+    }
+
+    .result-1 {
+        /*background: gold;*/
+    }
+
+    .result-2 {
+        /*background: silver;*/
+    }
+
+    .result-3 {
+        /*background: #cd7f32;*/
+    }
+
+    @media print {
+        @page {
+            margin: 0.5cm;
+        }
+
+        body {
+            font-size: 85%;
+        }
+
+        table.sportorg-table {
+            display: table;
+            width: 100%;
+        }
+
+        table.sportorg-table th,
+        table.sportorg-table td {
+            padding: 1px 10px;
+        }
+
+        table.sportorg-table,
+        pre {
+            margin-bottom: 1px;
+        }
+
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 1px 0;
+        }
+
+        section, .new-page {
+            page-break-before: always;
+        }
+
+        ul {
+            page-break-inside: avoid;
+        }
+
+        p {
+            widows: 4;
+        }
+
+        a[href^="http"]:after {
+            content: " (" attr(href) ")";
+        }
+
+        abbr[title]:after {
+            content: " (" attr(title) ")";
+        }
+
+        .print-only {
+            display: inline;
+        }
+
+        .no-print {
+            display: none;
+        }
+    }
+</style>
+
+    
+<style>
+    /* SETTINGS */
+    .sportorg-settings {
+        position: fixed;
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+        background: white;
+        top: 3px;
+        right: 3px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .sportorg-settings-row {
+        margin: 5px;
+    }
+
+    @media print {
+        .sportorg-settings {
+            display: none;
+        }
+    }
+</style>
+<script>
+    var MAX_ORG_NAME = 30;
+    var MAX_PERSON_NAME = 30;
+
+    var TableGenerator = (function () {
+        var Table = function () {
+            return document.createElement('table');
+        };
+        var THead = function () {
+            return document.createElement('thead');
+        };
+        var TBody = function () {
+            return document.createElement('tbody');
+        };
+        var Tr = function () {
+            return document.createElement('tr');
+        };
+        var Th = function () {
+            return document.createElement('th');
+        };
+        var Td = function () {
+            return document.createElement('td');
+        };
+
+        function TableGenerator(data, fields) {
+            this.data = data;
+            this.fields = fields;
+        }
+
+        TableGenerator.prototype.getTable = function (options) {
+            var table = Table();
+            if (options && options.className) table.className = options.className;
+            table.appendChild(this.getHead());
+            table.appendChild(this.getBody());
+            return table;
+        };
+
+        TableGenerator.prototype.getHead = function () {
+            var tr = Tr();
+            for (var _i = 0, _a = this.headers(); _i < _a.length; _i++) {
+                var key = _a[_i];
+                var th = Th();
+                var title = this.getHeaderName(key);
+                if (title instanceof Node) {
+                    th.appendChild(title);
+                }
+                else {
+                    th.appendChild(document.createTextNode(title));
+                }
+                tr.appendChild(th);
+            }
+            var thead = THead();
+            thead.appendChild(tr);
+            return thead;
+        };
+
+        TableGenerator.prototype.getBody = function () {
+            var tbody = TBody();
+            var cols = this.headers().length;
+            for (var _b = 0, _c = this.data; _b < _c.length; _b++) {
+                var obj = _c[_b];
+                var tr = Tr();
+                if (obj instanceof Node || typeof obj === 'string') {
+                    var td = Td();
+                    td.colSpan = cols;
+                    if (typeof obj === 'string') {
+                        td.appendChild(document.createTextNode(obj));
+                    }
+                    else {
+                        td.appendChild(obj);
+                    }
+                    tr.appendChild(td);
+                }
+                else {
+                    for (var _i = 0, _a = this.headers(); _i < _a.length; _i++) {
+                        var key = _a[_i];
+                        var td = Td();
+                        if (obj[key]) {
+                            if (obj[key] instanceof Node) {
+                                td.appendChild(obj[key]);
+                            }
+                            else {
+                                td.appendChild(document.createTextNode(obj[key]));
+                            }
+                        }
+                        tr.appendChild(td);
+                    }
+                }
+                tbody.appendChild(tr);
+            }
+            return tbody;
+        };
+
+        TableGenerator.prototype.headers = function () {
+            if (this._headers) {
+                return this._headers
+            }
+            if (!this.fields) {
+                var headers = {};
+                for (var _i = 0, _a = this.data; _i < _a.length; _i++) {
+                    var obj = _a[_i];
+                    for (var key in obj) {
+                        headers[key] = true;
+                    }
+                }
+                this._headers = Object.keys(headers)
+            } else if (this.fields instanceof Array) {
+                this._headers = [];
+                for (var _i = 0, _a = this.fields; _i < _a.length; _i++) {
+                    var field = _a[_i];
+                    if (typeof field === 'string') {
+                        this._headers.push(field);
+                    }
+                    else if (field.active !== false) {
+                        this._headers.push(field.key);
+                    }
+                }
+            }
+            return this._headers;
+        };
+
+        TableGenerator.prototype.getHeaderName = function (key) {
+            if (this.fields && this.fields instanceof Array) {
+                for (var _i = 0, _a = this.fields; _i < _a.length; _i++) {
+                    var field = _a[_i];
+                    if (typeof field === 'object' && field.key === key) {
+                        return field.title;
+                    }
+                }
+            }
+            return key;
+        };
+
+        return TableGenerator
+    }());
+
+    var TableTextGenerator = (function () {
+
+        function TableTextGenerator(data, fields) {
+            this.data = data;
+            this.fields = fields;
+        }
+
+        TableTextGenerator.prototype.getTable = function (options) {
+            var node = document.createElement('pre');
+            if (options && options.className) node.className = options.className;
+            node.appendChild(this.getHead());
+            node.appendChild(this.getBody());
+            return node;
+        };
+
+        TableTextGenerator.prototype.getSliceText = function (text, size) {
+            if (text === undefined) {
+                text = '';
+            }
+            text = String(text);
+            if (size) {
+                text = text.slice(0, size);
+                if (text.length < size + 1) {
+                    var arr = [];
+                    for (var i = 0; i < size + 1 - text.length; i++) {
+                        arr.push(' ');
+                    }
+                    text += arr.join('');
+                }
+            } else {
+                text += '\t';
+            }
+            return text;
+        };
+
+        TableTextGenerator.prototype.getHead = function () {
+            var text = '';
+            for (var _i = 0, _a = this.headers(); _i < _a.length; _i++) {
+                var key = _a[_i];
+                var h = this.getHeaderObj(key);
+                var title = h && h.title;
+                var size = h && h.size;
+                if (size) {
+                    text += this.getSliceText(title, size);
+                } else {
+                    text += title;
+                }
+            }
+            text += '\n';
+            var blockU = document.createElement('u');
+            var blockB = document.createElement('b');
+            blockB.appendChild(document.createTextNode(text));
+            blockU.appendChild(blockB);
+            return blockU;
+        };
+
+        TableTextGenerator.prototype.getBody = function () {
+            var text = '';
+            for (var _b = 0, _c = this.data; _b < _c.length; _b++) {
+                var obj = _c[_b];
+                if (typeof obj === 'string') {
+                    text += obj;
+                } else {
+                    for (var _i = 0, _a = this.headers(); _i < _a.length; _i++) {
+                        var key = _a[_i];
+                        var h = this.getHeaderObj(key);
+                        var size = h && h.size;
+                        if (size) {
+                            text += this.getSliceText(obj[key], size);
+                        } else {
+                            text += obj[key];
+                        }
+                    }
+                }
+                text += '\n';
+            }
+            return document.createTextNode(text);
+        };
+
+        TableTextGenerator.prototype.headers = function () {
+            if (this._headers) {
+                return this._headers
+            }
+            if (!this.fields) {
+                var headers = {};
+                for (var _i = 0, _a = this.data; _i < _a.length; _i++) {
+                    var obj = _a[_i];
+                    for (var key in obj) {
+                        headers[key] = true;
+                    }
+                }
+                this._headers = Object.keys(headers)
+            } else if (this.fields instanceof Array) {
+                this._headers = [];
+                for (var _i = 0, _a = this.fields; _i < _a.length; _i++) {
+                    var field = _a[_i];
+                    if (typeof field === 'string') {
+                        this._headers.push(field);
+                    }
+                    else if (field.active !== false) {
+                        this._headers.push(field.key);
+                    }
+                }
+            }
+            return this._headers;
+        };
+
+        TableTextGenerator.prototype.getHeaderName = function (key) {
+            if (this.fields && this.fields instanceof Array) {
+                for (var _i = 0, _a = this.fields; _i < _a.length; _i++) {
+                    var field = _a[_i];
+                    if (typeof field === 'object' && field.key === key) {
+                        return field.title;
+                    }
+                }
+            }
+            return key;
+        };
+
+        TableTextGenerator.prototype.getHeaderObj = function (key) {
+            if (this.fields && this.fields instanceof Array) {
+                for (var _i = 0, _a = this.fields; _i < _a.length; _i++) {
+                    var field = _a[_i];
+                    if (typeof field === 'object' && field.key === key) {
+                        return field;
+                    }
+                }
+            }
+        };
+
+        return TableTextGenerator
+    }());
+
+    var SettingsGenerator = (function () {
+        var Block = function () {
+            var el = document.createElement('div');
+            el.className = 'sportorg-settings';
+            return el
+        };
+        var Row = function () {
+            var el = document.createElement('div');
+            el.className = 'sportorg-settings-row';
+            return el
+        };
+
+        function SettingsGenerator(settings) {
+            this.settings = settings;
+            this.isShow = true;
+        }
+
+        SettingsGenerator.prototype.show = function () {
+            var block = Block();
+            this.el = block;
+            for (var _i = 0, _a = this.settings; _i < _a.length; _i++) {
+                var setting = _a[_i];
+                var row = Row();
+                row.className = row.className + ' ' + 'sportorg-settings-hidden';
+                row.appendChild(this.getElBySetting(setting));
+                block.appendChild(row);
+            }
+            var btn = Row();
+            btn.appendChild(this.getHiddenButton());
+            block.appendChild(btn);
+            document.body.appendChild(block);
+            this.toggleHidden();
+        };
+        SettingsGenerator.prototype.getElBySetting = function (setting) {
+            if (typeof setting.value === 'boolean') {
+                var i = document.createElement('input');
+                i.type = 'checkbox';
+                if (setting.value) {
+                    i.checked = true;
+                }
+                if (setting.change) {
+                    i.onchange = function () {
+                        if (i.checked !== setting.value) {
+                            setting.change(i.checked);
+                            setting.value = i.checked;
+                        }
+                    }
+                }
+                var label = document.createElement('label');
+                label.appendChild(i);
+                label.appendChild(document.createTextNode(setting.title));
+                return label
+            } else if (setting.value instanceof Array) {
+                var s = document.createElement('select');
+                for (var _i = 0, _a = setting.value; _i < _a.length; _i++) {
+                    var obj = _a[_i];
+                    s.appendChild(new Option(obj.text, obj.value));
+                }
+                if (setting.change) {
+                    s.onchange = function () {
+                        var results = [];
+                        for (var _i = 0, _a = s.selectedOptions; _i < _a.length; _i++) {
+                            var item = _a[_i];
+                            results.push(item.value);
+                        }
+                        setting.change(results);
+                    };
+                }
+                var label = document.createElement('label');
+                label.appendChild(document.createTextNode(setting.title));
+                label.appendChild(s);
+                return label
+            }
+        };
+        SettingsGenerator.prototype.toggleHidden = function () {
+            var els = document.getElementsByClassName('sportorg-settings-hidden');
+            for (var _i = 0, els_ = els; _i < els_.length; _i++) {
+                var el = els_[_i];
+                if (this.isShow) {
+                    el.style.display = 'none';
+                    if (this.el) {
+                        this.el.style.opacity = '.3';
+                    }
+                }
+                else {
+                    el.style.display = 'block';
+                    if (this.el) {
+                        this.el.style.opacity = '1';
+                    }
+                }
+            }
+            this.isShow = !this.isShow;
+        };
+        SettingsGenerator.prototype.getHiddenButton = function () {
+            var el = document.createElement('button');
+            el.appendChild(document.createTextNode('Свернуть/Развернуть'));
+            var _this = this;
+            el.onclick = function (ev) { _this.toggleHidden() };
+            return el;
+        };
+        return SettingsGenerator;
+    }());
+
+    function toHHMMSS(value, allowOver24 = true) {
+        if (value === 0) {
+            return '00:00:00'
+        }
+        if (!value) return '';
+
+        value /= 1000;
+
+        let hours = Math.floor(value / 3600);
+        const remainingSeconds = value % 3600;
+        const minutes = Math.floor(remainingSeconds / 60);
+        const seconds = Math.floor(remainingSeconds % 60);
+
+        if (!allowOver24) {
+            hours = hours % 24;
+        }
+
+        var with0 = function (dd) {
+            return (dd < 10 ? '0' + dd : dd) + '';
+        };
+
+        return with0(hours) + ':' + with0(minutes) + ':' + with0(seconds);
+    }
+
+    function getById(list, id) {
+        if (id) {
+            for (var _i = 0, list_ = list; _i < list_.length; _i++) {
+                var obj = list_[_i];
+                if (obj.id === id) {
+                    return obj;
+                }
+            }
+        }
+        return null;
+    }
+
+    function racePreparation(race) {
+        for (var _i = 0, _a = race.persons; _i < _a.length; _i++) {
+            var obj = _a[_i];
+            obj.team = getById(race.teams, obj.team_id);
+            obj.group = getById(race.groups, obj.group_id);
+        }
+        for (var _b = 0, _c = race.results; _b < _c.length; _b++) {
+            var obj = _c[_b];
+            obj.status = obj.status === 16 ? 1 : obj.status;
+            obj.person = getById(race.persons, obj.person_id);
+        }
+        for (var _d = 0, _e = race.groups; _d < _e.length; _d++) {
+            var obj = _e[_d];
+            obj.course = getById(race.courses, obj.course_id);
+        }
+        for (var _f = 0, _g = ['groups', 'courses', 'teams']; _f < _g.length; _f++) {
+            var itemName = _g[_f];
+            race[itemName].sort(function (a, b) {
+                if (a.name.toUpperCase() < b.name.toUpperCase())
+                    return -1;
+                if (a.name.toUpperCase() > b.name.toUpperCase())
+                    return 1;
+                return 0;
+            });
+        }
+        return race;
+    }
+
+    function getGroupsBlockElement(race) {
+        var groupBlock = document.createElement('div');
+        groupBlock.className = 'no-print';
+        for (var _i = 0, _a = race.groups; _i < _a.length; _i++) {
+            var group = _a[_i];
+            var a = document.createElement('a');
+            a.href = '#' + group.name;
+            a.appendChild(document.createTextNode(group.name + ' '));
+            groupBlock.appendChild(a);
+        }
+        return groupBlock;
+    }
+
+    function dateFormat(date) {
+        date = date ? new Date(date) : new Date();
+        return date.getDate() + '.' + (date.getMonth() + 1) + '.' + date.getFullYear();
+    }
+
+    var Qualification = {
+        '': 'б/р',
+        0: 'б/р',
+        3: 'IIIю',
+        2: 'IIю',
+        1: 'Iю',
+        6: 'III',
+        5: 'II',
+        4: 'I',
+        7: 'КМС',
+        8: 'МС',
+        9: 'МСМК'
+    };
+
+    var STATUS_PRIORITY = [8, 4, 3, 5, 13];
+
+    function guid() {
+        function s4() {
+            return Math.floor((1 + Math.random()) * 0x10000)
+                .toString(16)
+                .substring(1);
+        }
+        return s4() + s4() + '-' + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4() + s4();
+    }
+</script>
+
+</head>
+<body>
+<div id="content">
+<div class="text-center">
+    <h3>ЗВЁЗДНАЯ ГОНКА 2026 <br>
+    18.04.2026 Ёлкино</h3>
+    <h2>ПРОТОКОЛ СТАРТА</h2>
+</div>
+<div id="start-list-tables"></div>
+
+
+<script>
+    var race = {"control_points": [], "courses": [], "data": {"chief_referee": "", "description": "ЗВЁЗДНАЯ ГОНКА 2026", "end_datetime": "2026-04-16 17:08:00", "location": "Ёлкино", "race_type": 6, "relay_leg_count": 3, "secretary": "", "start_datetime": "2026-04-18 10:00:00", "title": "Звёздная гонка 2026", "url": ""}, "groups": [{"__type": 6, "count_finished": 0, "count_person": 32, "course_id": null, "first_number": 0, "id": "18114223-8199-4b59-8385-7f637d04a089", "is_any_course": false, "long_name": "Дети", "max_age": 0, "max_time": 0, "min_age": 0, "name": "Дети", "object": "Group", "order_in_corridor": 0, "price": 0, "ranking": {"is_active": false, "rank": [{"is_active": false, "max_place": "2", "max_time": null, "percent": 0, "qual": 8, "use_scores": false}, {"is_active": false, "max_place": "6", "max_time": null, "percent": 0, "qual": 7, "use_scores": false}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 4, "use_scores": true}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 5, "use_scores": true}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 6, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 1, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 2, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 3, "use_scores": true}], "rank_scores": 0}, "relay_legs": 0, "sex": 0, "start_corridor": 0, "start_interval": 0, "start_time": 0, "subgroups": []}, {"__type": 6, "count_finished": 0, "count_person": 2, "course_id": null, "first_number": 0, "id": "ca4e2f33-bc43-485c-a49e-96169cb4c77e", "is_any_course": false, "long_name": "Любители-Ж", "max_age": 0, "max_time": 0, "min_age": 0, "name": "Любители-Ж", "object": "Group", "order_in_corridor": 0, "price": 0, "ranking": {"is_active": false, "rank": [{"is_active": false, "max_place": "2", "max_time": null, "percent": 0, "qual": 8, "use_scores": false}, {"is_active": false, "max_place": "6", "max_time": null, "percent": 0, "qual": 7, "use_scores": false}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 4, "use_scores": true}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 5, "use_scores": true}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 6, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 1, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 2, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 3, "use_scores": true}], "rank_scores": 0}, "relay_legs": 0, "sex": 2, "start_corridor": 0, "start_interval": 0, "start_time": null, "subgroups": []}, {"__type": 6, "count_finished": 0, "count_person": 19, "course_id": null, "first_number": 0, "id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "is_any_course": false, "long_name": "Любители-М", "max_age": 0, "max_time": 0, "min_age": 0, "name": "Любители-М", "object": "Group", "order_in_corridor": 0, "price": 0, "ranking": {"is_active": false, "rank": [{"is_active": false, "max_place": "2", "max_time": null, "percent": 0, "qual": 8, "use_scores": false}, {"is_active": false, "max_place": "6", "max_time": null, "percent": 0, "qual": 7, "use_scores": false}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 4, "use_scores": true}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 5, "use_scores": true}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 6, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 1, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 2, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 3, "use_scores": true}], "rank_scores": 0}, "relay_legs": 0, "sex": 1, "start_corridor": 0, "start_interval": 0, "start_time": null, "subgroups": []}, {"__type": null, "count_finished": 0, "count_person": 28, "course_id": null, "first_number": 0, "id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "is_any_course": false, "long_name": "Любители-МЖ", "max_age": 0, "max_time": 0, "min_age": 0, "name": "Любители-МЖ", "object": "Group", "order_in_corridor": 0, "price": 0, "ranking": {"is_active": false, "rank": [{"is_active": false, "max_place": "2", "max_time": null, "percent": 0, "qual": 8, "use_scores": false}, {"is_active": false, "max_place": "6", "max_time": null, "percent": 0, "qual": 7, "use_scores": false}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 4, "use_scores": true}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 5, "use_scores": true}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 6, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 1, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 2, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 3, "use_scores": true}], "rank_scores": 0}, "relay_legs": 0, "sex": 0, "start_corridor": 0, "start_interval": 0, "start_time": null, "subgroups": []}, {"__type": 6, "count_finished": 0, "count_person": 4, "course_id": null, "first_number": 0, "id": "14c35951-68ff-41e5-8ef9-37817edb7f2e", "is_any_course": false, "long_name": "Эксперт-Ж", "max_age": 0, "max_time": 0, "min_age": 0, "name": "Эксперт-Ж", "object": "Group", "order_in_corridor": 0, "price": 0, "ranking": {"is_active": false, "rank": [{"is_active": false, "max_place": "2", "max_time": null, "percent": 0, "qual": 8, "use_scores": false}, {"is_active": false, "max_place": "6", "max_time": null, "percent": 0, "qual": 7, "use_scores": false}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 4, "use_scores": true}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 5, "use_scores": true}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 6, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 1, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 2, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 3, "use_scores": true}], "rank_scores": 0}, "relay_legs": 0, "sex": 2, "start_corridor": 0, "start_interval": 0, "start_time": null, "subgroups": []}, {"__type": 6, "count_finished": 0, "count_person": 20, "course_id": null, "first_number": 0, "id": "894cf9ea-b073-4f44-b639-dac37a466673", "is_any_course": false, "long_name": "Эксперт-М", "max_age": 0, "max_time": 0, "min_age": 0, "name": "Эксперт-М", "object": "Group", "order_in_corridor": 0, "price": 0, "ranking": {"is_active": false, "rank": [{"is_active": false, "max_place": "2", "max_time": null, "percent": 0, "qual": 8, "use_scores": false}, {"is_active": false, "max_place": "6", "max_time": null, "percent": 0, "qual": 7, "use_scores": false}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 4, "use_scores": true}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 5, "use_scores": true}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 6, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 1, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 2, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 3, "use_scores": true}], "rank_scores": 0}, "relay_legs": 0, "sex": 1, "start_corridor": 0, "start_interval": 0, "start_time": null, "subgroups": []}, {"__type": null, "count_finished": 0, "count_person": 16, "course_id": null, "first_number": 0, "id": "21985f09-51cd-4590-ba70-bb28e919aa35", "is_any_course": false, "long_name": "Эксперт-МЖ", "max_age": 0, "max_time": 0, "min_age": 0, "name": "Эксперт-МЖ", "object": "Group", "order_in_corridor": 0, "price": 0, "ranking": {"is_active": false, "rank": [{"is_active": false, "max_place": "2", "max_time": null, "percent": 0, "qual": 8, "use_scores": false}, {"is_active": false, "max_place": "6", "max_time": null, "percent": 0, "qual": 7, "use_scores": false}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 4, "use_scores": true}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 5, "use_scores": true}, {"is_active": true, "max_place": "0", "max_time": null, "percent": 0, "qual": 6, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 1, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 2, "use_scores": true}, {"is_active": false, "max_place": "0", "max_time": null, "percent": 0, "qual": 3, "use_scores": true}], "rank_scores": 0}, "relay_legs": 0, "sex": 0, "start_corridor": 0, "start_interval": 0, "start_time": null, "subgroups": []}], "id": "41bcc273-aed8-46da-8fb5-03885322de4f", "object": "Race", "persons": [{"age": 37, "bib": 101, "card_number": 101, "comment": " ", "group_id": "ca4e2f33-bc43-485c-a49e-96169cb4c77e", "id": "83a67f1f-d6e0-4124-9431-190ce0e4596e", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Инга", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Соколовская", "team_id": "301cf498-088c-4f59-89ca-bd2460833e57", "world_code": null, "year": 1988}, {"age": 23, "bib": 102, "card_number": 102, "comment": " ", "group_id": "ca4e2f33-bc43-485c-a49e-96169cb4c77e", "id": "e8c98a0c-65e3-4a31-b619-85a6c857b0b8", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Ксения", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Федчинкова", "team_id": "4507e999-f27b-4ad3-ba15-901c1befb074", "world_code": null, "year": 2002}, {"age": 36, "bib": 103, "card_number": 103, "comment": " ", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "fc6bba74-5ae2-4d41-b0ba-0baad15a4857", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Кирилл", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Сафронов", "team_id": "f52a842c-18ed-4d69-bae1-31e8dbc7175b", "world_code": null, "year": 1989}, {"age": 19, "bib": 104, "card_number": 104, "comment": " ", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "e3e9eac4-fdd4-422f-ab1b-aecec12a5840", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Александр", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Бобин", "team_id": "1da991a2-f429-4f0d-94cd-2ce75ce174f3", "world_code": null, "year": 2006}, {"age": 19, "bib": 105, "card_number": 105, "comment": " ", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "a54bc58b-174c-4986-9d31-5e28f8b644ee", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Иван", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Андреев", "team_id": "1da991a2-f429-4f0d-94cd-2ce75ce174f3", "world_code": null, "year": 2007}, {"age": 19, "bib": 106, "card_number": 106, "comment": " ", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "e52a4f5d-fad6-4531-9369-b10e5c260c40", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Егор", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Комаров", "team_id": "19901ee3-6cc5-4bf8-8934-158c5e5aaf2d", "world_code": null, "year": 2006}, {"age": 19, "bib": 107, "card_number": 107, "comment": " ", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "35f4860b-0d85-4637-97ea-4228c55a96a8", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Иван", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Гализин", "team_id": "19901ee3-6cc5-4bf8-8934-158c5e5aaf2d", "world_code": null, "year": 2007}, {"age": 32, "bib": 108, "card_number": 108, "comment": " ", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "42cdbef9-ecb7-4d90-b61c-1cfd8d50bb6c", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Андрей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Васьков", "team_id": "875410f2-8424-44bb-a14a-452341742390", "world_code": null, "year": 1994}, {"age": 30, "bib": 109, "card_number": 109, "comment": " ", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "3444e327-8936-45cd-83a4-6ef2547ffddc", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Максим", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Юраев", "team_id": "b1eeba94-3215-4b96-ba49-c66812a4ce3e", "world_code": null, "year": 1995}, {"age": 20, "bib": 110, "card_number": 110, "comment": " ", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "520b22bf-6d40-461d-a1d7-14894b3d024e", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Илья", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Коновалов", "team_id": "406f9d2a-e944-45d8-806f-fcb11cc8ffe2", "world_code": null, "year": 2006}, {"age": 20, "bib": 111, "card_number": 111, "comment": " ", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "764023e3-eed3-469d-916d-befe94be4e19", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Даниил", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Филиппов", "team_id": "406f9d2a-e944-45d8-806f-fcb11cc8ffe2", "world_code": null, "year": 2005}, {"age": 39, "bib": 112, "card_number": 112, "comment": " ", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "6c9f5cb3-eb31-4494-a9c5-0ecd2ff09171", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Кирилл", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Тушников", "team_id": "2736ef8a-6b7d-4ef8-80b4-d51452456c0f", "world_code": null, "year": 1986}, {"age": 40, "bib": 113, "card_number": 113, "comment": " ", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "ef148264-08b2-4c24-9273-820d179c5281", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Андрей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Голубев", "team_id": "b31dcc21-8219-4a77-89fb-cea7d98185e7", "world_code": null, "year": 1985}, {"age": 36, "bib": 114, "card_number": 114, "comment": " ", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "29e99338-1583-4cbe-a72d-3229d2fdd277", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Алексей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Целыковский", "team_id": "ced3d049-027a-478e-a2c9-35b63a43bc94", "world_code": null, "year": 1989}, {"age": 40, "bib": 115, "card_number": 115, "comment": " ", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "6af83e77-47eb-4653-90b8-c792e5f9b8f1", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Иван", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Бойченко", "team_id": "ced3d049-027a-478e-a2c9-35b63a43bc94", "world_code": null, "year": 1985}, {"age": 21, "bib": 116, "card_number": 116, "comment": " ", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "edff4ea6-327b-4327-991d-b2bba752327a", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Артем", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Петренко", "team_id": "a1933045-c03f-455e-b1b0-b783532c7193", "world_code": null, "year": 2004}, {"age": 21, "bib": 117, "card_number": 117, "comment": " ", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "b1f83ed2-55d2-4f99-a1a1-6fa3bf4bb6bd", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Юрий", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Фефелов", "team_id": "a1933045-c03f-455e-b1b0-b783532c7193", "world_code": null, "year": 2004}, {"age": 24, "bib": 118, "card_number": 118, "comment": " ", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "9c8e8c1b-18c9-4c63-a7e0-6c48bf9681d3", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Вадим", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Горбачев", "team_id": "3514d261-ef48-494d-992b-4c872c87fe00", "world_code": null, "year": 2001}, {"age": 22, "bib": 119, "card_number": 119, "comment": " ", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "802382f3-cb80-4476-bac3-6ab3589a66c4", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Дмитрий", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Захарин", "team_id": "3514d261-ef48-494d-992b-4c872c87fe00", "world_code": null, "year": 2004}, {"age": 21, "bib": 120, "card_number": 120, "comment": " ", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "fa3614db-27d7-49d3-8ea3-8d8fb24c0d27", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Фёдор", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Андреев", "team_id": "c3072378-5453-4c90-a00f-f0e526dc0893", "world_code": null, "year": 2005}, {"age": 23, "bib": 121, "card_number": 121, "comment": " ", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "694ccf52-ecc7-47a8-b5e7-13904dc4a254", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Дмитрий", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Дубишкин", "team_id": "c3072378-5453-4c90-a00f-f0e526dc0893", "world_code": null, "year": 2002}, {"age": 13, "bib": 122, "card_number": 122, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "fa9303d4-b22d-4e9f-ae14-9877a2bd2954", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Ксения", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Петрова", "team_id": "45d4aebc-e9fb-45f6-96f9-ff055cf4f34a", "world_code": null, "year": 2013}, {"age": 47, "bib": 123, "card_number": 123, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "19df9285-291b-427b-9bca-a670556516fb", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Сергей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Петров", "team_id": "45d4aebc-e9fb-45f6-96f9-ff055cf4f34a", "world_code": null, "year": 1978}, {"age": 29, "bib": 124, "card_number": 124, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "e51044bc-8d18-4343-933e-3a95aa9872e6", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Светлана", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Герасимова", "team_id": "2ea01b20-1661-4002-8441-74c7ace3d088", "world_code": null, "year": 1996}, {"age": 27, "bib": 125, "card_number": 125, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "c634e40e-de98-476f-a765-de617d893d42", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Алексей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Петренко", "team_id": "2ea01b20-1661-4002-8441-74c7ace3d088", "world_code": null, "year": 1998}, {"age": 38, "bib": 126, "card_number": 126, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "1228c88a-0435-40a4-a5cc-76002c8a09e2", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Ольга", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Захарченко", "team_id": "ede62e58-96a3-450d-8f1e-d45609039f95", "world_code": null, "year": 1987}, {"age": 37, "bib": 127, "card_number": 127, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "f26003dc-05d4-47ba-9c19-1fecf06e936b", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Дмитрий", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Захарченко", "team_id": "ede62e58-96a3-450d-8f1e-d45609039f95", "world_code": null, "year": 1988}, {"age": 29, "bib": 128, "card_number": 128, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "5ede39d9-bd21-4a71-a785-f20c222ba25f", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Екатерина", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Лозинская", "team_id": "2f58d4e8-333d-4de9-b737-2fdbca214b62", "world_code": null, "year": 1996}, {"age": 33, "bib": 129, "card_number": 129, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "7f9021b9-4ad5-488a-ad34-2f6450400de4", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Максим", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Лозинский", "team_id": "2f58d4e8-333d-4de9-b737-2fdbca214b62", "world_code": null, "year": 1992}, {"age": 34, "bib": 130, "card_number": 130, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "86785c29-749c-4eb7-bca5-83258ec711a4", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Олег", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Иванов", "team_id": "bde6556c-bba8-4fa2-b5f5-ee6344ca4a4c", "world_code": null, "year": 1992}, {"age": 31, "bib": 131, "card_number": 131, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "c138a831-18a2-412d-a659-4f7659bf64c6", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Анастасия", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Сергеева", "team_id": "bde6556c-bba8-4fa2-b5f5-ee6344ca4a4c", "world_code": null, "year": 1995}, {"age": 32, "bib": 132, "card_number": 132, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "4f765844-e781-46bf-9004-5f2309e9c7a4", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Валентин", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Драпеза", "team_id": "daed7180-7101-46b4-9657-b77b9932db54", "world_code": null, "year": 1993}, {"age": 31, "bib": 133, "card_number": 133, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "bd3be25a-40e9-4dcb-b985-4e2404a011b1", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Юлия", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Драпеза", "team_id": "daed7180-7101-46b4-9657-b77b9932db54", "world_code": null, "year": 1994}, {"age": 19, "bib": 134, "card_number": 134, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "62f4c1ba-9e76-46b4-b32c-bf0522a82b6d", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Александр", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Савенко", "team_id": "94ec4942-8d20-490e-bd72-29286f98aed2", "world_code": null, "year": 2006}, {"age": 15, "bib": 135, "card_number": 135, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "9fd4c375-4062-4d80-b0de-077db73ca1fc", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Талия", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Ставцева", "team_id": "94ec4942-8d20-490e-bd72-29286f98aed2", "world_code": null, "year": 2010}, {"age": 49, "bib": 136, "card_number": 136, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "9441a3f5-e15c-4d96-9677-bd8743fd0a10", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Сергей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Сиверский", "team_id": "125da033-9c70-4f6e-b73a-cde31f22455c", "world_code": null, "year": 1977}, {"age": 44, "bib": 137, "card_number": 137, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "a5af1ca2-a887-4e74-a648-bccd0e2725cb", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Ирина", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Сиверская", "team_id": "125da033-9c70-4f6e-b73a-cde31f22455c", "world_code": null, "year": 1981}, {"age": 37, "bib": 138, "card_number": 138, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "cdbf4396-4940-46af-9259-b9af22df619d", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Александр", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Ивасенко", "team_id": "03e577dd-6813-4145-8d2a-99c2bb8224d9", "world_code": null, "year": 1988}, {"age": 51, "bib": 139, "card_number": 139, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "a78c29d2-de41-453b-859e-8f15ce5440af", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Алёна", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Лаврентьева", "team_id": "03e577dd-6813-4145-8d2a-99c2bb8224d9", "world_code": null, "year": 1974}, {"age": 15, "bib": 140, "card_number": 140, "comment": "", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "03c78569-8862-40d6-80c0-cd598f4ce4fc", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": false, "name": "Никита", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Сухоцкая", "team_id": "03758c0b-df93-4141-959c-66de6811bae4", "world_code": null, "year": 2011}, {"age": 53, "bib": 141, "card_number": 141, "comment": "", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "db77e3c6-c88a-40da-99b6-506d7d66e7fd", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": false, "name": "Сергей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Сухоцкий", "team_id": "03758c0b-df93-4141-959c-66de6811bae4", "world_code": null, "year": 1973}, {"age": 13, "bib": 142, "card_number": 142, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "8cac1365-cf82-47df-8e43-8a5001e0db71", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Есения", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Полякова", "team_id": "c3b03c7b-49d7-4bd8-9e8b-905fd6bc34e5", "world_code": null, "year": 2012}, {"age": 45, "bib": 143, "card_number": 143, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "4ee420f1-e29d-4e11-a3ff-48374f3d06f0", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Николай", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Кафтанников", "team_id": "c3b03c7b-49d7-4bd8-9e8b-905fd6bc34e5", "world_code": null, "year": 1980}, {"age": 30, "bib": 144, "card_number": 144, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "a59eeba4-ecb1-4fd8-ba2b-c31215ed955a", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Вячеслав", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Антипов", "team_id": "c0f8a277-288b-4124-ad59-5c5b7169820a", "world_code": null, "year": 1995}, {"age": 31, "bib": 145, "card_number": 145, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "bb14d5bc-8a5d-495e-a3ee-c1bc7a55d78e", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Ульяна", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Антипова", "team_id": "c0f8a277-288b-4124-ad59-5c5b7169820a", "world_code": null, "year": 1994}, {"age": 42, "bib": 146, "card_number": 146, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "a04d3f15-f007-486f-9791-88cfcb433cc6", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Юлия", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Давыдова", "team_id": "848ebc12-8d7f-4d4a-bf32-0e358939d78a", "world_code": null, "year": 1983}, {"age": 58, "bib": 147, "card_number": 147, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "cbc1b1fc-30e3-46aa-95f6-daab29a55ef4", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Сергей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Ефимов", "team_id": "848ebc12-8d7f-4d4a-bf32-0e358939d78a", "world_code": null, "year": 1968}, {"age": 37, "bib": 148, "card_number": 148, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "07ea7911-c854-4bf0-8ab3-c43c4ed72970", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Иван", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Гавров", "team_id": "b3a1c950-3aee-4b5f-8c7e-d6deb8ab8fc6", "world_code": null, "year": 1989}, {"age": 38, "bib": 149, "card_number": 149, "comment": " ", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "6ef4fd8f-0c9a-4789-83d6-828bba15ee52", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Юлия", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Гаврова", "team_id": "b3a1c950-3aee-4b5f-8c7e-d6deb8ab8fc6", "world_code": null, "year": 1987}, {"age": 38, "bib": 150, "card_number": 150, "comment": " ", "group_id": "14c35951-68ff-41e5-8ef9-37817edb7f2e", "id": "a42cb707-a9f4-4402-8924-abdad94b2ecc", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Анна", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Коя", "team_id": "54e0109c-2953-48bb-81c9-ecbf728b5db9", "world_code": null, "year": 1987}, {"age": 43, "bib": 151, "card_number": 151, "comment": " ", "group_id": "14c35951-68ff-41e5-8ef9-37817edb7f2e", "id": "1bf40ebb-43da-4752-807f-961d3e14264f", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Екатерина", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Петухова", "team_id": "996eec32-435e-45b1-86e7-6becc37b628c", "world_code": null, "year": 1982}, {"age": 35, "bib": 152, "card_number": 152, "comment": " ", "group_id": "14c35951-68ff-41e5-8ef9-37817edb7f2e", "id": "90ed5212-4647-4823-977e-b4e7bfba5ab4", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Наталия", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Зубарева", "team_id": "ddca74ff-75f7-40cc-ab76-1da2d6f00375", "world_code": null, "year": 1990}, {"age": 30, "bib": 153, "card_number": 153, "comment": " ", "group_id": "14c35951-68ff-41e5-8ef9-37817edb7f2e", "id": "4e2ab400-8e01-4f81-a74e-ba5646ce7576", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Анна", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Северьянова", "team_id": "9f86642a-27d2-4acf-9bed-bd875d46fe43", "world_code": null, "year": 1995}, {"age": 40, "bib": 154, "card_number": 154, "comment": " ", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "ed4b6059-8d82-46f9-877e-8b57af2691e2", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": true, "name": "Игорь", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Сердюк", "team_id": "ac82b8e1-9a96-4e04-af5c-f987b141362e", "world_code": null, "year": 1985}, {"age": 54, "bib": 155, "card_number": 155, "comment": " ", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "dfbed8fb-9b91-4a07-984c-2954517a597a", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Дмитрий", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Раков", "team_id": "a050b543-6148-4ef4-8d09-21cf5c8fec6b", "world_code": null, "year": 1972}, {"age": 44, "bib": 156, "card_number": 156, "comment": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "48146e48-f361-445d-9ac7-9e4a17a556c6", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": false, "name": "Владимир", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Голубев", "team_id": "f9781dcc-7e2a-43cd-ab70-d5b388d3db33", "world_code": null, "year": 1982}, {"age": 42, "bib": 157, "card_number": 157, "comment": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "8c6ec220-b0fe-4138-b5d0-6e5714b8512e", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": false, "name": "Андрей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Горячкин", "team_id": "956689bc-5df7-442f-9d90-808fc00562d5", "world_code": null, "year": 1984}, {"age": 48, "bib": 158, "card_number": 158, "comment": " ", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "c763aba6-a5bb-4e6f-bf63-f4a042c31a98", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Михаил", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Голин", "team_id": "63896608-57bc-4afb-9cd3-de71167a5ac5", "world_code": null, "year": 1977}, {"age": 39, "bib": 159, "card_number": 159, "comment": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "60439a69-bdb1-4ef1-8fe3-1a61fc66c015", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": false, "name": "Сергей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Гусев", "team_id": "bb2396fc-8cc8-462d-8c79-c735c21317ba", "world_code": null, "year": 1987}, {"age": 34, "bib": 160, "card_number": 160, "comment": " ", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "87afb7de-5a46-4b85-92e9-7ec7e1d1627b", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Олег", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Стрыгуль", "team_id": "97206ae4-ce26-4365-ac00-cb3c572f37d2", "world_code": null, "year": 1991}, {"age": 33, "bib": 161, "card_number": 161, "comment": " ", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "02373b77-669a-4ee2-894f-c578fb2b2682", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Алексей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Чумаченко", "team_id": "97206ae4-ce26-4365-ac00-cb3c572f37d2", "world_code": null, "year": 1992}, {"age": 29, "bib": 162, "card_number": 162, "comment": " ", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "dcf34ea6-388b-4d85-87ef-db00279e39ad", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Кирилл", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Мирошниченко", "team_id": "ce669d79-2e66-42ea-8caa-94488bc047c3", "world_code": null, "year": 1996}, {"age": 39, "bib": 163, "card_number": 163, "comment": " ", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "a1eb632e-5ccb-471c-a80b-946f801692f6", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Денис", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Новиков", "team_id": "e859a596-793f-49bc-b6b7-ed7a5c257e64", "world_code": null, "year": 1986}, {"age": 37, "bib": 164, "card_number": 164, "comment": " ", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "d5b20047-b505-4cbf-9b52-895d0b5bc2e0", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Константин", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Амбуркин", "team_id": "7299d628-381e-41c2-bbfc-a3d9a2c440ac", "world_code": null, "year": 1989}, {"age": 60, "bib": 165, "card_number": 165, "comment": " ", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "c3beae1d-6150-44b2-a7d0-82fdaa49d485", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Александр", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Сафонов", "team_id": "be5b0a55-a608-4775-b838-e14acbd10039", "world_code": null, "year": 1965}, {"age": 41, "bib": 166, "card_number": 166, "comment": " ", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "8cfb47f1-316c-46d4-8a0c-d2b68989d3a5", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Василий", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Сорокин", "team_id": "55d10762-d907-47f1-a9ef-40c5e0a22f69", "world_code": null, "year": 1985}, {"age": 38, "bib": 167, "card_number": 167, "comment": " ", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "bfd0158b-5d8a-425c-b80c-98b21f983627", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Кано", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Марио", "team_id": "e6395063-5f4b-4c9e-9376-75bd977f7e1e", "world_code": null, "year": 1987}, {"age": 51, "bib": 168, "card_number": 168, "comment": " ", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "0e3b34a4-b2b7-48d7-9edd-8503f6629699", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Александр", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Бобков", "team_id": "e90be531-21e8-4534-bb44-2ced0abb5b9c", "world_code": null, "year": 1974}, {"age": 41, "bib": 169, "card_number": 169, "comment": " ", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "7092241f-e2f5-4e6f-bcc1-97114866105e", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Евгений", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Генис", "team_id": "791389b1-eaab-4251-8197-f0e07c2d4929", "world_code": null, "year": 1984}, {"age": 41, "bib": 170, "card_number": 170, "comment": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "5af5229f-4c98-4936-a220-7632981fafab", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": false, "name": "Сергей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Иванов", "team_id": "4ce9bc4d-43ec-4708-a6a7-61be009bd154", "world_code": null, "year": 1985}, {"age": 41, "bib": 171, "card_number": 171, "comment": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "3bb15bde-5870-4770-ac10-d66e3026e9be", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": false, "name": "Сергей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Наумов", "team_id": "4ce9bc4d-43ec-4708-a6a7-61be009bd154", "world_code": null, "year": 1985}, {"age": 42, "bib": 172, "card_number": 172, "comment": " ", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "99da6c0a-215a-4e23-aa2c-178dfcf6f827", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Андрей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Богданов", "team_id": "6674247d-df59-4fbe-87f3-1fbd2ca5f3df", "world_code": null, "year": 1983}, {"age": 55, "bib": 173, "card_number": 173, "comment": " ", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "221b4a83-7861-4375-82ff-4fb2a6701750", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Владислав", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Ясенев", "team_id": "e25f76bd-f49f-45ee-b481-2574cde6dbbe", "world_code": null, "year": 1971}, {"age": 48, "bib": 174, "card_number": 174, "comment": " ", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "7c4cf546-9582-46ed-abe9-9330e68cac38", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Наталья", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Герасимова", "team_id": "fbaf7c5d-ec58-4484-abdd-f65a0dbfa7d2", "world_code": null, "year": 1977}, {"age": 51, "bib": 175, "card_number": 175, "comment": " ", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "64422a50-b793-4285-9851-080c667659b2", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Дмитрий", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Герасимов", "team_id": "fbaf7c5d-ec58-4484-abdd-f65a0dbfa7d2", "world_code": null, "year": 1974}, {"age": 35, "bib": 176, "card_number": 176, "comment": " ", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "da7a29d1-eb72-4f8b-9a7d-63abdf99a891", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Мария", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Шутикова", "team_id": "553a5183-a81c-4bd9-a3fa-94b82492e247", "world_code": null, "year": 1990}, {"age": 47, "bib": 177, "card_number": 177, "comment": " ", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "0b770c18-6687-4761-95f4-f0f9f15eb259", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Александр", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Березников", "team_id": "553a5183-a81c-4bd9-a3fa-94b82492e247", "world_code": null, "year": 1979}, {"age": 39, "bib": 178, "card_number": 178, "comment": "", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "1bd18c15-9924-4466-b862-0aad9955b32b", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": false, "name": "Анастасия", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Атамась", "team_id": "92dffd85-e865-43d6-9e53-740abe751a61", "world_code": null, "year": 1987}, {"age": 37, "bib": 179, "card_number": 179, "comment": "", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "8f752fbe-49f2-4182-84ba-144566e57e70", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": false, "name": "Станислав", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Калабин", "team_id": "92dffd85-e865-43d6-9e53-740abe751a61", "world_code": null, "year": 1989}, {"age": 51, "bib": 180, "card_number": 180, "comment": "", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "4c76250d-0593-48fd-95fd-dcd9191c2073", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": false, "name": "Николай", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Козырев", "team_id": "93a4964e-5454-4bf3-882f-f558d1ddde87", "world_code": null, "year": 1975}, {"age": 53, "bib": 181, "card_number": 181, "comment": "", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "57f5f2ab-dd9f-43aa-9f0c-a99935f2b571", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": false, "name": "Евгения", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Козырева", "team_id": "93a4964e-5454-4bf3-882f-f558d1ddde87", "world_code": null, "year": 1973}, {"age": 37, "bib": 182, "card_number": 182, "comment": " ", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "63ee67fa-4f13-49fa-b64c-71536b38cf9c", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Olya", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Sudas", "team_id": "7de25521-ff4a-43e2-a9d1-315a8505d6c8", "world_code": null, "year": 1989}, {"age": 38, "bib": 183, "card_number": 183, "comment": " ", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "a48f11c5-4bb2-4971-9941-04b92b2816f2", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Евгений", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Батуев", "team_id": "7de25521-ff4a-43e2-a9d1-315a8505d6c8", "world_code": null, "year": 1988}, {"age": 34, "bib": 184, "card_number": 184, "comment": " ", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "808c6240-9883-4c8e-819c-41f90dbd1e1e", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Марина", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Санто", "team_id": "fb1688dd-b18f-4851-9366-57085ccb5631", "world_code": null, "year": 1991}, {"age": 39, "bib": 185, "card_number": 185, "comment": " ", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "e5322c83-d9d2-4699-afd6-c8861a202cc9", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Евгений", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Санто", "team_id": "fb1688dd-b18f-4851-9366-57085ccb5631", "world_code": null, "year": 1987}, {"age": 51, "bib": 186, "card_number": 186, "comment": " ", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "074279df-c8fc-455a-af13-09b5319a46cc", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Татьяна", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Каченовская", "team_id": "e9f9586b-a36d-4684-a90c-9061f4e6ef7f", "world_code": null, "year": 1974}, {"age": 55, "bib": 187, "card_number": 187, "comment": " ", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "29936d5f-f64c-46b4-8072-b0a1d6ae3b8c", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Константин", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Березин", "team_id": "e9f9586b-a36d-4684-a90c-9061f4e6ef7f", "world_code": null, "year": 1970}, {"age": 44, "bib": 188, "card_number": 188, "comment": " ", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "16a06cb3-bceb-43e8-a795-cdf9ed86b6b2", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Роман", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Генис", "team_id": "46d9f53c-825f-4735-870b-97f5e5bbe0fe", "world_code": null, "year": 1982}, {"age": 42, "bib": 189, "card_number": 189, "comment": " ", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "272a06ea-c12c-46e7-8b33-9f6ea386e064", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Ольга", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Орлова", "team_id": "46d9f53c-825f-4735-870b-97f5e5bbe0fe", "world_code": null, "year": 1983}, {"age": 40, "bib": 190, "card_number": 190, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "14f5fccd-16b1-43b2-9173-8c1e4452e805", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Михаил", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": 0, "subgroups_str": "", "surname": "Чистов", "team_id": "084e1db1-8436-43bf-a2c1-0276142ac1ad", "world_code": null, "year": 1985}, {"age": 8, "bib": 191, "card_number": 191, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "a7fb57c5-f500-4d36-8f63-caa5b93ef129", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Аня", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Чистова", "team_id": "084e1db1-8436-43bf-a2c1-0276142ac1ad", "world_code": null, "year": 2018}, {"age": 11, "bib": 192, "card_number": 192, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "63a21ae1-5ffe-4a28-8ab5-25b3f5f90fe4", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Ваня", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Чистов", "team_id": "084e1db1-8436-43bf-a2c1-0276142ac1ad", "world_code": null, "year": 2014}, {"age": 36, "bib": 193, "card_number": 193, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "2a92132c-780a-48e3-9cbb-77c04392de12", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Галина", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Князева", "team_id": "084e1db1-8436-43bf-a2c1-0276142ac1ad", "world_code": null, "year": 1989}, {"age": 38, "bib": 194, "card_number": 194, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "49f7d23b-ee2f-4749-ad24-a20381bbd799", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Павел", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Кириченко", "team_id": "1473406d-52c0-4fc0-a488-afa9cd8309d3", "world_code": null, "year": 1987}, {"age": 9, "bib": 195, "card_number": 195, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "3db81528-d838-4e54-8a38-4730f11acd23", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Андрей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Кириченко", "team_id": "1473406d-52c0-4fc0-a488-afa9cd8309d3", "world_code": null, "year": 2017}, {"age": 6, "bib": 196, "card_number": 196, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "2d281b85-edcf-4452-9924-ca0cd4360246", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Алексей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Кантемиров", "team_id": "822adeed-28bf-4e29-83d6-9c954dacaa98", "world_code": null, "year": 2019}, {"age": 48, "bib": 197, "card_number": 197, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "a58fe337-4165-4739-a896-bfeb94158805", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Дмитрий", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Кантемиров", "team_id": "822adeed-28bf-4e29-83d6-9c954dacaa98", "world_code": null, "year": 1977}, {"age": 6, "bib": 198, "card_number": 198, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "3a1cd897-fcfc-40e9-85d7-abe5590c9a62", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Елисей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Красков", "team_id": "fd37a00c-16bf-417f-8ca5-3bb88b4cf078", "world_code": null, "year": 2019}, {"age": 42, "bib": 199, "card_number": 199, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "1107e909-2065-48a0-b079-03e8addc5ffc", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Дмитрий", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Красков", "team_id": "fd37a00c-16bf-417f-8ca5-3bb88b4cf078", "world_code": null, "year": 1984}, {"age": 14, "bib": 200, "card_number": 200, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "9e204c71-e704-4acd-8c9d-9399defc5531", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Герман", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Касаткин", "team_id": "53a095cb-2989-430d-baae-0e14726307fe", "world_code": null, "year": 2011}, {"age": 44, "bib": 201, "card_number": 201, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "51656deb-ec93-48aa-9afe-b0d0bc941491", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Николай", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Павлов", "team_id": "53a095cb-2989-430d-baae-0e14726307fe", "world_code": null, "year": 1981}, {"age": 9, "bib": 202, "card_number": 202, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "844564c9-f6ec-4d93-9286-03ce2a4bdbf8", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Александр", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Кантемиров", "team_id": "ecf7c250-a207-458f-8470-055b6fb06a4d", "world_code": null, "year": 2016}, {"age": 37, "bib": 203, "card_number": 203, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "cebc5159-7398-4216-9484-1e064e96198a", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Елена", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Кантемирова", "team_id": "ecf7c250-a207-458f-8470-055b6fb06a4d", "world_code": null, "year": 1989}, {"age": 5, "bib": 204, "card_number": 204, "comment": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "b84eeb55-37dc-4c46-a782-f796273ee10c", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": false, "name": "София", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Иванова", "team_id": "a0e4578f-c260-4838-acc3-76c8f3db9867", "world_code": null, "year": 2021}, {"age": 42, "bib": 205, "card_number": 205, "comment": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "3cc1ce37-3897-4037-8760-6bd9da352f7d", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": false, "name": "Андрей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Иванов", "team_id": "a0e4578f-c260-4838-acc3-76c8f3db9867", "world_code": null, "year": 1984}, {"age": 7, "bib": 206, "card_number": 206, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "c8c7882d-cee9-4938-b110-b52384aae4bd", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Олег", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Старшинов", "team_id": "0b881bce-5a1f-43fe-8d5f-f25b9431db48", "world_code": null, "year": 2018}, {"age": 44, "bib": 207, "card_number": 207, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "48685a59-8f18-49c7-908e-a688255b60ec", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Алексей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Старшинов", "team_id": "0b881bce-5a1f-43fe-8d5f-f25b9431db48", "world_code": null, "year": 1982}, {"age": 42, "bib": 208, "card_number": 208, "comment": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "a53083e3-beae-418a-9e83-673c8cdd27d8", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": false, "name": "Сергей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Мироненко", "team_id": "2377ea3b-4798-4fc9-8a1a-b59ec4817b7e", "world_code": null, "year": 1984}, {"age": 6, "bib": 209, "card_number": 209, "comment": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "f93cf465-ec31-437e-aa9e-7f5b51470a69", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": false, "name": "Марк", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Мироненко", "team_id": "2377ea3b-4798-4fc9-8a1a-b59ec4817b7e", "world_code": null, "year": 2020}, {"age": 39, "bib": 210, "card_number": 210, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "c689ef03-6f79-47a1-9e82-51493ff16a08", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": false, "name": "Андрей", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Аристов", "team_id": "98047a8a-b199-43c5-91b3-f711c3d2c38a", "world_code": null, "year": 1987}, {"age": 36, "bib": 211, "card_number": 211, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "da47c0e9-94e9-41b1-bbff-5d895d99ec3f", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": true, "name": "Оксана", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Аристова", "team_id": "98047a8a-b199-43c5-91b3-f711c3d2c38a", "world_code": null, "year": 1989}, {"age": 10, "bib": 212, "card_number": 212, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "ae9c5b25-e04d-4287-8eac-715eee6ae67b", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": true, "name": "Кирилл", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Аристов", "team_id": "98047a8a-b199-43c5-91b3-f711c3d2c38a", "world_code": null, "year": 2016}, {"age": 39, "bib": 213, "card_number": 213, "comment": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "f4898cd7-5669-4586-9029-ece574a9d0b6", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": false, "name": "Дмитрий", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Панов", "team_id": "1c1281f6-6501-4c85-966c-55fb08f29e9f", "world_code": null, "year": 1987}, {"age": 11, "bib": 214, "card_number": 214, "comment": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "69e5b87c-c38f-486e-a87a-4c69e2f3c79b", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": false, "name": "Василий", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Панов", "team_id": "1c1281f6-6501-4c85-966c-55fb08f29e9f", "world_code": null, "year": 2015}, {"age": 40, "bib": 215, "card_number": 215, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "92f69cf3-39c1-4984-81d6-66b58dfa7fd9", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Татьяна", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Рябинина", "team_id": "7025edfc-5744-45ef-bfb0-82456389b3b3", "world_code": null, "year": 1985}, {"age": 5, "bib": 216, "card_number": 216, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "622f3a56-ab85-43a3-849f-f5072ebacc0e", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Роберт", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Дюмин", "team_id": "7025edfc-5744-45ef-bfb0-82456389b3b3", "world_code": null, "year": 2020}, {"age": 39, "bib": 217, "card_number": 217, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "37fcbc72-e72d-4ad4-8114-7f5fc0490613", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": true, "name": "Александр", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Усвайский", "team_id": "2d0ba327-2efd-4e40-ac77-df2cb6ea51bb", "world_code": null, "year": 1986}, {"age": 11, "bib": 218, "card_number": 218, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "bbd77e2b-70b2-40ab-b2b3-d90fe6004ee5", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": true, "name": "Мария", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Усвайская", "team_id": "2d0ba327-2efd-4e40-ac77-df2cb6ea51bb", "world_code": null, "year": 2014}, {"age": 8, "bib": 219, "card_number": 219, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "b63ccbe4-e0ea-4459-8e7c-f748e052365a", "is_out_of_competition": false, "is_paid": false, "is_personal": false, "is_rented_card": true, "name": "Екатерина", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Усвайская", "team_id": "2d0ba327-2efd-4e40-ac77-df2cb6ea51bb", "world_code": null, "year": 2017}, {"age": 44, "bib": 220, "card_number": 220, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "193857d1-69f3-407c-a5ad-a211a7587a4a", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Владимир", "national_code": null, "object": "Person", "qual": 0, "sex": 1, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Скворцов", "team_id": "279254d9-324c-432a-99d1-ee73d9dac8dc", "world_code": null, "year": 1981}, {"age": 9, "bib": 221, "card_number": 221, "comment": " ", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "2bdaab57-c428-49d3-ba58-ac973e7e9c56", "is_out_of_competition": false, "is_paid": true, "is_personal": false, "is_rented_card": true, "name": "Алена", "national_code": null, "object": "Person", "qual": 0, "sex": 2, "start_group": 0, "start_time": null, "subgroups_str": "", "surname": "Скворцова", "team_id": "279254d9-324c-432a-99d1-ee73d9dac8dc", "world_code": null, "year": 2016}], "relay_teams": [], "results": [], "settings": {"is_corridor_minute_number": false, "is_corridor_order_number": false, "is_fixed_number_interval": true, "is_fixed_start_interval": true, "is_mix_groups": false, "is_split_regions": false, "is_split_start_groups": false, "is_split_teams": false, "is_start_preparation_draw": false, "is_start_preparation_numbers": true, "is_start_preparation_reserve": false, "is_start_preparation_time": false, "numbers_first": 85, "numbers_interval": 1, "numbers_skip": [], "reserve_count": 1, "reserve_percent": 0, "reserve_prefix": "_Резерв", "start_first_time": 60000, "start_interval": 60000, "start_one_minute_qty": 1, "system_zero_time": [10, 0, 0]}, "teams": [{"code": "50", "count_person": 1, "country": "", "group_id": "ca4e2f33-bc43-485c-a49e-96169cb4c77e", "id": "301cf498-088c-4f59-89ca-bd2460833e57", "name": "Жуковский, лично", "number": 1, "object": "Team", "region": "Московская обл.", "subgroup_result": []}, {"code": "77", "count_person": 1, "country": "", "group_id": "ca4e2f33-bc43-485c-a49e-96169cb4c77e", "id": "4507e999-f27b-4ad3-ba15-901c1befb074", "name": "Москва Новомосковский АО, лично", "number": 2, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 1, "country": "", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "f52a842c-18ed-4d69-bae1-31e8dbc7175b", "name": "Без седла", "number": 3, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "1da991a2-f429-4f0d-94cd-2ce75ce174f3", "name": "Горисипед горизонт", "number": 4, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "19901ee3-6cc5-4bf8-8934-158c5e5aaf2d", "name": "Грибники Горизонт", "number": 5, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "40", "count_person": 1, "country": "", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "875410f2-8424-44bb-a14a-452341742390", "name": "Жуковский р-н, лично", "number": 6, "object": "Team", "region": "Калужская обл.", "subgroup_result": []}, {"code": "50", "count_person": 1, "country": "", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "b1eeba94-3215-4b96-ba49-c66812a4ce3e", "name": "Жуковский, лично", "number": 7, "object": "Team", "region": "Московская обл.", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "406f9d2a-e944-45d8-806f-fcb11cc8ffe2", "name": "Колесница Горизонт Векпром", "number": 8, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "50", "count_person": 1, "country": "", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "2736ef8a-6b7d-4ef8-80b4-d51452456c0f", "name": "Коломенский р-н, лично", "number": 9, "object": "Team", "region": "Московская обл.", "subgroup_result": []}, {"code": "77", "count_person": 1, "country": "", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "b31dcc21-8219-4a77-89fb-cea7d98185e7", "name": "Москва ЗАО, лично", "number": 10, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "ced3d049-027a-478e-a2c9-35b63a43bc94", "name": "Москва СВАО, лично", "number": 11, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "50", "count_person": 2, "country": "", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "a1933045-c03f-455e-b1b0-b783532c7193", "name": "Почему Горизонт?", "number": 12, "object": "Team", "region": "Московская обл.", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "3514d261-ef48-494d-992b-4c872c87fe00", "name": "Хрущ и Хрящ из Горизонта", "number": 13, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "5c95be1e-7331-4d8c-b0ed-c7cbe32329ae", "id": "c3072378-5453-4c90-a00f-f0e526dc0893", "name": "Штирлиц и Мюллер из Горизонта", "number": 14, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "45d4aebc-e9fb-45f6-96f9-ff055cf4f34a", "name": "802 TEAM", "number": 15, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "50", "count_person": 2, "country": "", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "2ea01b20-1661-4002-8441-74c7ace3d088", "name": "Долгопрудный, лично", "number": 16, "object": "Team", "region": "Московская обл.", "subgroup_result": []}, {"code": "50", "count_person": 2, "country": "", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "ede62e58-96a3-450d-8f1e-d45609039f95", "name": "Миска риса", "number": 17, "object": "Team", "region": "Московская обл.", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "2f58d4e8-333d-4de9-b737-2fdbca214b62", "name": "Москва, лично", "number": 18, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "50", "count_person": 2, "country": "", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "bde6556c-bba8-4fa2-b5f5-ee6344ca4a4c", "name": "Обезьяны вместе сила", "number": 19, "object": "Team", "region": "Московская обл.", "subgroup_result": []}, {"code": "32", "count_person": 2, "country": "", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "daed7180-7101-46b4-9657-b77b9932db54", "name": "Позитив", "number": 20, "object": "Team", "region": "Брянская обл.", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "94ec4942-8d20-490e-bd72-29286f98aed2", "name": "Простофили в Горизонте", "number": 21, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "125da033-9c70-4f6e-b73a-cde31f22455c", "name": "СивАвиа", "number": 22, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "40", "count_person": 2, "country": "", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "03e577dd-6813-4145-8d2a-99c2bb8224d9", "name": "Союз-Аполлон", "number": 23, "object": "Team", "region": "Калужская обл.", "subgroup_result": []}, {"code": "", "count_person": 2, "country": "", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "03758c0b-df93-4141-959c-66de6811bae4", "name": "Сухоцкие", "number": 24, "object": "Team", "region": "", "subgroup_result": []}, {"code": "50", "count_person": 2, "country": "", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "c3b03c7b-49d7-4bd8-9e8b-905fd6bc34e5", "name": "Усы 3х9", "number": 25, "object": "Team", "region": "Московская обл.", "subgroup_result": []}, {"code": "50", "count_person": 2, "country": "", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "c0f8a277-288b-4124-ad59-5c5b7169820a", "name": "Чибисы", "number": 26, "object": "Team", "region": "Московская обл.", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "848ebc12-8d7f-4d4a-bf32-0e358939d78a", "name": "Чипка и Гай", "number": 27, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "50", "count_person": 2, "country": "", "group_id": "6a07fd20-b8a6-48f6-abbe-ef7c1490b2c2", "id": "b3a1c950-3aee-4b5f-8c7e-d6deb8ab8fc6", "name": "мы", "number": 28, "object": "Team", "region": "Московская обл.", "subgroup_result": []}, {"code": "77", "count_person": 1, "country": "", "group_id": "14c35951-68ff-41e5-8ef9-37817edb7f2e", "id": "54e0109c-2953-48bb-81c9-ecbf728b5db9", "name": "Анка", "number": 29, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 1, "country": "", "group_id": "14c35951-68ff-41e5-8ef9-37817edb7f2e", "id": "996eec32-435e-45b1-86e7-6becc37b628c", "name": "Камамбер", "number": 30, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 1, "country": "", "group_id": "14c35951-68ff-41e5-8ef9-37817edb7f2e", "id": "ddca74ff-75f7-40cc-ab76-1da2d6f00375", "name": "Москва, лично", "number": 31, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 1, "country": "", "group_id": "14c35951-68ff-41e5-8ef9-37817edb7f2e", "id": "9f86642a-27d2-4acf-9bed-bd875d46fe43", "name": "ТК МГТУ", "number": 32, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "50", "count_person": 1, "country": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "ac82b8e1-9a96-4e04-af5c-f987b141362e", "name": "Adventure Time 3x9", "number": 33, "object": "Team", "region": "Московская обл.", "subgroup_result": []}, {"code": "77", "count_person": 1, "country": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "a050b543-6148-4ef4-8d09-21cf5c8fec6b", "name": "DANGE.R 3x9", "number": 34, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "", "count_person": 1, "country": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "f9781dcc-7e2a-43cd-ab70-d5b388d3db33", "name": "Голубев", "number": 35, "object": "Team", "region": "", "subgroup_result": []}, {"code": "", "count_person": 1, "country": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "956689bc-5df7-442f-9d90-808fc00562d5", "name": "Горячкин", "number": 36, "object": "Team", "region": "", "subgroup_result": []}, {"code": "50", "count_person": 1, "country": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "63896608-57bc-4afb-9cd3-de71167a5ac5", "name": "Грибы и Рыбы", "number": 37, "object": "Team", "region": "Московская обл.", "subgroup_result": []}, {"code": "", "count_person": 1, "country": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "bb2396fc-8cc8-462d-8c79-c735c21317ba", "name": "Гусев", "number": 38, "object": "Team", "region": "", "subgroup_result": []}, {"code": "40", "count_person": 2, "country": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "97206ae4-ce26-4365-ac00-cb3c572f37d2", "name": "Два капитана", "number": 39, "object": "Team", "region": "Калужская обл.", "subgroup_result": []}, {"code": "50", "count_person": 1, "country": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "ce669d79-2e66-42ea-8caa-94488bc047c3", "name": "Долгопрудный, лично", "number": 40, "object": "Team", "region": "Московская обл.", "subgroup_result": []}, {"code": "50", "count_person": 1, "country": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "e859a596-793f-49bc-b6b7-ed7a5c257e64", "name": "Коломна, лично", "number": 41, "object": "Team", "region": "Московская обл.", "subgroup_result": []}, {"code": "77", "count_person": 1, "country": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "7299d628-381e-41c2-bbfc-a3d9a2c440ac", "name": "Коньвпальто", "number": 42, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 1, "country": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "be5b0a55-a608-4775-b838-e14acbd10039", "name": "Кураган", "number": 43, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 1, "country": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "55d10762-d907-47f1-a9ef-40c5e0a22f69", "name": "Москва ВАО, лично", "number": 44, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 1, "country": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "e6395063-5f4b-4c9e-9376-75bd977f7e1e", "name": "Москва ЗАО, лично", "number": 45, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 1, "country": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "e90be531-21e8-4534-bb44-2ced0abb5b9c", "name": "Москва ЦАО, лично", "number": 46, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 1, "country": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "791389b1-eaab-4251-8197-f0e07c2d4929", "name": "Москва ЮАО, лично", "number": 47, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "", "count_person": 2, "country": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "4ce9bc4d-43ec-4708-a6a7-61be009bd154", "name": "Наумов-Иванов", "number": 48, "object": "Team", "region": "", "subgroup_result": []}, {"code": "50", "count_person": 1, "country": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "6674247d-df59-4fbe-87f3-1fbd2ca5f3df", "name": "О-Фрязино", "number": 49, "object": "Team", "region": "Московская обл.", "subgroup_result": []}, {"code": "77", "count_person": 1, "country": "", "group_id": "894cf9ea-b073-4f44-b639-dac37a466673", "id": "e25f76bd-f49f-45ee-b481-2574cde6dbbe", "name": "Опять в шабат!", "number": 50, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "62", "count_person": 2, "country": "", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "fbaf7c5d-ec58-4484-abdd-f65a0dbfa7d2", "name": "Ёлки-моталки", "number": 51, "object": "Team", "region": "Рязанская обл.", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "553a5183-a81c-4bd9-a3fa-94b82492e247", "name": "Выздоравливающие", "number": 52, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "", "count_person": 2, "country": "", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "92dffd85-e865-43d6-9e53-740abe751a61", "name": "Каламась", "number": 53, "object": "Team", "region": "", "subgroup_result": []}, {"code": "", "count_person": 2, "country": "", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "93a4964e-5454-4bf3-882f-f558d1ddde87", "name": "Козыревы", "number": 54, "object": "Team", "region": "", "subgroup_result": []}, {"code": "50", "count_person": 2, "country": "", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "7de25521-ff4a-43e2-a9d1-315a8505d6c8", "name": "Ленинский р-н, лично", "number": 55, "object": "Team", "region": "Московская обл.", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "fb1688dd-b18f-4851-9366-57085ccb5631", "name": "Москва ЮАО, лично", "number": 56, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "e9f9586b-a36d-4684-a90c-9061f4e6ef7f", "name": "Рапида", "number": 57, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "21985f09-51cd-4590-ba70-bb28e919aa35", "id": "46d9f53c-825f-4735-870b-97f5e5bbe0fe", "name": "Туристы-гедонисты", "number": 58, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 4, "country": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "084e1db1-8436-43bf-a2c1-0276142ac1ad", "name": "108crew_3x9", "number": 85, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "1473406d-52c0-4fc0-a488-afa9cd8309d3", "name": "K-2", "number": 86, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "50", "count_person": 2, "country": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "822adeed-28bf-4e29-83d6-9c954dacaa98", "name": "Алга балалар", "number": 87, "object": "Team", "region": "Московская обл.", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "fd37a00c-16bf-417f-8ca5-3bb88b4cf078", "name": "Батя и королевич", "number": 88, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "53a095cb-2989-430d-baae-0e14726307fe", "name": "Двое из ларца", "number": 89, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "50", "count_person": 2, "country": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "ecf7c250-a207-458f-8470-055b6fb06a4d", "name": "Желтая рыбка", "number": 90, "object": "Team", "region": "Московская обл.", "subgroup_result": []}, {"code": "", "count_person": 2, "country": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "a0e4578f-c260-4838-acc3-76c8f3db9867", "name": "Ивановы", "number": 91, "object": "Team", "region": "", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "0b881bce-5a1f-43fe-8d5f-f25b9431db48", "name": "Лыжнички 3х9", "number": 92, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "", "count_person": 2, "country": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "2377ea3b-4798-4fc9-8a1a-b59ec4817b7e", "name": "Мироненко", "number": 93, "object": "Team", "region": "", "subgroup_result": []}, {"code": "77", "count_person": 3, "country": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "98047a8a-b199-43c5-91b3-f711c3d2c38a", "name": "Москва, лично", "number": 94, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "", "count_person": 2, "country": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "1c1281f6-6501-4c85-966c-55fb08f29e9f", "name": "Пановы", "number": 95, "object": "Team", "region": "", "subgroup_result": []}, {"code": "77", "count_person": 2, "country": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "7025edfc-5744-45ef-bfb0-82456389b3b3", "name": "Чемоданы", "number": 96, "object": "Team", "region": "Москва", "subgroup_result": []}, {"code": "50", "count_person": 3, "country": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "2d0ba327-2efd-4e40-ac77-df2cb6ea51bb", "name": "Щёлково 7", "number": 97, "object": "Team", "region": "Московская обл.", "subgroup_result": []}, {"code": "50", "count_person": 2, "country": "", "group_id": "18114223-8199-4b59-8385-7f637d04a089", "id": "279254d9-324c-432a-99d1-ee73d9dac8dc", "name": "Яркие Звезды! (Вега)", "number": 98, "object": "Team", "region": "Московская обл.", "subgroup_result": []}]};
+    racePreparation(race);
+
+    function getStartListByGroup(group) {
+        var isRelay = group.__type ? group.__type === 3 : race.data.race_type === 3;
+        var isTeamRace = group.__type ? group.__type === 6 : race.data.race_type === 6;
+        var isMassStart = race.settings.system_start_source === "group";
+        var isRogaining = race.settings.result_processing_mode === "scores" && race.settings.result_processing_score_mode == "rogain";
+        var results = [];
+        for (var _i = 0, _a = race.persons; _i < _a.length; _i++) {
+            var person = _a[_i];
+            if (person.group && person.group.id === group.id) {
+                var r = {
+                    index: 0,
+                    name: person.name + ' ' + person.surname.toUpperCase(),
+                    team: (person.team && String(person.team.name).slice(0, MAX_ORG_NAME)) || '',
+                    bib: person.bib,
+                    age: person.age ? person.age : '',
+                    sex: person.sex > 0 ? (person.sex == 1 ? 'М' : 'Ж') : '',
+                    card_number: person.card_number,
+                    team_number: person.team && person.team.number || 0,
+                    team_id: person.team_id || '',
+                    year: person.birth_date ? (new Date(person.birth_date)).getFullYear() : '',
+                    start: isMassStart ? toHHMMSS(group.start_time) : toHHMMSS(person.start_time),
+                    start_time: person.start_time,
+                    subgroup: person.subgroups_str ? person.subgroups_str : '',
+                    comment: person.comment
+                };
+                r.name += ' ' + r.sex + r.age + ' ' + "(" + r.card_number + ")";
+                results.push(r);
+            }
+        }
+        results.sort(function (a, b) {
+            if (isRelay && a.start_time === b.start_time) {
+                if (a.bib % 1000 === b.bib % 1000) {
+                    return ~~(a.bib / 1000) - ~~(b.bib / 1000)
+                } else {
+                    return a.bib % 1000 - b.bib % 1000
+                }
+            }
+            if (isTeamRace) {
+                if (a.team_number === b.team_number) {
+                    return a.bib - b.bib
+                }
+                return a.team_number - b.team_number
+            }
+            if (a.start_time === b.start_time) {
+                return a.bib - b.bib
+            }
+            return a.start_time - b.start_time
+        });
+        var index = 0;
+        results.forEach(function (elem) {
+            index++;
+            elem.index = index
+        });
+        if (isTeamRace) {
+            index = 0;
+            var prevTeamId = '';
+            var resultsList = results.slice();
+            results = [];
+            var teamResult;
+            for (var i = 0, resultsList_ = resultsList; i < resultsList_.length; i++) {
+                var r = resultsList_[i]
+                var teamId = r.team_id;
+                if (teamId !== prevTeamId) {
+                    if (teamResult) {
+                        results.push(teamResult);
+                    }
+                    teamResult = r;
+                    teamResult.index = r.team_number;
+                    prevTeamId = teamId;
+                } else if (teamResult) {
+                    teamResult.name += '\n' + r.name;
+                }
+            }
+            if (teamResult) {
+                results.push(teamResult);
+            }
+            //for (var _i = 0, resultsList_ = resultsList; _i < resultsList_.length; _i++) {
+            //    var r = resultsList_[_i];
+            //    r.index = '';
+            //    var teamBib = r.team_number
+            //    if (teamBib == 0 || teamBib !== prevTeamBib) {
+            //        index++;
+            //        results.push({
+            //            index: teamBib,
+            //            name: r.team,
+            //            start: r.start,
+            //            comment: r.comment,
+            //            subgroup: r.subgroup
+            //        });
+            //        prevTeamBib = teamBib;
+            //    }
+            //    r.start = ''
+            //    r.comment = ''
+            //    r.subgroup = ''
+            //    results.push(r);
+            //}
+        }
+        return results;
+    }
+
+    var Fields = {
+        fields: [
+            {key: 'index', title: '№', size: 4},
+            {key: 'team', title: 'Команда', size: 20},
+            {key: 'name', title: 'Участники (№ чипа)', size: 30},
+            {key: 'subgroup', title: 'П/группа', size: 8, active: false},
+            {key: 'comment', title: '', size: 20},
+            {key: 'start', title: 'Время старта', size: 13, active: false}
+        ],
+        active: function (key, val) {
+            for (var _i = 0, _a = this.fields; _i < _a.length; _i++) {
+                var obj = _a[_i];
+                if (key === obj.key) {
+                    obj.active = val;
+                }
+            }
+        },
+        isActive: function (key) {
+            for (var _i = 0, _a = this.fields; _i < _a.length; _i++) {
+                var obj = _a[_i];
+                if (key === obj.key) {
+                    if (obj.active === void 0) {
+                        return true;
+                    }
+                    else {
+                        return !!obj.active;
+                    }
+                }
+            }
+            return false;
+        },
+        getField: function (key) {
+            for (var _i = 0, _a = this.fields; _i < _a.length; _i++) {
+                var obj = _a[_i];
+                if (key === obj.key) {
+                    return obj
+                }
+            }
+        },
+        init: function () {
+            try {
+                var isTeamRace = race.data.race_type === 6
+                var isRogaining = race.settings.result_processing_mode === "scores" && race.settings.result_processing_score_mode == "rogain";
+                this.getField('subgroup').active = location.href.indexOf('sg=1') > -1;
+            } catch (e){}
+            return this;
+        }
+    }.init();
+
+    var store = {};
+    store.tableView = true;
+
+    function render() {
+        var resultBlock = document.getElementById('start-list-tables');
+        resultBlock.innerHTML = '';
+        for (var _i = 0, _a = race.groups; _i < _a.length; _i++) {
+            var group = _a[_i];
+            var titleBlock = document.createElement('h2');
+            titleBlock.id = group.name;
+            titleBlock.appendChild(document.createTextNode(group.name));
+            resultBlock.appendChild(titleBlock);
+            resultBlock.appendChild(getGroupsBlockElement(race));
+            if (store.tableView) {
+                resultBlock.appendChild(new TableGenerator(getStartListByGroup(group), Fields.fields).getTable({className: 'blue-table'}));
+            } else {
+                resultBlock.appendChild(new TableTextGenerator(getStartListByGroup(group), Fields.fields).getTable());
+            }
+        }
+
+        var query = {
+            sg: Fields.isActive('subgroup') ? 1 : 0
+        };
+        var queryString = '';
+        Object.keys(query).forEach(function (key) {
+            if (query[key]) {
+                if (queryString === '') {
+                    queryString += '?';
+                } else {
+                    queryString += '&'
+                }
+                queryString += key + '=' + query[key];
+            }
+        });
+        try {
+            var href = location.href.split('?')[0];
+            history.pushState({}, null, href + queryString);
+        } catch (e) {}
+    }
+    render();
+
+    var Scrolling = {
+        direction: 1,
+        enabled: false,
+        lock: false,
+        prev: 0,
+        intervalTimer: 0,
+        init: function () {
+            var _this = this;
+            if (_this.intervalTimer) {
+                clearInterval(_this.intervalTimer)
+            }
+            _this.intervalTimer = setInterval(function () {
+                _this.lock = !_this.lock;
+            }, 5000);
+            window.onscroll = function () {
+                var d = document.documentElement;
+                var offset = d.scrollTop + window.innerHeight;
+                var height = d.offsetHeight;
+
+                if (offset === height) {
+                    _this.direction = -1;
+                }
+                if (offset <= window.innerHeight) {
+                    _this.direction = 1;
+                }
+            };
+            this.pageScroll();
+            return this;
+        },
+        pageScroll: function () {
+            var _this = this;
+            if (_this.enabled && ! _this.lock) {
+                window.scrollBy(10, _this.direction);
+            }
+            setTimeout(function () {
+                _this.pageScroll();
+            }, 10);
+        }
+    }.init();
+
+    new SettingsGenerator([
+        {
+            title: 'Подгруппы',
+            value: Fields.isActive('subgroup'),
+            change: function (checked) {
+                Fields.active('subgroup', checked);
+                render()
+            }
+        },
+        {
+            title: 'Автоскролл',
+            value: Scrolling.enabled,
+            change: function (checked) {
+                Scrolling.enabled = checked;
+            }
+        },
+    ]).show();
+</script>
+
+</div>
+<div id="footer">
+    
+    <a href="https://github.com/sembruk/sportorg-plus">ПО SportOrgPlus v1.8.0-rc.3</a>
+    <script type="text/javascript">
+        var l = new Date();
+        document.write ('<span class="print-only">Время печати: ' + l.toLocaleString() + '</span>');
+    </script>
+    
+</div>
+</body>
+</html>
