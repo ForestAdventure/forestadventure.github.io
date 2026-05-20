@@ -22,6 +22,28 @@ sections:
         tags: [Бег, ≤2ч]
 
   - type: events_tags.html
+    section_id: 2026
+    title: 2026 год
+    events:
+      - title: Нано-подкуст, 1-й этап
+        url: '2026/nano1/'
+        date: 11 января 2026 г.
+        place: Москва, Битцевский лес
+        tags: [Бег, ≤4ч]
+
+      - title: Лыжный рогейн Супремус
+        url: '2026/supr'
+        date: 1 марта 2026 г.
+        place: Москва, Медик
+        tags: [Лыжи, ≤2ч]
+
+      - title: Звёздная гонка
+        url: '/2026/zg/'
+        date: 18 апреля 2025 г.
+        place: Ёлкино, Московская область
+        tags: [Вело]
+
+  - type: events_tags.html
     section_id: 2025
     title: 2025 год
     events:
