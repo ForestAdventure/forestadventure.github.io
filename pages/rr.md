@@ -9,6 +9,12 @@ sections:
     section_id: 2026
     title: 2026 год
     events:
+      - title: 'XXIII Чемпионат России по рогейну'
+        url: '2026/rrc'
+        date: 22-23 августа 2026 г.
+        place: Выборг
+        tags: [Бег, 24ч]
+
       - title: 'Малахитовый рогейн: Щукино'
         url: '2026/sch'
         date: 2 августа 2026 г.
