@@ -45,16 +45,16 @@ sections:
       - title: Большое ночное ориентирование Андрея Зайцева
         img: assets/img/2025/bno.jpg
         date: 14-15 ноября 2026 г.
-        place: Московская область
+        place: Борисово, Московская область
         text: >-
           Традиционные соревнования.
         actions:
-          #- title: Заявка
-          #  url: 'https://orgeo.ru/event/bno2025'
-          #  small: true
-          #- title: Инфобюллетень
-          #  small: true
-          #  url: 'bno2025-info'
+          - title: Заявка
+            url: 'https://orgeo.ru/event/bno2026'
+            small: true
+          - title: Инфобюллетень
+            small: true
+            url: 'bno2026-info'
           #- title: Результаты
           #  url: '2025/bno/'
           #  small: true
