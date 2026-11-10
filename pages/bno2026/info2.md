@@ -122,7 +122,7 @@ _15 ноября (воскресенье)_
 
 Образцы карты
 
-{% include aligner.html images="assets/img/2026/map-bno-ex1.png,assets/img/2026/map-bno-ex2.png,assets/img/2026/map-bno-ex3.png,assets/img/2026/map-bno-ex4.png" column=2 %}
+{% include aligner.html images="assets/img/2026/map-bno-ex1.png,assets/img/2026/map-bno-ex2.png,assets/img/2026/map-bno-ex3.png,assets/img/2026/map-bno-ex4.png" column=2 pill="true" %}
 
 Местность
 ---------------------------------------------------
