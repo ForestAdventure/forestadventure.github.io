@@ -35,6 +35,8 @@ table_border: true
 
 <!--<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af5e998fadc5fe647b3c47177bf6af38adacfae545939ebd2dcb7d9d305afc6c8&amp;width=100%25&amp;height=597&amp;lang=ru_RU&amp;scroll=true"></script>-->
 
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5d6505565141c1fa155d740bf2fb289488b03ba826f8a6a9dc03c11216433a0f&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+
 <!--**Схема прохода к старту**-->
 
 <!--
