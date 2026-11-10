@@ -2,7 +2,7 @@
 layout: page
 title: БНО Андрея Зайцева 2026
 permalink: /bno2026-info/
-background_image: ../assets/img/2022/olyoshkino2021-finish.jpg
+background_image: ../assets/img/2026/bg-bno1.jpg
 regulations: true
 table_border: true
 ---
