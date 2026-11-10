@@ -47,7 +47,7 @@ table_border: true
 
 **Проезд на общественном транспорте**
 
-На электричке из Москвы до **станции Серпухов** ([расписание](https://rasp.yandex.ru/search/?fromId=c213&fromName=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&toId=c10754&toName=%D0%A1%D0%B5%D1%80%D0%BF%D1%83%D1%85%D0%BE%D0%B2&transport%5B0%5D=suburban&when=14+%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F)).
+На электричке из Москвы до **станции Серпухов** ([Яндекс](https://rasp.yandex.ru/search/?fromId=c213&fromName=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&toId=c10754&toName=%D0%A1%D0%B5%D1%80%D0%BF%D1%83%D1%85%D0%BE%D0%B2&transport%5B0%5D=suburban&when=14+%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F), [tutu](https://www.tutu.ru/rasp.php?st1=20000&st2=43306&date=14.11.2026)).
 Далее 20 минут на автобусе №26 или маршрутном такси 33к и 1,5 км пешком.
 [Автобусы на Яндекс Картах](https://yandex.ru/maps/-/CXCGN4oL)
 
