@@ -49,15 +49,15 @@ sections:
         text: >-
           Традиционные соревнования.
         actions:
-          - title: Заявка
-            url: 'https://orgeo.ru/event/bno2026'
-            small: true
-          - title: Инфобюллетень
-            small: true
-            url: 'bno2026-info'
-          #- title: Результаты
-          #  url: '2025/bno/'
+          #- title: Заявка
+          #  url: 'https://orgeo.ru/event/bno2026'
           #  small: true
+          #- title: Инфобюллетень
+          #  small: true
+          #  url: 'bno2026-info'
+          - title: Результаты
+            url: '2026/bno/'
+            small: true
           - title: Страница истории
             url: 'https://tkmgtu.ru/library/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B5_%D0%9D%D0%BE%D1%87%D0%BD%D0%BE%D0%B5_%D0%9E%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5'
             small: true
